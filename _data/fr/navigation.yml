@@ -1,9 +1,9 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Om
-  href: /da/om
+- text: À propos
+  href: /fr/a-propos
 - text: Data
-  href: /da/observationer/sog
+  href: /fr/observationer/sog
 - text: Links
   menu: # Dropdown menu (one level deep only)
   - text: Base tema demo
@@ -16,5 +16,5 @@
     href: https://guides.github.com/features/mastering-markdown/
   - text: Lær YAML
     href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
-- text: Nyheder
-  href: /da/nyheder/
+- text: Blog
+  href: /fr/blog/
