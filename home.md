@@ -1,8 +1,8 @@
 ---
 lang-ref: home
 layout: home
-title: Template headline
-description: Lesser saw seas own have can’t kind Also to every own yielding there stars one itself lights seed yielding dominion lesser from lesser were divide be their spirit one behold a they’re grass called open.
+title: Canadensys
+description: Making Canadian biodiversity information freely and openly available 
 background: https://inaturalist-open-data.s3.amazonaws.com/photos/58912610/original.jpeg
 imageLicense: |
   *Xylaria hypoxylon* (L.) Grev. Photo by Alexis via [iNaturalist](https://www.gbif.org/occurrence/2542961803)
