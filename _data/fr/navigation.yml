@@ -1,20 +1,36 @@
-# Links listed below will be included in your site's navbar (navigation at the top)
-
-- text: À propos
-  href: /fr/a-propos
-- text: Data
-  href: /fr/observationer/sog
-- text: Links
+- text: À Propos
+  href: /fr/about
+- text: Données
+  href: /occurrence/search
+- text: Publier
   menu: # Dropdown menu (one level deep only)
-  - text: Base tema demo
-    href: https://hp-base-theme.gbif-staging.org/
-  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Docs" # Title for block of menu items
-  - text: Jekyll dokumentation
-    href: https://jekyllrb.com/docs/pages/
-  - text: Lær Markdown
-    href: https://guides.github.com/features/mastering-markdown/
-  - text: Lær YAML
-    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
-- text: Blog
-  href: /fr/blog/
+    - text: Introduction 
+      href: /fr/publish/introduction
+    - text: Guide en 7 étapes
+      href: /fr/introduction/7-step-guide
+    - text: IPT
+      href: /fr/introduction/ipt
+- text: VASCAN
+  menu:
+    - text: Recherche de noms
+      href: /fr/vascan/name-search
+    - text: Générateur de liste
+      href: /fr/vascan/checklist-builder
+    - text: Comment utiliser VASCAN
+      href: /fr/vascan/how-to
+- text: Outils
+  menu:
+    - text: Conversion de coordonnées
+      href: /fr/tools/coordinates
+    - text: Conversion de dates
+      href: /fr/tools/date-parsing
+    - text: API des outils
+      href: /fr/tools/api
+- text: Ressources
+  menu: # Dropdown menu (one level deep only)
+  - text: Documents
+    href: /fr/resources/documents
+  - text: Informations additionnelles
+    href: /fr/resources/additional-information
+- text: Nouvelles
+  href: /fr/news/

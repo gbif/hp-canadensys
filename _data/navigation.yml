@@ -2,27 +2,37 @@
 
 - text: About
   href: /about
-- text: Occurrences
+- text: Data
   href: /occurrence/search
-- text: Example pages
+- text: Publish
   menu: # Dropdown menu (one level deep only)
-  - text: Simple
-    href: /example-pages/simple
-  - text: Complex
-    href: /example-pages/complex
-- text: Links
+    - text: Introduction 
+      href: /publish/introduction
+    - text: 7-step-guide
+      href: /introduction/7-step-guide
+    - text: IPT
+      href: /introduction/ipt
+- text: VASCAN
+  menu:
+    - text: Name Search
+      href: /vascan/name-search
+    - text: Checklist Builder
+      href: /vascan/checklist-builder
+    - text: How to use VASCAN
+      href: /vascan/how-to
+- text: Tools
+  menu:
+    - text: Coordinates Conversion
+      href: /tools/coordinates
+    - text: Date Parsing
+      href: /tools/date-parsing
+    - text: Tools API
+      href: /tools/api
+- text: Resources
   menu: # Dropdown menu (one level deep only)
-  - text: Base theme demo
-    href: https://hp-base-theme.gbif-staging.org/
-  - text: Other sites using the theme
-    href: https://github.com/gbif/?q=hp-&type=all&language=&sort=
-  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Docs" # Title for block of menu items
-  - text: Jekyll documentation
-    href: https://jekyllrb.com/docs/pages/
-  - text: Markdown tutorial
-    href: https://guides.github.com/features/mastering-markdown/
-  - text: YAML tutorial
-    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+  - text: Documents
+    href: /resources/documents
+  - text: Additional Information
+    href: /resources/additional-information
 - text: News
   href: /news/
