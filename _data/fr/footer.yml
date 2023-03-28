@@ -17,9 +17,9 @@ columns:
   - name: Partenaires
     # - description: [](https://www.gbif.org/)
     - description: [<img src="/assets/logo/Logo_UdeM-bleu-RVB.png" alt="Université de Montréal">](https://www.umontreal.ca/)
-    - description: [](https://alliancecan.ca/)
-    - description: [](https://www.innovation.ca/)
-    - description: [](https://www.nserc-crsng.gc.ca/)
+    #- description: [](https://alliancecan.ca/)
+    #- description: [](https://www.innovation.ca/)
+    #- description: [](https://www.nserc-crsng.gc.ca/)
   - description: [<img src="/assets/logo/pn-green-logo.png" alt="GBIF Node">](https://www.gbif.org/participant/365)
 
 
