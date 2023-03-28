@@ -24,3 +24,4 @@ composition:
 parallax: true
 ---
 
+Canadensys makes biodiversity information freely and openly available to everyone. We are a network of researchers, collectors, curators, information technologists, students, and educators that shares data on the occurrence and identity of plant, animal, fungi, and other species in Canada.
