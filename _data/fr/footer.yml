@@ -3,24 +3,25 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - name: Partnere
-    links:
-    - text: Navn på projektpartner
-      href: http://example.com
-    - text: Name of project partner 2
-      href: http://example.com
-
-  - name: Code
-    description: | # Can be Markdown
-      This project is open source. See `_data/footer.yml` to customize the footer.
-  
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      * Centre sur la biodiversité
+      * 4101 Sherbrooke Est
+      * Montréal, QC, H1X 2B2
+      * Canada
+      * [Contacter le gestionnaire de Noeud](mailto:canadensys.network@gmail.com)  
     connectIcons: true
+  - name: Code
+    description: | # Can be Markdown
+      Ce projet est open source. Tous les fichiers sont disponibles sur [GitHub](https://github.com/gbif/hp-canadensys).
+  - name: Partenaires
+    # - description: [](https://www.gbif.org/)
+    - description: [<img src="/assets/logo/Logo_UdeM-bleu-RVB.png" alt="Université de Montréal">](https://www.umontreal.ca/)
+    - description: [](https://alliancecan.ca/)
+    - description: [](https://www.innovation.ca/)
+    - description: [](https://www.nserc-crsng.gc.ca/)
+  - description: [<img src="/assets/logo/pn-green-logo.png" alt="GBIF Node">](https://www.gbif.org/participant/365)
+
 
   # EXAMPLE
   #- name: Group name
