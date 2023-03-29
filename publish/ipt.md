@@ -1,6 +1,5 @@
 ---
 layout: compose
-sideNavigation: sidenav.publish
 lang-ref: ipt
 lang: en
 title: IPT
