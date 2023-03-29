@@ -1,5 +1,5 @@
 ---
-#layout: compose
+layout: page
 sideNavigation: sidenav.vascan
 #composition:
   - type: heroImage
