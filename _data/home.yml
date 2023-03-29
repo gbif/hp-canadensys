@@ -1,0 +1,21 @@
+stats:
+  features:
+      # we can also use the graphql API to allow richer queries
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=CA>20.000.000</span>
+      description: Occurrences in Canada
+      #background: /assets/images/landing_page/iconos_cifras/registros_biologicos.png
+      href: /data?view=MAP
+      # using a dynamic value from some endpoint. You can configure what field to look for using the path attribute
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CA">10.00</span>
+      description: Datasets
+      #background: /assets/images/landing_page/iconos_cifras/listas_de_especies.png
+      href: https://www.gbif.org/country/CA/publishing
+      # using a dynamic value from some endpoint. It will default to look for a 'count' value in the response
+    - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=CA&limit=0&isEndorsed=true">1000</span>
+      #could also use "https://api.catalogueoflife.org/dataset/2304/tree/x4/children?extinct=true&type=SOURCE&limit=1000" or "https://api.catalogueoflife.org/dataset/2304/tree/x4?catalogueKey=3&extinct=true"
+      description: Publishers
+      #background: /assets/images/landing_page/iconos_cifras/fichas_de_especies.png
+      href: https://www.gbif.org/publisher/search?country=CA
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?facet=type&type=CHECKLIST&publishing_country=CA">1000</span>
+      description: Species Lists
+      href: https://www.gbif.org/dataset/search?type=CHECKLIST&publishing_country=CA
