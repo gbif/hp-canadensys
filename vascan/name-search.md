@@ -2,7 +2,7 @@
 layout: page
 sideNavigation: sidenav.vascan
 #composition:
-  - type: heroImage
+#  - type: heroImage
 lang-ref: name-search
 lang: en
 title: VASCAN
