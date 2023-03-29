@@ -1,14 +1,14 @@
 ---
 layout: compose
-sideNavigation: sidenav.taxonomy
+sideNavigation: sidenav.publish
 composition:
   - type: heroImage
 lang-ref: introduction
 lang: en
 title: Introduction
-background: /assets/images/Dichrostachys_cinerea_3952595.jpeg
+background: /assets/images/Odocoileus_hemionus_(Rafinesque,_1817).jpeg
 imageLicense: |
-  *Dichrostachys cinerea* (L.) Wight & Arn. Photo by Bruno Durand via [iNaturalist](https://www.gbif.org/occurrence/1898844739)
+  *Odocoileus hemionus (Rafinesque, 1817). Photo by John Krampl via [iNaturalist](https://www.gbif.org/occurrence/4011988341)
 description: Introduction to biodiversity data publication 
 height: 70vh
 toc: true
