@@ -1,7 +1,7 @@
 ---
-layout: compose
+#layout: compose
 sideNavigation: sidenav.vascan
-composition:
+#composition:
   - type: heroImage
 lang-ref: name-search
 lang: en
