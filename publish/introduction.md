@@ -3,6 +3,7 @@ layout: compose
 sideNavigation: sidenav.publish
 composition:
   - type: heroImage
+  - type: pageMarkdown
 lang-ref: introduction
 lang: en
 title: Introduction
@@ -14,4 +15,10 @@ height: 70vh
 toc: true
 ---
 
-Design test
+# Data Cleaning
+
+# Standardization
+
+# Georeferencing
+
+# Imaging
