@@ -9,7 +9,7 @@ imageLicense: |
 cta:
   - text: Explore
     href: /data?view=MAP
-    isPrimary: false
+    isPrimary: true
   - text: Publish
     href: /publish
   - text: VASCAN
