@@ -8,7 +8,6 @@ imageLicense: |
   *Odocoileus hemionus (Rafinesque, 1817). Photo by John Krampl via [iNaturalist](https://www.gbif.org/occurrence/4011988341)
 description: Integrated Publishing Toolkit 
 height: 70vh
-toc: true
 composition:
   - type: heroImage
   - type: pageMarkdown
