@@ -9,9 +9,9 @@
     - text: Introduction 
       href: /publish/introduction
     - text: 7-step-guide
-      href: /introduction/7-step-guide
+      href: /publish/7-step-guide
     - text: IPT
-      href: /introduction/ipt
+      href: /publish/ipt
 - text: VASCAN
   menu:
     - text: Name Search

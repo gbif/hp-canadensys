@@ -7,9 +7,9 @@
     - text: Introduction 
       href: /fr/publish/introduction
     - text: Guide en 7 étapes
-      href: /fr/introduction/7-step-guide
+      href: /fr/publish/7-step-guide
     - text: IPT
-      href: /fr/introduction/ipt
+      href: /fr/publish/ipt
 - text: VASCAN
   menu:
     - text: Recherche de noms
