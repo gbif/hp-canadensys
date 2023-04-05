@@ -6,7 +6,7 @@
   href: /occurrence/search
 - text: Publish
   menu: # Dropdown menu (one level deep only)
-    - text: IPT
+    - text: Data repository
       href: /publish/ipt
     - text: How to Publish
       href: /publish/introduction
@@ -23,18 +23,18 @@
 - text: Tools
   menu:
     - text: Coordinates Conversion
-      href: /tools/coordinates
+      href: /tools/coordinates-conversion
     - text: Date Parsing
       href: /tools/date-parsing
     - text: Tools API
-      href: /tools/api
+      href: /tools/tools-api
 - text: Resources
   menu: # Dropdown menu (one level deep only)
   - text: Documents
     href: /resources/documents
   - text: Other tools
     href: /resources/othertools
-  - text: Training
+  - text: Training material
     href: /resources/training
 - text: News
   href: /news/

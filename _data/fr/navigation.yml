@@ -4,7 +4,7 @@
   href: /occurrence/search
 - text: Publier
   menu: # Dropdown menu (one level deep only)
-    - text: IPT
+    - text: Dépôt de données
       href: /fr/publish/ipt
     - text: Comment publier 
       href: /fr/publish/introduction
@@ -21,11 +21,11 @@
 - text: Outils
   menu:
     - text: Conversion de coordonnées
-      href: /fr/tools/coordinates
+      href: /fr/tools/coordinates-conversion
     - text: Conversion de dates
       href: /fr/tools/date-parsing
     - text: API des outils
-      href: /fr/tools/api
+      href: /fr/tools/tools-api
 - text: Ressources
   menu: # Dropdown menu (one level deep only)
   - text: Documents
