@@ -18,17 +18,6 @@ composition:
 # Introduction to the IPT 
 
 
-The GBIF Integrated Publishing Toolkit – or IPT for short – is a free and open source web application for publishing biodiversity data. Developed by the Global Biodiversity Information Facility (GBIF) with the help of the biodiversity informatics community including Canadensys, it has become the recommended way to publish biodiversity data.
+The [GBIF Integrated Publishing Toolkit](https://github.com/gbif/ipt) – or IPT for short – is a free and open source web application for publishing biodiversity data. Developed by the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) with the help of the biodiversity informatics community including Canadensys, it has become the recommended way to publish biodiversity data.
 
-The Canadensys repository was the first registered IPT in Canada and the first customized IPT in the world. Its user interface is available in French and English. We use the IPT to publish and register all our datasets. If you are interested in using it for your own publication needs, see our publication guide for more details.
-
-**Key features**
-- Manage and publish four types of biodiversity data:
-   - Primary occurrence data (including specimens)
-   - Taxonomic checklists
-   - General resource metadata
-   - Sampling-event data
-- Import from any common database, delimited text files (e.g. csv), or existing Darwin Core Archives.
-- Manage your dataset metadata with the built-in editor. Metadata is expressed according to the GBIF metadata profile.
-- Publish your dataset in standards-compliant Darwin Core Archive (DwC-A) and Ecological Modeling Language (EML v2.1.1).
-- Register your dataset/organization with the GBIF registry, allowing your data to become available to an international audience on the GBIF data portal and ensuring full attribution is given to your institution.
+The [Canadensys repository](https://data.canadensys.net/ipt/) was the first registered IPT in Canada and the first customized IPT in the world. Its user interface is available in French and English. We use the IPT to publish and register all our datasets, such as primary occurrence data (including specimens), taxonomic checklists, general resource metadata, and sampling-event data. If you are interested in using this IPT for your own publication needs, see our [publication guide] for more details.
