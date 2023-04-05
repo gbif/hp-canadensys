@@ -1,12 +1,12 @@
 stats:
   features:
       # we can also use the graphql API to allow richer queries
-    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=CA>500.000.000</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=CA>100.000.000</span>
       description: Occurrences in Canada
       #background: /assets/images/landing_page/iconos_cifras/registros_biologicos.png
       href: /data?view=MAP
       # using a dynamic value from some endpoint. You can configure what field to look for using the path attribute
-    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CA">10.00</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CA">10.000</span>
       description: Datasets
       #background: /assets/images/landing_page/iconos_cifras/listas_de_especies.png
       href: https://www.gbif.org/country/CA/publishing
