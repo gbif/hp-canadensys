@@ -3,9 +3,9 @@ lang-ref: home
 layout: home
 title: Canadensys
 description: Making Canadian biodiversity information freely and openly available 
-background: https://inaturalist-open-data.s3.amazonaws.com/photos/58912610/original.jpeg
+background: https://inaturalist-open-data.s3.amazonaws.com/photos/190926491/original.jpg
 imageLicense: |
-  *Xylaria hypoxylon* (L.) Grev. Photo by Alexis via [iNaturalist](https://www.gbif.org/occurrence/2542961803)
+  <em>Sanguinaria canadensis</em> L. Photo by Suzanne Labbé via [iNaturalist](https://www.gbif.org/occurrence/3764124042)
 height: 80vh
 parallax: true
 cta:
@@ -17,7 +17,6 @@ cta:
   - text: VASCAN
     href: /vascan
 permalink: /
-klass: home
 composition:
   - type: heroImage # the block type
   - data: home.stats

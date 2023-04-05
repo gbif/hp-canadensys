@@ -7,9 +7,9 @@ composition:
 lang-ref: introduction
 lang: en
 title: How to publish data
-background: /assets/images/Odocoileus_hemionus_(Rafinesque,_1817).jpeg
+background: https://inaturalist-open-data.s3.amazonaws.com/photos/250327897/original.jpeg
 imageLicense: |
-  *Odocoileus hemionus (Rafinesque, 1817). Photo by John Krampl via [iNaturalist](https://www.gbif.org/occurrence/4011988341)
+  <em>Odocoileus hemionus</em> (Rafinesque, 1817). Photo by John Krampl via [https://www.gbif.org/occurrence/4011988341]
 description: Introduction to biodiversity data publication 
 height: 70vh
 toc: true

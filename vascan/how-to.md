@@ -7,9 +7,9 @@ composition:
 lang-ref: howtoVascan
 lang: en
 title: How to use VASCAN
-background: /assets/images/Odocoileus_hemionus_(Rafinesque,_1817).jpeg
+background: https://inaturalist-open-data.s3.amazonaws.com/photos/229323742/original.jpeg
 imageLicense: |
-  Sabatia kennedyana Fernald observed in Canada by Danielle St. Louis via [iNaturalist](https://www.inaturalist.org/observations/10479325)
+  <em>Botrypus virginianus</em> (L.) Michx. observed in Canada by Braden J. Judson via [iNaturalist](https://www.gbif.org/occurrence/3903585417)
 #description:
 height: 70vh
 toc: true
