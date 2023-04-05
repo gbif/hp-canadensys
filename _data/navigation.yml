@@ -6,15 +6,15 @@
   href: /occurrence/search
 - text: Publish
   menu: # Dropdown menu (one level deep only)
-    - text: Introduction 
+    - text: IPT
+      href: /publish/ipt
+    - text: How to Publish
       href: /publish/introduction
     - text: 7-step-guide
       href: /publish/7-step-guide
-    - text: IPT
-      href: /publish/ipt
 - text: VASCAN
   menu:
-    - text: Name Search
+    - text: VASCAN Name Search
       href: /vascan/name-search
     - text: Checklist Builder
       href: /vascan/checklist-builder
@@ -32,7 +32,9 @@
   menu: # Dropdown menu (one level deep only)
   - text: Documents
     href: /resources/documents
-  - text: Additional Information
-    href: /resources/additional-information
+  - text: Other tools
+    href: /resources/othertools
+  - text: Training
+    href: /resources/training
 - text: News
   href: /news/
