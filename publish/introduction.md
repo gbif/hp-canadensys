@@ -35,6 +35,6 @@ Georeferencing is time-consuming and should be tackled with the right tools (add
 
 
 # Imaging
-Photographing specimen labels is often used as a first step towards text digitization, which is still necessary as text on an image cannot be searched or analyzed. Text can be extracted automatically from the image with Optical Character Recognition (OCR), but this will always require human proofreading and structuring of the information, and it can be more time-consuming than keystroking. Label images also importantly serve as a verbatim backup, allowing users to verify the information and report errors without having access to the physical specimen.
+Photographing specimen labels is often used as a first step towards text digitization, which is still necessary as text on an image cannot be searched or analyzed. Text can be extracted automatically from the image with Optical Character Recognition (OCR), but this will always require human proofreading and structuring of the information. Label images also importantly serve as a verbatim backup, allowing users to verify the information and report errors without having access to the physical specimen.
 
 Photographing specimens results in one or more images of the whole specimen. This process is generally more complex and time consuming than imaging labels, but the resulting imaging can be important for scientific research. Method (camera vs scanner), resolution, colour, light-conditions, format and storage are all factors to be considered. 
