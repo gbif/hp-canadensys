@@ -21,11 +21,15 @@ composition:
   - type: heroImage # the block type
   - data: home.stats
     type: stats
-  - type: pageMarkdown
+  - type: split
+    data: home.about
+  - type: split
+    data: home.explorer
+  - type: split
+    data: home.training
   - type: latestPosts
     data: we_do_not_want_any_header # weird hack as the block layout looks for a data element and falls back to the page if none is present
 
 ---
 
-Canadensys makes biodiversity information freely and openly available to everyone. We are a network of researchers, collectors, curators, information technologists, students, and educators that shares data on the occurrence and identity of plant, animal, fungi, and other species in Canada.
 

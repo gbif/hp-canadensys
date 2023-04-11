@@ -19,3 +19,50 @@ stats:
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?facet=type&type=CHECKLIST&publishing_country=CA">1000</span>
       description: Species Lists
       href: https://www.gbif.org/dataset/search?type=CHECKLIST&publishing_country=CA
+
+about:
+  reverse: true
+  title: A Network of Data Publishers
+  description: |      # required
+      Canadensys makes biodiversity information freely and openly available to everyone. We are a network of researchers, collectors, curators, information technologists, students, and educators that shares data on the occurrence and identity of plant, animal, fungi, and other species in Canada.
+  # img required
+  background: /assets/images/tree-canopy.jpeg
+
+explorer:
+  reverse: true
+  title: Data Explorer
+  description: |
+      * Get access to millions of biodiversity data, published by the Canadian publishers  
+      * Go to the Map feature to visualize occurrence records in space and time  
+      * Special filtering criteria enable customized query development within the portal framework 
+      * Issues and flags enable quality control 
+      * Go to the Image Gallery to browse thousands of images from collection specimens to observations  
+      * Through our Data Explorer you can discover and download data for use and re-use
+  background: /assets/images/Map-Canadensys.png
+  href: /data?view=MAP
+  cta:
+  - text: |
+      <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
+    href: /data
+    isPrimary: true
+  - text: Map
+    href: /data?view=MAP
+  - text: Gallery
+    href: /data?view=GALLERY
+
+training:
+  reverse: true
+  title: Documents and Training
+  description: |
+      Explore our documentation, discover Tools and training material
+  background: https://inaturalist-open-data.s3.amazonaws.com/photos/253282040/original.jpg
+  imageLicense: |
+    <em>Cardinalis cardinalis</em> (Linnaeus, 1758) observed in Canada by colleencraig via [iNaturalist](https://www.gbif.org/occurrence/4022344793)
+  cta:
+  - text: Documents
+    href: /resources/documents/
+    isPrimary: true
+  - text: Tools
+    href: /resources/othertools/
+  - text:
+    href: /resources/training/
