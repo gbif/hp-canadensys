@@ -10,12 +10,12 @@ height: 80vh
 parallax: true
 cta:
   - text: Explore
-    href: /data?view=MAP
+    href: /occurrence/search/?view=MAP
     isPrimary: true
   - text: Publish
-    href: /publish
+    href: /publish/ipt/
   - text: VASCAN
-    href: /vascan
+    href: /vascan/name-search/
 permalink: /
 composition:
   - type: heroImage # the block type
@@ -29,7 +29,6 @@ composition:
     data: home.training
   - type: latestPosts
     data: we_do_not_want_any_header # weird hack as the block layout looks for a data element and falls back to the page if none is present
-
 ---
 
 

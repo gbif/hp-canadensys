@@ -4,7 +4,7 @@ stats:
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>
       description: Occurrences from Canadian Institutions
       #background: /assets/images/landing_page/iconos_cifras/registros_biologicos.png
-      href: /doccurrence/search/?view=MAP
+      href: /occurrence/search/?view=MAP
       # using a dynamic value from some endpoint. You can configure what field to look for using the path attribute
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CA">10.000</span>
       description: Datasets
@@ -29,7 +29,7 @@ about:
   background: /assets/images/tree-canopy.jpeg
 
 explorer:
-  reverse: true
+  reverse: false
   title: Data Explorer
   description: |
       * Get access to millions of biodiversity data, published by the Canadian publishers  
@@ -46,9 +46,9 @@ explorer:
     href: /data
     isPrimary: true
   - text: Map
-    href: /data?view=MAP
+    href: /occurrence/search/?view=MAP
   - text: Gallery
-    href: /data?view=GALLERY
+    href: /occurrence/search/?view=GALLERY
 
 training:
   reverse: true
@@ -64,5 +64,5 @@ training:
     isPrimary: true
   - text: Tools
     href: /resources/othertools/
-  - text:
+  - text: Training
     href: /resources/training/
