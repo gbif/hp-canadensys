@@ -7,8 +7,7 @@ listIPT:
       # preTitle: News  # optional
       description: |      # required
         This IPT is aimed to publish data from any institution or organization in Canada, regardless of scope or institution.
-      background: /assets/logo/Canadensys-logo_red.png # img required
-      ratio: 100
+      background: /assets/logo/Canadensys-logo_red_small.png # img required
       #imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
       href: https://data.canadensys.net/ipt/
       # categories: [drawings] # optional
@@ -16,8 +15,7 @@ listIPT:
       href: http://ipt.nature.ca/
       description: |
         Deployed by the Canadian Museum of Nature to publish their own collections
-      background: /assets/logo/CMN_Masterbrand_EN_RGB.png
-      ratio: 25.42
+      background: /assets/logo/CMN_Masterbrand_EN_RGB_small.png
     - title: Canadian node of the Ocean Biogeographic Information System
       href: https://ipt.iobis.org/obiscanada/
       description: |
@@ -27,17 +25,15 @@ listIPT:
       href: https://ipt.museums.ualberta.ca/ipt/
       description: |
         Deployed by the University of Alberta for the publication of  their own collections.
-      background: /assets/logo/UniversityAlbertaMuseums.svg
+      background: /assets/logo/Museums_University_of_Alberta_Logo-small.png
     - title: Royal Ontario Museum
       href: https://www.gbif.org/publisher/ff418020-1d67-11d9-8435-b8a03c50a862
       description: |
         Deployed by the Royal Ontario Museum to publish their own collections
-      background: /assets/logo/rom-logo.png # img required
-      #ratio: 
+      background: /assets/logo/rom-logo-small.png # img required 
     - title: Specimen Micropublications
       href: https://data.canadensys.net/micropublications
       description: |
         IPT publishing datasets associated to publications in the journal [Specimen](https://specimenpub.org/).
-      background: /assets/logo/Specimen-logo.png # img required
+      background: /assets/logo/Specimen-logo-small.png # img required
       imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
-      ratio: 46.50
