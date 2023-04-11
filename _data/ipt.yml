@@ -6,34 +6,38 @@ listIPT:
     - title: Canadensys # required
       # preTitle: News  # optional
       description: |      # required
-        This IPT publishes data from any institution or organization in Canada, regardless of scope or institution
+        This IPT is aimed to publish data from any institution or organization in Canada, regardless of scope or institution.
       background: /assets/logo/Canadensys-logo_red.png # img required
+      ratio: 100
       #imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
       href: https://data.canadensys.net/ipt/
-      # categories: Cdrawings] # optional
+      # categories: [drawings] # optional
     - title: Canadian Museum of Nature
       href: http://ipt.nature.ca/
       description: |
-        Deployed by the [Canadian Museum of Nature](https://nature.ca/en/) to publish data from their own collections
+        Deployed by the Canadian Museum of Nature to publish their own collections
       background: /assets/logo/CMN_Masterbrand_EN_RGB.png
+      ratio: 25.42
     - title: Canadian node of the Ocean Biogeographic Information System
       href: https://ipt.iobis.org/obiscanada/
       description: |
-        Deployed by [OBIS Canada](https://www.dfo-mpo.gc.ca/science/data-donnees/obis/index-eng.html), this IPT is intended for publication of marine datasets
+        Deployed by [OBIS Canada](https://www.dfo-mpo.gc.ca/science/data-donnees/obis/index-eng.html), this IPT is intended for publication of marine datasets.
       background: /assets/logo/obis.png
     - title: University of Alberta Museums
       href: https://ipt.museums.ualberta.ca/ipt/
       description: |
-        Deployed by the University of Alberta for the publication of their own collections
+        Deployed by the University of Alberta for the publication of  their own collections.
       background: /assets/logo/UniversityAlbertaMuseums.svg
     - title: Royal Ontario Museum
       href: https://www.gbif.org/publisher/ff418020-1d67-11d9-8435-b8a03c50a862
       description: |
-        Deployed by the [Royal Ontario Museum](https://www.rom.on.ca/en) to publish data from their own collections
+        Deployed by the Royal Ontario Museum to publish their own collections
       background: /assets/logo/rom-logo.png # img required
+      #ratio: 
     - title: Specimen Micropublications
       href: https://data.canadensys.net/micropublications
       description: |
-        This IPT publishes datasets associated with publications in the journal [Specimen](https://specimenpub.org/)
+        IPT publishing datasets associated to publications in the journal [Specimen](https://specimenpub.org/).
       background: /assets/logo/Specimen-logo.png # img required
       imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
+      ratio: 46.50
