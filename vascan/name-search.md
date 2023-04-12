@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: heroImage
 sideNavigation: sidenav.vascan
 #composition:
 #  - type: heroImage
@@ -10,4 +10,6 @@ description: Search names in the Database of Vascular Plants of Canada
 background: /assets/images/Wordle_Vascan.png
 #imageLicense:
 height: 70vh
+overlayColor: "#ffffffbb"
+hasTextShadow: true
 ---

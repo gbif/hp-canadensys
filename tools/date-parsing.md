@@ -13,3 +13,14 @@ imageLicense: |
 height: 70vh
 #toc: true
 ---
+
+Use this tool to parse dates into their component parts. Type or paste dates on separate lines, optionally preceded by your own identifier followed by a tab or a pipe. 
+
+**Example input** 
+Jun 13, 2008 
+15 Jan 2011 
+2009 IV 02 
+2 VII 1986 
+ 
+1 | 1999/02/24 
+2 | 02/17/1921 

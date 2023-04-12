@@ -16,7 +16,7 @@ height: 70vh
 
 # Introduction
 
-The Tools API accepts GET and POST requests. Methods are expressed as resource URIs, they accept a parameter **data**, and their outputs are either XML or JSON. The **data** parameter can have a single value for GET requests or multiple values for POST requests, each separated by line breaks, \n. An optional identifier may precede each value, followed by a tab, or a pipe, |. For increased performance, set the optional **idprovided** = TRUE if all your data have identifiers or **idprovided** = FALSE if none of your data have identifiers. GET requests for JSON-based URIs may have an additional **callback** parameter for [JSONP](https://en.wikipedia.org/wiki/JSONP) responses.
+The Tools API accepts GET and POST requests. Methods are expressed as resource URIs, they accept a parameter **data**, and their outputs are either XML or JSON. The **data** parameter can have a single value for GET requests or multiple values for POST requests, each separated by line breaks, \n. An optional identifier may precede each value, followed by a tab, or a pipe, \|. For increased performance, set the optional **idprovided** = TRUE if all your data have identifiers or **idprovided** = FALSE if none of your data have identifiers. GET requests for JSON-based URIs may have an additional **callback** parameter for [JSONP](https://en.wikipedia.org/wiki/JSONP) responses.
 
 # Coordinate conversion
 
@@ -24,7 +24,7 @@ The Tools API accepts GET and POST requests. Methods are expressed as resource U
 >http://data.canadensys.net/tools/coordinates.json
 or
 http://data.canadensys.net/tools/coordinates.xml
-```
+``` 
 
 Outputs are expressed as [GeoJSON](https://geojson.org/) or [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language), respectively. 
 
@@ -49,7 +49,7 @@ Produces
   }
   ]
 });
-```
+``` 
 
 e.g. ht<span>tp://data.canadensys.net/tools/coordinates.xml?**data**=35|45° 32' 25"N,129° 40' 31"W 
 
@@ -61,7 +61,7 @@ Produces
 >http://data.canadensys.net/tools/dates.json
 OR
 http://data.canadensys.net/tools/dates.xml
-```
+``` 
 
 e.g. ht<span>tp://data.canadensys.net/tools/dates.json?**data**=Jun 13, 2008&**callback**=MyCallback 
 
