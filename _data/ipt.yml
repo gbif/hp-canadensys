@@ -36,4 +36,3 @@ listIPT:
       description: |
         IPT publishing datasets associated to publications in the journal [Specimen](https://specimenpub.org/).
       background: /assets/logo/Specimen-logo-small.png # img required
-      imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
