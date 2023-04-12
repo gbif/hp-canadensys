@@ -13,3 +13,71 @@ imageLicense: |
 height: 70vh
 #toc: true
 ---
+
+# Introduction
+
+The Tools API accepts GET and POST requests. Methods are expressed as resource URIs, they accept a parameter **data**, and their outputs are either XML or JSON. The **data** parameter can have a single value for GET requests or multiple values for POST requests, each separated by line breaks, \n. An optional identifier may precede each value, followed by a tab, or a pipe, |. For increased performance, set the optional **idprovided** = TRUE if all your data have identifiers or **idprovided** = FALSE if none of your data have identifiers. GET requests for JSON-based URIs may have an additional **callback** parameter for [JSONP](https://en.wikipedia.org/wiki/JSONP) responses.
+
+# Coordinate conversion
+
+```md
+>http://data.canadensys.net/tools/coordinates.json
+or
+http://data.canadensys.net/tools/coordinates.xml
+```
+
+Outputs are expressed as [GeoJSON](https://geojson.org/) or [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language), respectively. 
+
+e.g. ht<span>tp://data.canadensys.net/tools/coordinates.json?**data**=35|45° 32' 25"N,129° 40' 31"W&**idprovided**=TRUE&**callback**=MyCallback 
+
+Produces 
+
+```md
+>MyCallback({
+  type: "FeatureCollection",
+  features: [
+  {
+    type: "Feature",
+    geometry: {
+      type: "Point",
+      coordinates: [-129.6752778,45.5402778]
+    },
+    properties: {
+      originalValue: "45° 32' 25"N,129° 40' 31"W"
+    },
+    id: "35"
+  }
+  ]
+});
+```
+
+e.g. ht<span>tp://data.canadensys.net/tools/coordinates.xml?**data**=35|45° 32' 25"N,129° 40' 31"W 
+
+Produces 
+
+# Date parsing
+
+```md
+>http://data.canadensys.net/tools/dates.json
+OR
+http://data.canadensys.net/tools/dates.xml
+```
+
+e.g. ht<span>tp://data.canadensys.net/tools/dates.json?**data**=Jun 13, 2008&**callback**=MyCallback 
+
+Produces 
+
+```md
+>MyCallback({
+  results: [
+  {
+    originalValue: "Jun 13, 2008",
+    year: 2008,
+    month: 6,
+    day: 13,
+    iso8601: "2008-06-13",
+    partial: false
+  }
+  ]
+})
+```
