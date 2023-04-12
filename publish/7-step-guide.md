@@ -13,6 +13,7 @@ imageLicense: |
 #description:
 height: 70vh
 toc: true
+parallax: true
 ---
 
 # Introduction

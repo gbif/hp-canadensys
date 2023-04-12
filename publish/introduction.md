@@ -13,6 +13,7 @@ imageLicense: |
 description: Introduction to biodiversity data publication 
 height: 70vh
 toc: true
+parallax: true
 ---
 Data publication is the process of making biodiversity information available online, and is the core mission of Canadensys.
 
