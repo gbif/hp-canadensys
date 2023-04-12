@@ -7,7 +7,7 @@ listIPT:
       # preTitle: News  # optional
       description: |      # required
         This IPT is aimed to publish data from any institution or organization in Canada, regardless of scope or institution.
-      background: /assets/logo/Canadensys-logo_red-resized.png # img required
+      background: /assets/logo/Canadensys-logo_red-resize.png # img required
       #imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
       href: https://data.canadensys.net/ipt/
       # categories: [drawings] # optional
