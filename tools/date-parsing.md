@@ -6,9 +6,9 @@ composition:
 lang-ref: date-parsing
 lang: en
 title: Date parsing
-background: https://inaturalist-open-data.s3.amazonaws.com/photos/212581690/original.jpg
+background: http://media.canadensys.net/cmmf/5897a.jpg
 imageLicense: |
-  <em>Charadrius melodus</em> Ord, 1824 observed in Canada by Steven McGrath via [iNaturalist](https://www.gbif.org/occurrence/3874089341)
+  <em>Plasmodium</em> Marchiafava & Celli, 1885 collected in Canada by McNeil, Raymond, [Cercle des Mycologues de Montréal](https://www.gbif.org/occurrence/1135067379)
 #description:
 height: 70vh
 #toc: true
