@@ -11,5 +11,6 @@ background: /assets/images/Wordle_Vascan.png
 #imageLicense:
 height: 70vh
 overlayColor: "#ffffffbb"
+overlay_filter: 0.9
 hasTextShadow: true
 ---
