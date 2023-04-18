@@ -5,12 +5,10 @@ sideNavigation: sidenav.vascan
 #  - type: heroImage
 lang-ref: name-search
 lang: en
-title: <span class="red">VASCAN</span>
-description: <span class="red">Search names in the Database of Vascular Plants of Canada</span>
-background: /assets/images/Wordle_Vascan.png
-#imageLicense:
+title: VASCAN
+description: Search names in the Database of Vascular Plants of Canada
+background: https://inaturalist-open-data.s3.amazonaws.com/photos/208320945/original.jpeg
+imageLicense: |
+ <em>Sarracenia purpurea</em> L. observed in Canada by Daniel McRae via [iNaturalist](https://www.gbif.org/occurrence/3858831683)
 height: 70vh
-overlayColor: "#757575"
-#overlay_filter: 0.9
-hasTextShadow: true
 ---
