@@ -6,9 +6,9 @@ composition:
 lang-ref: coordinates-conversion
 lang: en
 title: Coordinates conversion
-background: https://inaturalist-open-data.s3.amazonaws.com/photos/184077810/original.jpg
+background: https://inaturalist-open-data.s3.amazonaws.com/photos/264182624/original.jpg
 imageLicense: |
-  <em>Thamnophis sirtalis</em> (Linnaeus, 1758), 1824 observed in Canada by leighannei via [iNaturalist](https://www.gbif.org/occurrence/3747020897)
+  <em>Storeria occipitomaculata subsp. occipitomaculata</em> observed in Canada by Heather Haughn via [iNaturalist](https://www.gbif.org/occurrence/4076076317)
 #description:
 height: 70vh
 #toc: true
