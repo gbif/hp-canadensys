@@ -10,7 +10,7 @@ description: <span class="red">Search names in the Database of Vascular Plants o
 background: /assets/images/Wordle_Vascan.png
 #imageLicense:
 height: 70vh
-overlayColor: "#ffffffbb"
-overlay_filter: 0.9
+overlayColor: "#757575"
+#overlay_filter: 0.9
 hasTextShadow: true
 ---
