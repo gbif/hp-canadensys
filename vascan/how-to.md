@@ -33,7 +33,7 @@ For each name, several information are provided:
 * Vernacular names, both in French and English, with status of the vernacular name (accepted or synonym)
 * Synonyms
 * Distribution at the province level, with distribution status:
-  * **Native**: Taxon present as a result of natural processes only, without human agency.
+  * **`Native`**: Taxon present as a result of natural processes only, without human agency.
   * **Introduced**: Taxon established (naturalized) in a region outside of its original range, as a result of human activity, either deliberate or accidental. Taxa are considered introduced in Canada when they became established after European colonization.
   * **Ephemeral**: Taxon not established permanently in the region, but recurring in the wild on a near-annual basis, usually from cultivation (e.g. wheat, tomato, etc.).
   * **Excluded**: Taxon reported from the region, but not established or erroneously determined.
