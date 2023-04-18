@@ -20,7 +20,7 @@ listIPT:
       href: https://ipt.iobis.org/obiscanada/
       description: |
         Deployed by [OBIS Canada](https://www.dfo-mpo.gc.ca/science/data-donnees/obis/index-eng.html), this IPT is intended for publication of marine datasets.
-      background: /assets/logo/obis-resize.png
+      background: /assets/logo/obis-logo-resize.png
     - title: University of Alberta Museums
       href: https://ipt.museums.ualberta.ca/ipt/
       description: |
