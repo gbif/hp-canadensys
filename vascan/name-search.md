@@ -12,4 +12,5 @@ background: /assets/images/Wordle_Vascan.png
 height: 70vh
 overlayColor: "#ffffffbb"
 hasTextShadow: true
+text_color: red
 ---
