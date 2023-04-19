@@ -61,25 +61,25 @@ The data are there to be used, which is why we licensed them under the Creative 
 
 The VASCAN Search API accepts GET and POST requests. The path contains an explicit version and the search resource accepts a parameter **q**. The value for **q** can be a scientific name, a vernacular name or a VASCAN taxon identifier (e.g. 861). It may be a single value for GET requests or multiple values (maximum 200) for POST requests, each separated by line breaks, \n. Scientific or vernacular names may optionally be preceded by your local identifier and a pipe, |. GET requests for JSON-based URIs may have an additional callback parameter for JSONP responses.  
 
-``
-http://data.canadensys.net/vascan/api/0.1/search.json  
-OR  
-http://data.canadensys.net/vascan/api/0.1/search.xml  
-``
+```
+    http://data.canadensys.net/vascan/api/0.1/search.json  
+      OR  
+    http://data.canadensys.net/vascan/api/0.1/search.xml  
+```
 
 ### Parameter
 
 Scientific name, vernacular name, or VASCAN taxon identifier.  
 Use line breaks, \n between values for POST requests. Precede values with your local identifier and a pipe, | (optional).  
 
-**e.g. ?q=Crataegus dodgei
-e.g. ?q=1004232|lowbush blueberry
+**e.g. ?q=Crataegus dodgei  
+e.g. ?q=1004232|lowbush blueberry  
 e.g. ?q=5031**
 
 
 ### Response
 
-``
+```
 {
     apiVersion: "0.1",
     lastUpdatedDate: "YYYY-MM-DD",
@@ -156,22 +156,22 @@ e.g. ?q=5031**
         }
     ]
 }
-``
+```
 
 ## OpenRefine
 
 Use [OpenRefine](https://openrefine.org/) to reconcile your scientific or vernacular names against VASCAN.  
 
-``
+```
 http://data.canadensys.net/vascan/refine/0.1/reconcile
-``
+```
 
 ## R Project
 
 Use [Taxize](https://cran.r-project.org/web/packages/taxize/index.html) to reconcile your scientific or vernacular names against VASCAN.  
 
-``
+```
 https://cran.r-project.org/web/packages/taxize/index.html
-``
+```
 
 # People
