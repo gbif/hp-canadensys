@@ -62,9 +62,9 @@ The data are there to be used, which is why we licensed them under the Creative 
 The VASCAN Search API accepts GET and POST requests. The path contains an explicit version and the search resource accepts a parameter **q**. The value for **q** can be a scientific name, a vernacular name or a VASCAN taxon identifier (e.g. 861). It may be a single value for GET requests or multiple values (maximum 200) for POST requests, each separated by line breaks, \n. Scientific or vernacular names may optionally be preceded by your local identifier and a pipe, |. GET requests for JSON-based URIs may have an additional callback parameter for JSONP responses.  
 
 ```
-    http://data.canadensys.net/vascan/api/0.1/search.json  
-      OR  
-    http://data.canadensys.net/vascan/api/0.1/search.xml  
+http://data.canadensys.net/vascan/api/0.1/search.json  
+  OR  
+http://data.canadensys.net/vascan/api/0.1/search.xml  
 ```
 
 ### Parameter
@@ -175,3 +175,9 @@ https://cran.r-project.org/web/packages/taxize/index.html
 ```
 
 # People
+
+**[Luc Brouillet](https://irbv.umontreal.ca/le-personnel/luc-brouillet/)**, [Université de Montréal Biodiversity Centre](https://irbv.umontreal.ca/institute/infrastructure/biodiversity-centre/?lang=en), [Marie-Victorin Herbarium (MT)](https://irbv.umontreal.ca/research/collections/marie-victorin-herbarium-mt/?lang=en) - Coordination and design, compilation of taxonomic and distribution data  
+**F. Coursol**, Montréal Botanical Garden - Compilation of taxonomic and distribution data  
+**Susan Meades**, [Northern Ontario Plant Database](http://www.northernontarioflora.ca/) - Compilation of taxonomic data  
+**Marc Favreau**, Translation Bureau (retired) - Compilation of French vernacular names  
+**Marilyn Anions**, Botanist - Compilation of English vernacular names  

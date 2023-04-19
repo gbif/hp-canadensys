@@ -21,7 +21,7 @@ The Tools API accepts GET and POST requests. Methods are expressed as resource U
 # Coordinate conversion
 
 ```md
->http://data.canadensys.net/tools/coordinates.json
+http://data.canadensys.net/tools/coordinates.json
 or
 http://data.canadensys.net/tools/coordinates.xml
 ``` 
@@ -33,7 +33,7 @@ e.g. ht<span>tp://data.canadensys.net/tools/coordinates.json?**data**=35|45° 32
 Produces 
 
 ```md
->MyCallback({
+MyCallback({
   type: "FeatureCollection",
   features: [
   {
@@ -58,7 +58,7 @@ Produces
 # Date parsing
 
 ```md
->http://data.canadensys.net/tools/dates.json
+http://data.canadensys.net/tools/dates.json
 OR
 http://data.canadensys.net/tools/dates.xml
 ``` 
@@ -68,7 +68,7 @@ e.g. ht<span>tp://data.canadensys.net/tools/dates.json?**data**=Jun 13, 2008&**c
 Produces 
 
 ```md
->MyCallback({
+MyCallback({
   results: [
   {
     originalValue: "Jun 13, 2008",
