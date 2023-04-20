@@ -8,6 +8,7 @@ imageLicense: |
   <em>Sanguinaria canadensis</em> L. Photo by Suzanne Labbé via [iNaturalist](https://www.gbif.org/occurrence/3764124042)
 height: 80vh
 parallax: true
+klass: home
 cta:
   - text: Explore
     href: /occurrence/search/?view=MAP
