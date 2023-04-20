@@ -16,7 +16,11 @@ height: 70vh
 
 # Introduction
 
-The Tools API accepts GET and POST requests. Methods are expressed as resource URIs, they accept a parameter **data**, and their outputs are either XML or JSON. The **data** parameter can have a single value for GET requests or multiple values for POST requests, each separated by line breaks, \n. An optional identifier may precede each value, followed by a tab, or a pipe, \|. For increased performance, set the optional **idprovided** = TRUE if all your data have identifiers or **idprovided** = FALSE if none of your data have identifiers. GET requests for JSON-based URIs may have an additional **callback** parameter for [JSONP](https://en.wikipedia.org/wiki/JSONP) responses.
+The Tools API accepts GET and POST requests. Methods are expressed as resource URIs, they accept a parameter **data**, and their outputs are either XML or JSON.  
+The **data** parameter can have a single value for GET requests or multiple values for POST requests, each separated by line breaks, \n.  
+An optional identifier may precede each value, followed by a tab, or a pipe, \|.  
+For increased performance, set the optional **idprovided** = TRUE if all your data have identifiers or **idprovided** = FALSE if none of your data have identifiers.  
+GET requests for JSON-based URIs may have an additional **callback** parameter for [JSONP](https://en.wikipedia.org/wiki/JSONP) responses.
 
 # Coordinate conversion
 
@@ -24,7 +28,7 @@ The Tools API accepts GET and POST requests. Methods are expressed as resource U
 http://data.canadensys.net/tools/coordinates.json
 or
 http://data.canadensys.net/tools/coordinates.xml
-``` 
+```  
 
 Outputs are expressed as [GeoJSON](https://geojson.org/) or [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language), respectively. 
 
@@ -49,11 +53,31 @@ MyCallback({
   }
   ]
 });
-``` 
+```  
 
-e.g. ht<span>tp://data.canadensys.net/tools/coordinates.xml?**data**=35|45° 32' 25"N,129° 40' 31"W 
+e.g. ht<span>tp://data.canadensys.net/tools/coordinates.xml?**data**=35|45° 32' 25"N,129° 40' 31"W  
 
 Produces 
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<gml:FeatureCollection
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gml="http://www.opengis.net/gml"    
+     xmlns:sch="http://www.ascc.net/xml/schematron">
+  <gml:featureMembers>
+    <xs:result gml:id="35">
+      <xs:coordinate>
+        <gml:Point srsDimension="2">
+          <gml:pos>45.540277777777774 -129.67527777777778</gml:pos>
+        </gml:Point>
+      </xs:coordinate>
+      <xs:originalValue>45° 32' 25"N,129° 40' 31"W</xs:originalValue>
+    </xs:result>
+  </gml:featureMembers>
+</gml:FeatureCollection>
+```
 
 # Date parsing
 
