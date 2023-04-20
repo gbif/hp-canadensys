@@ -30,7 +30,7 @@ listIPT:
       href: https://www.gbif.org/publisher/ff418020-1d67-11d9-8435-b8a03c50a862
       description: |
         Deployed by the Royal Ontario Museum to publish their own collections
-      background: https://www.rom.on.ca/sites/all/themes/rom/logo.png # img required 
+      background: /assets/logo/rom-logo.png # img required 
     - title: Specimen Micropublications
       href: https://data.canadensys.net/micropublications
       description: |
