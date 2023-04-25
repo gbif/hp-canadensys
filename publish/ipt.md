@@ -11,6 +11,8 @@ height: 70vh
 composition:
   - type: heroImage
   - type: pageMarkdown
+  - type: split
+    data: ipt.canadensys
   - type: features # The block type "features" shows a list of cards
     data: ipt.listIPT # We also need some data for those cards. In this case we refer to a yaml file in the _data folder.
 parallax: true 
