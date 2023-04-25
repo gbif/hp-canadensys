@@ -17,12 +17,12 @@ parallax: true
 ---
 Data publication is the process of making biodiversity information available online, and is the core mission of Canadensys.  
 
-To publish data on Canadensys and GBIF, several crucial steps are recommended. [Data cleaning](/#Data-cleaning), [standardization](#Standardization) and [georeferencing](/#Georeferencing) are needed to make data compatible with international data bases. Although not mandatory, [imaging](/#imaging) of labels or specimens is also often part of the data publication process. More detailed information and best practices for all these steps are provided on the [Resources pages](/resources/documents/) of this portal. The process for publishing data on the Canadensys repository is explained in our [7-step guide](/publish/7-step-guide) to publication.
+To publish data on Canadensys and GBIF, several crucial steps are recommended. [Data cleaning](/#Data-cleaning), [standardization](#Standardization) and [georeferencing](/#Georeferencing) are needed to make data compatible with international databases. Although not mandatory, [imaging](/#imaging) of labels or specimens is also often part of the data publication process. More detailed information and best practices for all these steps are provided on the [Resources pages](/resources/documents/) of this portal. The process for publishing data on the Canadensys repository is explained in our [7-step guide](/publish/7-step-guide) to data publication.
 
 # Data Cleaning
 Data Cleaning is an essential part of the information management chain. Error prevention should be considered a priority relative to error detection and cleaning, as it is cheaper and more efficient to prevent errors than to try and find them and correct them later. No matter how efficient the process of data entry, errors will still occur and therefore data validation and correction cannot be ignored. Error detection, validation and cleaning have key roles to play, especially with legacy data (e.g., museum and herbarium data collected over the last 300 years), and thus both error prevention and data cleaning should be incorporated in an organisation’s data management policy.  
 
-Further [documentation](/resources/documents/) and [tools](/resources/othertools) for data cleaning are available on the [Resources page](/resources/documents/).
+Further [documentation](/resources/documents/#data-cleaning) and [tools](/resources/documents/) for data cleaning are available on the [Resources page](/resources/documents/).
 
 # Standardization
 [Darwin Core](https://dwc.tdwg.org/) – or DwC for short – is a group of standards designed for sharing biodiversity data. Developed by the [Biodiversity Information Standards (TDWG)](http://www.tdwg.org/), these standards allow data owners to publish biodiversity information in a language (**Darwin Core**) and format (e.g. **Darwin Core archives**) that can be understood and used by everyone.  
@@ -33,7 +33,7 @@ The Darwin Core includes a [glossary of terms](https://dwc.tdwg.org/terms/) inte
 Georeferencing is the process of interpreting textual descriptions of places into spatial descriptions (i.e. [geographic coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system)).  
 E.g. “Bear Island, Lake Temagami, Nipissing District, Ontario, Canada” → decimal latitude: 46.9831216, decimal longitude: -80.0681018, uncertainty: 1410m ([show on map](https://www.google.com/maps/place/46%C2%B058'59.2%22N+80%C2%B004'05.2%22W/@46.980135,-80.062523,13z/data=!4m4!3m3!8m2!3d46.9831216!4d-80.0681018?hl=en)). Georeferencing biological specimens – which often only have textual descriptions of their locality – allows the information to be displayed on a map and used in spatial analyses.  
 
-Georeferencing is time-consuming and should be tackled with the right [tools](/resources/othertools) and [guidelines](/resources/documents). We encourage collaborative georeferencing, which greatly reduces the duplication of efforts and can generate more accurate results, since specimens can be grouped per province/locality in the overall network (instead of per collection), and thus be georeferenced by the people with the most knowledge of these provinces/localities.
+Georeferencing is time-consuming and should be tackled with the right [tools](/resources/othertools) and [guidelines](/resources/documents/#georeferencing). We encourage collaborative georeferencing, which greatly reduces the duplication of efforts and can generate more accurate results, since specimens can be grouped per province/locality in the overall network (instead of per collection), and thus be georeferenced by the people with the most knowledge of these provinces/localities.
 
 
 # Imaging
