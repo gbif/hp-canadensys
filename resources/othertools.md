@@ -13,3 +13,19 @@ imageLicense: |
 height: 70vh
 #toc: true
 ---
+
+# R packages
+
+[rGBIF](https://www.gbif.org/tool/81747/rgbif): An interface to the GBIF API for the R statistical programming environment.
+[pyGBIF](https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client): Python client for the GBIF API.
+[taxize - Taxonomic Information from Around the Web](https://docs.ropensci.org/taxize/): R package interacting with a suite of web 'APIs' for taxonomic tasks
+[Bionomia](https://en.bionomia.net/): A tool to link natural history specimens to the world's collectors.
+[gnparser](https://github.com/gnames/gnparser): tool spliting scientific names into their semantic elements with an associated meta information
+[Biogeo](): 
+
+# Tools
+
+[MAXENT](https://biodiversityinformatics.amnh.org/open_source/maxent/): Software for modeling species niches and distributions
+[QGIS](https://qgis.org/en/site/): A Free and Open Source Geographic Information System
+[Specify](https://github.com/specify/specify7/): Specify is a comprehensive collections management application
+

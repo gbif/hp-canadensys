@@ -116,7 +116,8 @@ Example of what it is NOT possible to share on GBIF:
 * Predicted occurrences based on predictive models
 * Non-organismal occurrences (rocks for example)
 
-If you are not sure how to publish your dataset, [contact us!](maitlo:canadensys.network@gmail.com) or the [GBIF helpdesk](mailto:helpdesk@gbif.org).
+If you are not sure how to publish your dataset, [contact us](maitlo:canadensys.network@gmail.com) or the [GBIF helpdesk](mailto:helpdesk@gbif.org).
+GBIF, TDWG, and other partners, are exploring new approaches to publish more complex types of data. If you are interested to know more about this subject, visit the [New data models page on GBIF](https://www.gbif.org/composition/HjlTr705BctcnaZkcjRJq/data-model-principal-composition).
 
 
 # Darwin Core
