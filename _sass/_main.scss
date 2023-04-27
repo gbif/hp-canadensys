@@ -14,6 +14,14 @@
     width: $navbar-breakpoint;
     max-width: 100%;
   }
+   .feature-description {
+    margin: initial;
+    padding: 0;
+    width: 500px;
+    p {
+      font-weight: 500
+    }
+  }
   .feature-title {
     width: 500px;
     font-size: 4rem;
