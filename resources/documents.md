@@ -5,7 +5,7 @@ composition:
   - type: pageMarkdown
 lang-ref: documents
 lang: en
-title: Documents
+title: Documentation
 background: https://inaturalist-open-data.s3.amazonaws.com/photos/218909053/original.jpg
 imageLicense: |
   <em>Symphyotrichum novae-angliae</em> (L.) G.L.Nesom observed in Canada by Suzanne Labbé via [iNaturalist](https://www.gbif.org/occurrence/3881376924)
@@ -153,7 +153,7 @@ Data standards are used to exchange metadata (primarily used for machine-machine
 
 All standards are expressed as [XML](https://en.wikipedia.org/wiki/XML). Datasets which are published via the IPT automatically express their metadata as [EML](https://eml.ecoinformatics.org/).
 
-## Registries
+# Registries
 
 In order to allow the discovery of data, a dataset/collection not only needs metadata, but also needs to be registered somewhere. For institutions and collections, [the Global Registry of Scientific Collections (GrSciColl)](https://www.gbif.org/grscicoll), maintained by [GBIF](https://www.gbif.org/), is the main registry. Information contained in this registry is based on partners and previous initiatives like the Biodiversity Collection Index (BCI) or the Global Registry of Biodiversity Repositories (GRBio).
 
