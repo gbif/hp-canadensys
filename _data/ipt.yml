@@ -34,7 +34,7 @@ listIPT:
     - title: Specimen Micropublications
       href: https://data.canadensys.net/micropublications
       description: |
-        To publish datasets associated with publications in the journals [Specimen](https://specimenpub.org/) and [collections](https://specimenpub.org/collection/).
+        To publish datasets associated with micropublications in the journals [Specimen](https://specimenpub.org/) and [Collection](https://specimenpub.org/collection/)
       background: /assets/logo/SpecimenMicropublications_000000.png # img required
 
 canadensys:
