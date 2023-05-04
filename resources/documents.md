@@ -18,19 +18,18 @@ toc: true
 
 ## Imaging labels
 
-Photographing specimen labels is often used as a first step towards text digitization, which is still necessary as text on an image cannot be searched or analyzed. Text can be extracted automatically from the image with [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition), but this will require human proofreading and structuring of the information, and it can sometimes be more time-consuming than keystroking. The main use of a label image is that it serves as a verbatim backup: publishing it in combination with the text information allows users to verify the information and report errors without having access to the physical specimen.
-Nowadays, labels are usually imaged at the same time as the entire specimen, but further processing of the information contained on the label is not immediate.
+Photographing specimen labels is often used as a first step towards text digitization, which is still necessary as text on an image cannot be searched or analyzed. Text can be extracted automatically from the image with [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition), but this will require human proofreading and structuring of the information, and it can sometimes be more time-consuming than keystroking. Label images importantly serve as a verbatim backup, allowing users to verify the information and report errors without having access to the physical specimen. Nowadays, labels are usually imaged at the same time as the entire specimen, but further processing of the information contained on the label is not immediate.
 
 ## Imaging specimens
 
-Photographing specimens results in one or more images of the whole specimen. This process is generally more complex than imaging labels, as the image may be used for scientific research. Method (camera vs scanner), resolution, color, light-conditions, format and storage are all factors to be considered. As a result, this type of imaging can become time-consuming and, unless automated, should first be considered for the most scientifically valuable specimens, such as types, or for specific taxa, depending on the specificity of the collection (geographical or taxonomic focus). Methods used to image specimens also widely vary depending on the type of specimens. 
+Photographing specimens results in one or more images of the whole specimen. This process is generally more complex than imaging labels, but the resulting image can be important for scientific research. Method (camera vs scanner), resolution, color, light-conditions, format and storage are all factors to be considered. As a result, this type of imaging can become time-consuming and, unless automated, should first be considered for the most scientifically valuable specimens, such as types, or for specific taxa, depending on the specificity of the collection (geographical or taxonomic focus). Methods used to image specimens also widely vary depending on the type of specimens. 
 
 ## Tools
 
 * [SilverImage](http://www.silverbiology.com/products/silverimage/), a tool from [SilverBiology](http://www.silverbiology.com/) that helps to follow and analyze the imaging process
 * [Adobe Lightroom](https://www.adobe.com/ca/products/photoshop-lightroom.html) helps with the organization and enhancement of photo taken
 
-## Litterature and dcocuments
+## Literature and documentation
 
 * Hegghammer, T. OCR with Tesseract, Amazon Textract, and Google Document AI: a benchmarking experiment. J Comput Soc Sc 5, 861–882 (2022). https://doi.org/10.1007/s42001-021-00149-1
 * iDigBio documentation about [Specimen Image Capture](https://www.idigbio.org/wiki/index.php/Specimen_Image_Capture) and [Specimen Image Processing](https://www.idigbio.org/wiki/index.php/Specimen_Image_Processing)
@@ -40,17 +39,17 @@ Photographing specimens results in one or more images of the whole specimen. Thi
 # Georeferencing
 
 Georeferencing is the process of interpreting textual descriptions of places into spatial descriptions (i.e. [geographic coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system)).  
-E.g. “Bear Island, Lake Temagami, Nipissing District, Ontario, Canada” → decimal latitude: 46.9831216, decimal longitude: -80.0681018, uncertainty: 1410m.  
+e.g. “Bear Island, Lake Temagami, Nipissing District, Ontario, Canada” → decimal latitude: 46.9831216, decimal longitude: -80.0681018, uncertainty: 1410m.  
 Georeferencing biological specimens – which often only have textual descriptions of their locality – allows the information to be displayed on a map and used in spatial analyses.
 
-Although extremely useful, georeferencing is also time-consuming and should be tackled with the right [tools]() and [guidelines](https://docs.gbif.org/course-data-mobilization/en/key-documentation.html#georeferencing/). We encourage collaborative georeferencing, which greatly reduces the duplication of efforts and can generate more accurate results, since specimens can be grouped per province/locality in the overall network (instead of per collection), and thus be georeferenced by the people with the most knowledge of these provinces/localities.
+Georeferencing is time-consuming and should be tackled with the right [tools]() and [guidelines](https://docs.gbif.org/course-data-mobilization/en/key-documentation.html#georeferencing/). We encourage collaborative georeferencing, which greatly reduces the duplication of efforts and can generate more accurate results, since specimens can be grouped per province/locality in the overall network (instead of per collection), and thus be georeferenced by the people with the most knowledge of these provinces/localities.
 
+One of the goals of Canadensys is to georeference a large part of the published specimen information as accurately as possible, and to provide uncertainties for coordinates, which gives key information to determine the data’s fitness for use and thus the data quality. 
 
 >
-  A Location that is poorly georeferenced obscures the information upon which a georeference should be based, potentially making the originally provided information irrecoverable. The resulting georeferences can be misleading to users and lead to errors in research outputs. Thus, an important take-home message is, "To georeference poorly is worse than not to georeference at all."
+By far the most difficult issue in georeferencing primary species occurrence data is the massive amount of legacy data held in the world’s museums, herbaria, universities, etc. Most modern collectors are now using GPSs or large scale maps to locate their collection events, and thus most of the new data entering institutions already include georeferences. Most museums beginning to database their collections, however, are faced with the massive task of georeferencing the huge backlog of data in their collections, much of it with very little or vague location information. 
 >
-
-Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853
+For more information on georeferencing, consult: Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. https://doi.org/10.15468/doc-gg7h-s853
 
 [APIs (Appication Programming Interface)](https://en.wikipedia.org/wiki/API) can tremendously help to georeference batch of information, allowing to retrieve geographic coordinates from adresses or localities, or the opposite.
 API requests can be automated in data cleaning tools, such as [OpenRefine](http://openrefine.org/) or [R](https://www.r-project.org/).
@@ -67,15 +66,11 @@ API requests can be automated in data cleaning tools, such as [OpenRefine](http:
 
 # Data Cleaning
 
->
-  Data Cleaning is an essential part of the Information Management Chain as mentioned in the associated document, Principles of Data Quality (Chapman 2005a). As stressed there, error prevention is far superior to error detection and cleaning, as it is cheaper and more efficient to prevent errors than to try and find them and correct them later. No matter how efficient the process of data entry, errors will still occur and therefore data validation and correction cannot be ignored. Error detection, validation and cleaning do have key roles to play, especially with legacy data (e.g. museum and herbarium data collected over the last 300 years), and thus both error prevention and data cleaning should be incorporated in an organisation’s data management policy.
->
-  One important product of data cleaning is the identification of the basic causes of the errors detected and using that information to improve the data entry process to prevent those errors from re-occurring.
->
+Data Cleaning is an essential part of the information management chain. As noted by Chapman (2005), error prevention should be considered a priority relative to error detection and cleaning, as it is cheaper and more efficient to prevent errors than to try and find them and correct them later. No matter how efficient the process of data entry, errors will still occur and therefore data validation and correction cannot be ignored. Error detection, validation and cleaning all have key roles to play, especially with legacy data (e.g., museum and herbarium data collected over the last 300 years), and thus both error prevention and data cleaning should be incorporated in an organization’s data management policy.
 
 Chapman, A. D. 2005. Principles and Methods of Data Cleaning: Primary Species and Species-Occurrence Data. http://www.gbif.org/document/80528
 
-Several tools have been developed to help finding errors and applying modifications. These tools can also help enriching dataset by deriving information from available fields.
+Several tools have been developed to help find errors and to implement modifications. These tools can also help enrich datasets by deriving information from available fields.
 
 ## Tools
 
@@ -87,7 +82,7 @@ Several tools have been developed to help finding errors and applying modificati
    * [Name parser](https://www.gbif.org/tools/name-parser) which dissect name strings into its component
    * [Data validator](https://www.gbif.org/tools/data-validator) which will help to locate the issues and flags within a dataset
 
-## Litterature
+## Literature
 
 * Chapman, A. D. 2005. Principles and Methods of Data Cleaning: Primary Species and Species-Occurrence Data, version 1.0. Report for the Global Biodiversity Information Facility, Copenhagen. Available online at http://www.gbif.org/document/80528.
 * Ribeiro et al. 2022. bdc: A toolkit for standardizing, integrating and cleaning biodiversity data. Methods in Ecology and Evolution 13(7). https://doi.org/10.1111/2041-210X.13868
@@ -96,22 +91,22 @@ Several tools have been developed to help finding errors and applying modificati
 
 # Data types
 
-From the beginning, GBIF has been focusing on publication and visualization of species occurrence data (something, somewhere, at a certain point in time).  
+Since the beginning, GBIF has been focusing on publication and visualization of species occurrence data (something, somewhere, at a certain point in time).  
 Datasets are centered on a core table with potential extensions linked to that core, creating a star-like schema, and allowing the publication of more informative datasets.
-Three core can be used:
+Three cores can be used:
 * [Occurrence](https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml): publication linked to occurrences.
 * [Taxon](https://rs.gbif.org/core/dwc_taxon_2022-02-02.xml): publication linked to taxa. It is used to publish checklists.
-* [Event](https://rs.gbif.org/core/dwc_event_2022-02-02.xml): publication linked to one or several collection events, with multiple occurrences collected during each event. This core is especially useful when publishing ecological dataset, usually based on sampling-event.
+* [Event](https://rs.gbif.org/core/dwc_event_2022-02-02.xml): publication linked to one or several collection events, with multiple occurrences collected during each event. This core is especially useful when publishing ecological datasets, usually based on sampling-events.
 
 With theses cores and extensions, it is possible to publish [four types of dataset (plus one!)](https://data-blog.gbif.org/post/data-shareability/)
-* Organism occurences
+* Organism occurrences
 * Checklists
 * Sampling events
 * DNA-derived occurrences
 * Metadata-only datasets (that's the plus one)
 
-Example of what it is NOT possible to share on GBIF:
-* Human occurences
+Examples of what it is NOT possible to share on GBIF:
+* Human occurrences
 * Datasets originating from GBIF and cleaned or modified by users to fit their purpose (republishing them would create duplicates)
 * Predicted occurrences based on predictive models
 * Non-organismal occurrences (rocks for example)
@@ -120,11 +115,14 @@ If you are not sure how to publish your dataset, [contact us](maitlo:canadensys.
 GBIF, TDWG, and other partners, are exploring new approaches to publish more complex types of data. If you are interested to know more about this subject, visit the [New data models page on GBIF](https://www.gbif.org/composition/HjlTr705BctcnaZkcjRJq/data-model-principal-composition).
 
 
-# Darwin Core
+# Data standardization
 
-[Darwin Core](https://dwc.tdwg.org/) - DwC for short - is a standard maintained by the [Darwin Core Maintenance Interest Group](https://www.tdwg.org/standards/dwc/#maintenance-group%22%3E). It includes a glossary of terms intended to facilitate the sharing of information about biological diversity by providing identifiers, labels, and definitions. Darwin Core is primarily based on taxa, their occurrence in nature as documented by observations, specimens, samples, and related information.
+## Darwin Core 
 
-A data standard facilitates data sharing and re-use by other projects. 
+[Darwin Core](https://dwc.tdwg.org/) – or DwC for short – is a group of standards designed for sharing biodiversity data. Developed by the [Biodiversity Information Standards (TDWG)](http://www.tdwg.org/), these standards allow data owners to publish biodiversity information in a language (**Darwin Core**) and format (e.g. **Darwin Core archives**) that can be understood and used by everyone. A data standard facilitates data sharing and re-use by other projects.
+ 
+The Darwin Core includes a [glossary of terms](https://dwc.tdwg.org/terms/) intended to facilitate the sharing of information about biological diversity by providing reference definitions, examples, and commentaries (see [Darwin Core website](https://dwc.tdwg.org/)). The Darwin Core is primarily based on taxa, their occurrence in nature as documented by observations, specimens, and samples, and related information. The [Simple Darwin Core](https://dwc.tdwg.org/simple/) is a specification for one particular way to use the terms – to share data about taxa and their occurrences in a simply structured way. Other Darwin Core extensions are available to share data about [species distribution](https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml), [identification history](https://rs.gbif.org/extension/dwc/identification_history_2022-02-02.xml), [measurements and facts](https://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml), [ecological survey](https://rs.gbif.org/core/dwc_event_2022-02-02.xml) or [DNA derived data](https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2022-02-23.xml) for example.
+
 
 ## Mapping to Darwin Core
 
@@ -134,7 +132,7 @@ One of the first steps in publishing your data, is translating or “mapping” 
 
 Darwin Core is designed to exchange biodiversity information, not to manage data. You should design your database/spreadsheet in a way that fits the needs of your collection, but the list of all [Darwin Core terms](http://rs.tdwg.org/dwc/terms/index.htm) or the ones used for other datasets in the Canadensys network might give you an idea of what fields you could include and how you could share your database as Darwin Core later.
 
-## Documents
+## Documentation
 
 * [Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
 * [Templates](https://github.com/tdwg/dwc/tree/master/dist) to start using Darwin Core
@@ -162,6 +160,7 @@ In order to allow the discovery of data, a dataset/collection not only needs met
 
 >
 GRSciColl includes data on institutions, collections and associated staff members and spans all scientific disciplines, including earth and space sciences, anthropology, archaeology, biology and biomedicine, as well as applied fields like agriculture, veterinary medicine and technology.
+
 >
 GRSciColl also serves as the registry for InstitutionCodes and CollectionCodes—elements used in the DarwinCore data standard used in the biodiversity informatics community. Use of these terms enables publications and databases to point unambiguously to collections and their contents.
 >
@@ -172,3 +171,4 @@ GBIF is working with partners to establish a standardized, interoperable flow of
 
 For institution and collection managers, GBIF has community-curation functionality, allowing for updates and additions of information within the registry.  
 More information (and videos) are available on the [GBIF website](https://www.gbif.org/grscicoll).
+
