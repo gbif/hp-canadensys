@@ -1,7 +1,7 @@
 listIPT:
   title: Other IPTs in Canada
   description: |
-    Several institutions in Canada have deployed an IPT, allowing Canadian publishers to make their data available.
+    Several institutions in Canada have deployed an IPT, allowing Canadian publishers to make their data available
   features:
     #- title: Canadensys # required
       # preTitle: News  # optional
