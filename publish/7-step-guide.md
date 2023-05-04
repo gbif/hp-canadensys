@@ -24,7 +24,7 @@ Our repository is powered by the [GBIF Integrated Publishing Toolkit (IPT)](http
 ![](/assets/images/data-publication-guide-schema.png)
 
 
-For information about the different class of dataset, see the following GBIF guides:
+For information about the different classes of datasets, see the following GBIF guides:
 
 * [Data quality requirements to publishing occurrence data](https://www.gbif.org/data-quality-requirements-occurrences)
 * [Data quality requirements to publishing checklists](https://www.gbif.org/data-quality-requirements-checklists)
@@ -106,4 +106,4 @@ On the resource overview page, click on *Visibility* > ***Register*** (see the [
 
 As all documents on this website, this guide is published under [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en). The preferred citation is:
 
-Desmet, P. & C. Sinou. 2012. 7-step guide to data publication. Canadensys. https://canadensys.org/publish/7-step-guide
+Desmet, P. & C. Sinou. 2012. 7-step guide to data publication. Canadensys. [link](https://canadensys.org/publish/7-step-guide) 
