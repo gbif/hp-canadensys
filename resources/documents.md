@@ -114,24 +114,24 @@ If you are not sure how to publish your dataset, [contact us](maitlo:canadensys.
 GBIF, TDWG, and other partners, are exploring new approaches to publish more complex types of data. If you are interested to know more about this subject, visit the [New data models page on GBIF](https://www.gbif.org/composition/HjlTr705BctcnaZkcjRJq/data-model-principal-composition).
 
 
-# Data standardization
+# Data standardization and Darwin Core
 
-## Darwin Core 
+**Darwin Core**
 
 [Darwin Core](https://dwc.tdwg.org/) – or DwC for short – is a group of standards designed for sharing biodiversity data. Developed by the [Biodiversity Information Standards (TDWG)](http://www.tdwg.org/), these standards allow data owners to publish biodiversity information in a language (**Darwin Core**) and format (e.g. **Darwin Core archives**) that can be understood and used by everyone. A data standard facilitates data sharing and re-use by other projects.
  
 The Darwin Core includes a [glossary of terms](https://dwc.tdwg.org/terms/) intended to facilitate the sharing of information about biological diversity by providing reference definitions, examples, and commentaries (see [Darwin Core website](https://dwc.tdwg.org/)). The Darwin Core is primarily based on taxa, their occurrence in nature as documented by observations, specimens, and samples, and related information. The [Simple Darwin Core](https://dwc.tdwg.org/simple/) is a specification for one particular way to use the terms – to share data about taxa and their occurrences in a simply structured way. Other Darwin Core extensions are available to share data about [species distribution](https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml), [identification history](https://rs.gbif.org/extension/dwc/identification_history_2022-02-02.xml), [measurements and facts](https://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml), [ecological survey](https://rs.gbif.org/core/dwc_event_2022-02-02.xml) or [DNA derived data](https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2022-02-23.xml) for example.
 
 
-## Mapping to Darwin Core
+**Mapping to Darwin Core**
 
 One of the first steps in publishing your data, is translating or “mapping” your data from its current format to Darwin Core. For example, you might have the field *Collector* in your database or spreadsheet, which corresponds to [*recordedBy*](https://dwc.tdwg.org/terms/#recordedBy) in Darwin Core. In other cases it might not be so straightforward, which is why we offer support in mapping your data to Darwin Core. For more details, see [step 4 of our publication guide](https://canadensys.hp.gbif-staging.org/publish/7-step-guide/#4-darwin-core-mapping).
 
-## Should you use Darwin Core to design a database?
+**Should you use Darwin Core to design a database?**
 
 Darwin Core is designed to exchange biodiversity information, not to manage data. You should design your database/spreadsheet in a way that fits the needs of your collection, but the list of all [Darwin Core terms](http://rs.tdwg.org/dwc/terms/index.htm) or the ones used for other datasets in the Canadensys network might give you an idea of what fields you could include and how you could share your database as Darwin Core later.
 
-## Documentation
+**Documentation**
 
 * [Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
 * [Templates](https://github.com/tdwg/dwc/tree/master/dist) to start using Darwin Core
@@ -143,7 +143,7 @@ Metadata is **data about data**, and can be used to define, structure, manage an
 
 Metadata is no different than ‘regular data’: one person’s data is often another person’s metadata. For example, the address of a collection is metadata for a specimen dataset, but data for a registry of collections. For a data user, good metadata will enable them to discover data and assess their appropriateness for particular needs.
 
-## Metadata standards
+**Metadata standards**
 
 Data standards are used to exchange metadata (primarily used for machine-machine interaction). In the biodiversity informatics community, the standards used are:
 
