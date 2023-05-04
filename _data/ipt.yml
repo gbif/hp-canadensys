@@ -41,6 +41,6 @@ canadensys:
   reverse: true
   title: Canadensys IPTs
   description: |
-    This IPT publisesh data from any institution or organization in Canada, regardless of scope or institution
+    This IPT publishes data from any institution or organization in Canada, regardless of scope or institution
   background: /assets/logo/Canadensys-logo_red-resize.png
   href: https://data.canadensys.net/ipt/
