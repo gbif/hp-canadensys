@@ -14,17 +14,16 @@ height: 70vh
 toc: true
 ---
 
-# Imaging
+# Digitization
 
 ## Imaging labels
 
-Photographing specimen labels is often used as a first step towards text digitization, which is still necessary as text on an image cannot be searched or analyzed. Text can be extracted automatically from the image with [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition), but this will require human proofreading and structuring of the information, and it can sometime be more time-consuming than keystroking. The main use of a label image is that it serves as a verbatim backup: publishing it in combination with the text information allows users to verify the information and report errors without having access to the physical specimen.
+Photographing specimen labels is often used as a first step towards text digitization, which is still necessary as text on an image cannot be searched or analyzed. Text can be extracted automatically from the image with [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition), but this will require human proofreading and structuring of the information, and it can sometimes be more time-consuming than keystroking. The main use of a label image is that it serves as a verbatim backup: publishing it in combination with the text information allows users to verify the information and report errors without having access to the physical specimen.
 Nowadays, labels are usually imaged at the same time as the entire specimen, but further processing of the information contained on the label is not immediate.
 
 ## Imaging specimens
 
-Photographing specimens results in one or more images of the whole specimen. This process is generally more complex than imaging labels, as the image could be useful for scientific research. Method (camera vs scanner), resolution, color, light-conditions, format and storage are all factors to be considered. As a result, this type of imaging can become very time-consuming and unless automated, it should first be considered for the most scientifically valuable specimens, such as types, or for specific taxa, depending on the specificity of the collection (geographical or taxonomic focus).  
-Methods used to image specimens will also widely varies on the type of specimens. Imaging a herbarium sheet is easier than imaging a pinned insect
+Photographing specimens results in one or more images of the whole specimen. This process is generally more complex than imaging labels, as the image may be used for scientific research. Method (camera vs scanner), resolution, color, light-conditions, format and storage are all factors to be considered. As a result, this type of imaging can become time-consuming and, unless automated, should first be considered for the most scientifically valuable specimens, such as types, or for specific taxa, depending on the specificity of the collection (geographical or taxonomic focus). Methods used to image specimens also widely vary depending on the type of specimens. 
 
 ## Tools
 
@@ -44,7 +43,8 @@ Georeferencing is the process of interpreting textual descriptions of places int
 E.g. “Bear Island, Lake Temagami, Nipissing District, Ontario, Canada” → decimal latitude: 46.9831216, decimal longitude: -80.0681018, uncertainty: 1410m.  
 Georeferencing biological specimens – which often only have textual descriptions of their locality – allows the information to be displayed on a map and used in spatial analyses.
 
-Although extremely useful, georeferencing is also time-consuming and should be tackled as a community, with the right [tools]() and [guidelines](https://docs.gbif.org/course-data-mobilization/en/key-documentation.html#georeferencing/)
+Although extremely useful, georeferencing is also time-consuming and should be tackled with the right [tools]() and [guidelines](https://docs.gbif.org/course-data-mobilization/en/key-documentation.html#georeferencing/). We encourage collaborative georeferencing, which greatly reduces the duplication of efforts and can generate more accurate results, since specimens can be grouped per province/locality in the overall network (instead of per collection), and thus be georeferenced by the people with the most knowledge of these provinces/localities.
+
 
 >
   A Location that is poorly georeferenced obscures the information upon which a georeference should be based, potentially making the originally provided information irrecoverable. The resulting georeferences can be misleading to users and lead to errors in research outputs. Thus, an important take-home message is, "To georeference poorly is worse than not to georeference at all."
