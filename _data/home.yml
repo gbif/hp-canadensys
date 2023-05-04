@@ -54,7 +54,7 @@ training:
   reverse: true
   title: Documentation and Training
   description: |
-      Explore our documentation, discover Tools and Training materials
+      Explore our documentation, discover tools and training materials
   background: https://inaturalist-open-data.s3.amazonaws.com/photos/256402192/original.jpg
   imageLicense: |
     <em>Cardinalis cardinalis</em> (Linnaeus, 1758) observed in Canada by jnaffy via [iNaturalist](https://www.gbif.org/occurrence/4039169691)
