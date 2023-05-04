@@ -22,7 +22,7 @@ By enabling the publication of these data, Canadensys facilitates cross-analyses
 ## Data published on Canadensys
 	
 Since September 2011, Canadian institutions and researchers have been publishing their biodiversity information via the [Canadensys repository]. Most of the datasets contain specimen data, but checklists and observation data are present as well. All datasets are published in the biodiversity information standard Darwin Core, and you can explore, download and use them for free under an open license.
-If you are interested in publishing your own dataset, start [here](7-step guide).
+If you are interested in publishing your own dataset, start [here](https://canadensys.hp.gbif-staging.org/publish/7-step-guide/).
 
 add two stat images here
 
