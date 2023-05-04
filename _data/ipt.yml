@@ -6,7 +6,7 @@ listIPT:
     #- title: Canadensys # required
       # preTitle: News  # optional
       #description: |      # required
-      #  This IPT is aimed to publish data from any institution or organization in Canada, regardless of scope or institution.
+      #  This IPT publishes data from any institution or organization in Canada, regardless of scope or institution
       #background: /assets/logo/Canadensys-logo_red-resize.png # img required
       #imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
       #href: https://data.canadensys.net/ipt/
@@ -19,12 +19,12 @@ listIPT:
     - title: Canadian node of the Ocean Biogeographic Information System
       href: https://ipt.iobis.org/obiscanada/
       description: |
-        Deployed by [OBIS Canada](https://www.dfo-mpo.gc.ca/science/data-donnees/obis/index-eng.html), this IPT is intended for publication of marine datasets.
+        Deployed by [OBIS Canada](https://www.dfo-mpo.gc.ca/science/data-donnees/obis/index-eng.html), this IPT is for publication of marine datasets
       background: /assets/logo/Obis-logo.png
     - title: University of Alberta Museums
       href: https://ipt.museums.ualberta.ca/ipt/
       description: |
-        Deployed by the University of Alberta for the publication of  their own collections.
+        Deployed by the University of Alberta for the publication of their collections
       background: /assets/logo/Museums_University_of_Alberta_Logo.png
     - title: Royal Ontario Museum
       href: https://www.gbif.org/publisher/ff418020-1d67-11d9-8435-b8a03c50a862
@@ -34,13 +34,13 @@ listIPT:
     - title: Specimen Micropublications
       href: https://data.canadensys.net/micropublications
       description: |
-        IPT publishing datasets associated to publications in the journals [Specimen](https://specimenpub.org/) and [collections](https://specimenpub.org/collection/).
+        To publish datasets associated with publications in the journals [Specimen](https://specimenpub.org/) and [collections](https://specimenpub.org/collection/).
       background: /assets/logo/SpecimenMicropublications_000000.png # img required
 
 canadensys:
   reverse: true
   title: Canadensys IPTs
   description: |
-    This IPT is aimed to publish data from any institution or organization in Canada, regardless of scope or institution.
+    This IPT publisesh data from any institution or organization in Canada, regardless of scope or institution
   background: /assets/logo/Canadensys-logo_red-resize.png
   href: https://data.canadensys.net/ipt/
