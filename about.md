@@ -30,5 +30,6 @@ For more detailed statistics, see this [Google Spreadsheet](https://docs.google.
 
 ## How to cite Canadensys
 This is the preferred format for citing data published through the Canadensys network. If other citation practices apply, feel free to use them, but please include a link.
+
 Format: \[list of data publishers, i.e. institution or group of institutions\]. http://data.canadensys.net/explorer (accessed on \[date\])
 
