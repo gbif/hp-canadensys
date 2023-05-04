@@ -32,7 +32,7 @@ explorer:
   reverse: false
   title: Data Explorer
   description: |
-      * Get access to millions of biodiversity data, published by the Canadian publishers  
+      * Get access to millions of biodiversity data, published by Canadian publishers  
       * Go to the Map feature to visualize occurrence records in space and time  
       * Special filtering criteria enable customized query development within the portal framework 
       * Issues and flags enable quality control 
@@ -52,14 +52,14 @@ explorer:
 
 training:
   reverse: true
-  title: Documents and Training
+  title: Documentation and Training
   description: |
-      Explore our documentation, discover Tools and training material
+      Explore our documentation, discover Tools and Training materials
   background: https://inaturalist-open-data.s3.amazonaws.com/photos/256402192/original.jpg
   imageLicense: |
     <em>Cardinalis cardinalis</em> (Linnaeus, 1758) observed in Canada by jnaffy via [iNaturalist](https://www.gbif.org/occurrence/4039169691)
   cta:
-  - text: Documents
+  - text: Documentation
     href: /resources/documents/
     isPrimary: true
   - text: Tools
