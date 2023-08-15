@@ -11,7 +11,7 @@ height: 70vh
 
 ## Canadensys
 
-Biological collections are replete with taxonomic, geographic, temporal, numerical, and historical information. This information is crucial for understanding and properly managing biodiversity and ecosystems, but is often difficult to access. Canadensys, operated from the [Université de Montréal Biodiversity Centre](https://irbv.umontreal.ca/institute/infrastructure/biodiversity-centre/?lang=en), is a Canada-wide effort to make the biodiversity information held in biological collections accessible to everyone.
+Biological collections are replete with taxonomic, geographic, temporal, numerical, and historical information. This information is crucial for understanding and properly managing biodiversity and ecosystems, but is often difficult to access. Canadensys, operated from the [Université de Montréal Biodiversity Centre](https://irbv.umontreal.ca/institute/infrastructure/biodiversity-centre/?lang=en), is a Canada-wide effort to make the biodiversity information held in Canadian biological collections and institutions accessible to everyone.
 
 Canadensys publishes specimen data from Canadian natural history collections, as well as other kinds of biodiversity data such as species checklists (many of which include estimates of species richness), observations and ecological data. Some of these resources include data on species new to science. Canadensys also hosts the data publication platforms for two online taxonomic journals, [Specimen](https://specimenpub.org/) and [Collection](https://specimenpub.org/).
 
@@ -29,6 +29,7 @@ add two stat images here
 For more detailed statistics, see this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/12AjfIiwXogeDwkZuwUhWOTOmebV-2xiWNUATJkUHSjw/edit#gid=2).
 
 ## How to cite Canadensys
+
 This is the preferred format for citing data published through the Canadensys network. If other citation practices apply, feel free to use them, but please include a link.
 
 Format: \[list of data publishers, i.e. institution or group of institutions\]. http://data.canadensys.net/explorer (accessed on \[date\])
