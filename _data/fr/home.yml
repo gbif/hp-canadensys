@@ -7,37 +7,37 @@ stats:
       href: /occurrence/search/?view=MAP
       # using a dynamic value from some endpoint. You can configure what field to look for using the path attribute
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CA">10.000</span>
-      description: Datasets
+      description: Jeux de données
       #background: /assets/images/landing_page/iconos_cifras/listas_de_especies.png
       href: https://www.gbif.org/country/CA/publishing
       # using a dynamic value from some endpoint. It will default to look for a 'count' value in the response
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=CA&limit=0&isEndorsed=true">1000</span>
       #could also use "https://api.catalogueoflife.org/dataset/2304/tree/x4/children?extinct=true&type=SOURCE&limit=1000" or "https://api.catalogueoflife.org/dataset/2304/tree/x4?catalogueKey=3&extinct=true"
-      description: Publishers
+      description: Fournisseurs de données
       #background: /assets/images/landing_page/iconos_cifras/fichas_de_especies.png
       href: https://www.gbif.org/publisher/search?country=CA
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?facet=type&type=CHECKLIST&publishing_country=CA">1000</span>
-      description: Species Lists
+      description: Listes d'espèces
       href: https://www.gbif.org/dataset/search?type=CHECKLIST&publishing_country=CA
 
 about:
   reverse: true
-  title: A Network of Data Publishers
+  title: Un réseau de fournisseurs de données
   description: |      # required
-      Canadensys makes biodiversity information freely and openly available to everyone. We are a network of researchers, collectors, curators, information technologists, students, and educators that shares data on the occurrence and identity of plant, animal, fungi, and other species in Canada.
+      Canadensys rend l'information sur la biodiversité librement et ouvertement accessible à tous. Nous sommes un réseau de chercheurs, récolteurs, conservateurs, technologues de l'information, étudiants et éducateurs qui partagent des données sur la présence et l'identité des plantes, des animaux, des champignons et d'autres espèces au Canada.
   # img required
   background: /assets/images/tree-canopy.jpeg
 
 explorer:
   reverse: false
-  title: Data Explorer
+  title: Explorateur de données
   description: |
-      * Get access to millions of biodiversity data, published by Canadian publishers  
-      * Go to the Map feature to visualize occurrence records in space and time  
-      * Special filtering criteria enable customized query development within the portal framework 
-      * Issues and flags enable quality control 
-      * Go to the Image Gallery to browse thousands of images from collection specimens to observations  
-      * Through our Data Explorer you can discover and download data for use and re-use
+      * Accès à plusieurs millions de données de biodiversité publiées par des institutions Canadiennes  
+      * Accédez à la carte pour visualiser les enregistrements d'occurrences dans l'espace et dans le temps  
+      * Des critères de filtrage spéciaux permettent le développement de requêtes personnalisées directement dans le portail  
+      * Le suivi des problèmes et des drapeaux permettent le contrôle de la qualité des données
+      * Accédez à la galerie d'images pour parcourir des milliers d'images, allant des spécimens de collection aux observations
+      * Grâce à notre explorateur de données, vous pouvez découvrir et télécharger des données pour les utiliser et les réutiliser
   background: /assets/images/Map-Canadensys.png
   href: /data?view=MAP
   cta:
@@ -45,16 +45,16 @@ explorer:
       <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
     href: /data
     isPrimary: true
-  - text: Map
+  - text: Carte
     href: /occurrence/search/?view=MAP
-  - text: Gallery
+  - text: Galerie
     href: /occurrence/search/?view=GALLERY
 
 training:
   reverse: true
-  title: Documentation and Training
+  title: Documentation et formation
   description: |
-      Explore our documentation, discover tools and training materials
+      Explorez notre documentation, découvrez nos outils et notre matériel de formation
   background: https://inaturalist-open-data.s3.amazonaws.com/photos/256402192/original.jpg
   imageLicense: |
     <em>Cardinalis cardinalis</em> (Linnaeus, 1758) observed in Canada by jnaffy via [iNaturalist](https://www.gbif.org/occurrence/4039169691)
@@ -62,7 +62,7 @@ training:
   - text: Documentation
     href: /resources/documents/
     isPrimary: true
-  - text: Tools
+  - text: Outils
     href: /resources/othertools/
-  - text: Training
+  - text: Formation
     href: /resources/training/

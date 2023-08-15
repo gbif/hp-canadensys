@@ -15,7 +15,7 @@ cta:
     isPrimary: true
   - text: Publish
     href: /publish/ipt/
-  - text: VASCAN
+  - text: Vascan
     href: /vascan/name-search/
 permalink: /
 composition:
