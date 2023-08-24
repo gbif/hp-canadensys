@@ -24,3 +24,24 @@ Jun 13, 2008
  
 1 | 1999/02/24 
 2 | 02/17/1921
+
+<div id="app-container"></div>
+ 
+ <script>
+// Get a reference to the app container
+const appContainer = document.getElementById('app-container');
+
+// API endpoint URL
+const apiUrl = 'http://data.canadensys.net/tools/dates.json';
+
+// Fetch data from the API
+fetch(apiUrl)
+  .then(response => response.json())
+  .then(data => {
+    // Process the data and update the app container's content
+    appContainer.innerHTML = `<h2>${data.title}</h2><p>${data.description}</p>`;
+  })
+  .catch(error => {
+    console.error('Error fetching data:', error);
+  });
+</script>
