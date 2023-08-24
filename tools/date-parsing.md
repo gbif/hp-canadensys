@@ -36,12 +36,22 @@ const apiUrl = 'http://data.canadensys.net/tools/dates.json';
 
 // Fetch data from the API
 fetch(apiUrl)
-  .then(response => response.json())
   .then(data => {
-    // Process the data and update the app container's content
-    appContainer.innerHTML = `<h2>${data.title}</h2><p>${data.description}</p>`;
+    return data.json();
   })
-  .catch(error => {
-    console.error('Error fetching data:', error);
+  .then(results => {
+    console.log(results.iso8601)
   });
+  
+
+
+
+  // .then(response => response.json())
+  // .then(data => {
+    // Process the data and update the app container's content
+    // appContainer.innerHTML = `<h2>${data.title}</h2><p>${data.description}</p>`;
+  // })
+  // .catch(error => {
+    // console.error('Error fetching data:', error);
+  // });
 </script>
