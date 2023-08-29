@@ -32,6 +32,6 @@ var siteConfig = {
 };
 
 // example of a language specific route overwrite
-if (pageLang === 'fr')  {
-  siteConfig.routes.occurrenceSearch.route = '/fr/occurrences/search';
-}
+//if (pageLang === 'fr')  {
+//  siteConfig.routes.occurrenceSearch.route = '/fr/occurrences/search';
+//}
