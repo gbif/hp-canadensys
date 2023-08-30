@@ -39,7 +39,7 @@ listIPT:
 
 canadensys:
   reverse: true
-  title: Canadensys IPTs
+  title: Canadensys IPT
   description: |
     This IPT publishes data from any institution or collection in Canada, regardless of scope or institution
   background: /assets/logo/Canadensys-logo_red-resize.png
