@@ -3,6 +3,22 @@ layout: compose
 composition:
   - type: heroImage
   - type: pageMarkdown
+  - type: blank
+    inlineData: 
+      markdownContent: |
+        <iframe style="
+        width: 80%;
+        max-height: 80vh;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #00000011;
+        background-color: white;
+        border-radius: 6px;
+        box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+        color: #4a4a4a;
+        display: block;
+        padding: 1.25rem;"
+        seamless frameborder="150" src="https://data.canadensys.net/tools/dates" height = '790' width="1370" scrolling='yes' ></iframe> 
 lang-ref: date-parsing
 lang: en
 title: Date parsing
