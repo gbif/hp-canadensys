@@ -1,0 +1,10 @@
+vascan:
+	title: Access the Database of Vascular plant of Canada
+  description: |
+    VASCAN is the Database of Vascular Plants of Canada. 
+    It is a comprehensive list of all vascular plants reported in Canada, Greenland (Denmark) and Saint Pierre and Miquelon (France). 
+    VASCAN is literature-based, though recent additions are sometimes specimen-based.
+  cta:
+  - text: Access the Database of Vascular plant of Canada
+  - href: https://data.canadensys.net/vascan/search
+  - isPrimary: true
