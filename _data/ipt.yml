@@ -1,4 +1,5 @@
 listIPT:
+  klass: ipts_in_canada
   title: Other IPTs in Canada
   description: |
     Several institutions in Canada have deployed an IPT, allowing Canadian publishers to make their data available
