@@ -48,7 +48,7 @@ Jun 13, 2008
 const appContainer = document.getElementById('app-container');
 
 // API endpoint URL
-const apiUrl = 'http://data.canadensys.net/tools/dates.json';
+const apiUrl = 'https://data.canadensys.net/tools/dates.json';
 
 // Fetch data from the API
 fetch(apiUrl)
