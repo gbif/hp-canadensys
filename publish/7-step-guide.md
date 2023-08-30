@@ -46,7 +46,7 @@ We care about data and we just want to make sure you do too. In order to publish
 
 The [Canadensys repository](https://data.canadensys.net/ipt/) is powered by the [GBIF Integrated Publishing Toolkit (IPT)](https://www.gbif.org/ipt), an open source web application developed by [GBIF](https://www.gbif.org/) and customized by Canadensys to be fully integrated into our website. We use it to publish and register all our datasets. To be able to create and manage your own dataset (called a “resource”), you will need a **user account**. Just [contact](mailto:canadensys.network@gmail.com) us to create one for you.
 
-Once you have your account, login at the top of [this page]. Click on the tab *Manage resources* to get access to your dashboard. It will display all the datasets you are managing and will be empty at first. You can **create a new resource** at the bottom of the page. Follow the [IPT manual](https://ipt.gbif.org/manual/) for more detailed instructions.
+Once you have your account, login at the top of [this page](https://data.canadensys.net/ipt/). Click on the tab *Manage resources* to get access to your dashboard. It will display all the datasets you are managing and will be empty at first. You can **create a new resource** at the bottom of the page. Follow the [IPT manual](https://ipt.gbif.org/manual/) for more detailed instructions.
 
 Warning: please use the following lowercase format for the **shortname** of your resource: *yourcollectioncode-datasettype* (e.g. *acad-specimens* or *wildlife-sightings-observations*). This name is used to uniquely identify and access your resource and cannot be modified subsequently! For testing purposes, please use *yourcollectioncode-test* (e.g. *ubc-test*).
 
@@ -66,17 +66,17 @@ Once your source file has been uploaded correctly, a source file detail page wil
 
 # 4. Darwin Core Mapping
 
-Biodiversity data are published in the [Darwin Core] standard. It includes a [list of defined terms](https://dwc.tdwg.org/terms/) and allows your data to be understood and used by anyone. It also allows an aggregator like GBIF to combine your data with other data, like they do on their [portal](http://www.gbif.org/).
+Biodiversity data are published in the [Darwin Core](https://dwc.tdwg.org/) standard. It includes a [list of defined terms](https://dwc.tdwg.org/terms/) and allows your data to be understood and used by anyone. It also allows an aggregator like GBIF to combine your data with other data, like they do on their [portal](http://www.gbif.org/).
 
 Darwin Core mapping is the process of linking the fields in your source file with the appropriate Darwin Core terms. It is the **most challenging step** in publishing your data for two reasons: 1) the [list of Darwin Core terms](https://dwc.tdwg.org/terms/) can be overwhelming, so it might be difficult to select the ones that are appropriate for your dataset, and 2) the IPT currently only allows one-to-one mapping of fields, so the ease of mapping will depend on your database structure and on the feasibility of exporting as close to Darwin Core as possible.
 
 This is why we are here to help! [Contact us](mailto:canadensys.network@gmail.com) to arrange a phone or online call to guide you through the steps, review your mapping, suggest terms and help you repeat steps 2-4 until the mapping is just right.
 
-You can find more information regarding Darwin Core mapping in the [IPT manual](https://ipt.gbif.org/manual/) (including core types, extensions, automapping, default values, value translation, etc.) and in the introduction to Darwin Core [on our website].
+You can find more information regarding Darwin Core mapping in the [IPT manual](https://ipt.gbif.org/manual/) (including core types, extensions, automapping, default values, value translation, etc.) and in the introduction to Darwin Core [on our website](/resources/documents/#data-standardization-and-darwin-core).
 
 # 5. Add metadata
 
-If data are LEGO bricks, then [metadata] are the shiny box and instructions. They enable users to discover your dataset and assess its relevance for their particular needs, so it pays off investing some time providing them.
+If data are LEGO bricks, then [metadata](/resources/documents/#metadata) are the shiny box and instructions. They enable users to discover your dataset and assess its relevance for their particular needs, so it pays off investing some time providing them.
 
 Go to your resource overview page > *Metadata* and click *Edit* to open the metadata editor. [Contact us](mailto:canadensys.network@gmail.com) to register your institution (if not done so already) to GBIF, in order to be able to link your resource with your institution in the metadata.
 
@@ -92,7 +92,7 @@ If you wish to assign a [DOI](https://en.wikipedia.org/wiki/Digital_object_ident
 
 Back on the resource overview page > *Published Versions*, you can see the details of your first published dataset, including the publication date and the version number. Since your dataset is published privately, the only thing left to do is to click *Visibility* > ***Public*** (see the [IPT manual](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#publication)) to make it available to everyone. Warning: please do not do this for your test dataset.
 
-Congratulations, you just published your dataset to the world! It is now listed on the [repository homepage] and you can share and link to it via: https://data.canadensys.net/ipt/resource?r=dataset-shortname. This would be a good time to notify any regional or thematic network you are involved in, such as [VertNet](http://www.vertnet.org/), the [Consortium of Northeastern Herbaria](https://neherbaria.org/portal/) or the [Entomological Society of Canada](https://esc-sec.ca/).
+Congratulations, you just published your dataset to the world! It is now listed on the [repository homepage](https://data.canadensys.net/ipt/) and you can share and link to it via: https://data.canadensys.net/ipt/resource?r=dataset-shortname. This would be a good time to notify any regional or thematic network you are involved in, such as [VertNet](http://www.vertnet.org/), the [Consortium of Northeastern Herbaria](https://neherbaria.org/portal/) or the [Entomological Society of Canada](https://esc-sec.ca/).
 
 Your published dataset is a **static snapshot** of your data and will not change until you upload an updated source file and click *publish* again. This procedure has the advantage that your dataset is always available, does not require a live internet connection to your database and can be easily shared (e.g. you can email the Darwin Core Archive to a colleague). It also allows you to control the publication process more precisely: version 1, version 2, etc. and users are informed of how recent the data are and the differences between versions (addition of data, correction of errors, etc).
 
