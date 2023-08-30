@@ -33,18 +33,18 @@ For information about the different classes of datasets, see the following GBIF 
 
 # Conditions
 
-We care about data and we just want to make sure you do too. In order to publish your data using the [Canadensys repository] you should meet the following criteria:
+We care about data and we just want to make sure you do too. In order to publish your data using the [Canadensys repository](https://data.canadensys.net/ipt/) you should meet the following criteria:
 
 * You are associated with a **Canadian** collection or organization.
 * You are publishing a specimen or observation dataset, a taxonomic checklist, a sampling-event dataset or simply metadata (in other words, one of the **4 types of datasets** supported by the IPT).
 * You hold the **rights** to publish the data.
 * You are willing to **maintain** the dataset and improve its quality where possible.
 * You are willing to provide sufficient **metadata**, so users can learn what the dataset is about.
-* You are publishing the data under an **open license**, so others can really use them. We strongly recommend publishing under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) ([here is why]).
+* You are publishing the data under an **open license**, so others can really use them. We strongly recommend publishing under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
 # 1. Create your resource on the IPT
 
-The [Canadensys repository] is powered by the [GBIF Integrated Publishing Toolkit (IPT)](https://www.gbif.org/ipt), an open source web application developed by [GBIF](https://www.gbif.org/) and [customized by Canadensys]. We use it to publish and register all our datasets. To be able to create and manage your own dataset (called a “resource”), you will need a **user account**. Just [contact](mailto:canadensys.network@gmail.com) us to create one for you.
+The [Canadensys repository](https://data.canadensys.net/ipt/) is powered by the [GBIF Integrated Publishing Toolkit (IPT)](https://www.gbif.org/ipt), an open source web application developed by [GBIF](https://www.gbif.org/) and customized by Canadensys to be fully integrated into our website. We use it to publish and register all our datasets. To be able to create and manage your own dataset (called a “resource”), you will need a **user account**. Just [contact](mailto:canadensys.network@gmail.com) us to create one for you.
 
 Once you have your account, login at the top of [this page]. Click on the tab *Manage resources* to get access to your dashboard. It will display all the datasets you are managing and will be empty at first. You can **create a new resource** at the bottom of the page. Follow the [IPT manual](https://ipt.gbif.org/manual/) for more detailed instructions.
 
