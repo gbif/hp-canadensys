@@ -1,7 +1,7 @@
 listIPT:
-  title: Other IPTs in Canada
+  title: Autres IPTs au Canada
   description: |
-    Several institutions in Canada have deployed an IPT, allowing Canadian publishers to make their data available
+    Plusieurs institutions ont déployés un IPT au Canada, permettant aux collections et institutions de rendre leurs données accessibles.
   features:
     #- title: Canadensys # required
       # preTitle: News  # optional
@@ -11,36 +11,36 @@ listIPT:
       #imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
       #href: https://data.canadensys.net/ipt/
       # categories: [drawings] # optional
-    - title: Canadian Museum of Nature
+    - title: Musée Canadien de la Nature
       href: http://ipt.nature.ca/
       description: |
-        Deployed by the Canadian Museum of Nature to publish their own collections
+        Deployé par le Musée Canadien de la Nature afin de publier leurs propres collections
       background: /assets/logo/CMN_Masterbrand_EN_RGB-resize.png
-    - title: Canadian node of the Ocean Biogeographic Information System
+    - title: Noeud Canadien du Système d'Information sur la Biodiversité des Océans (OBIS)
       href: https://ipt.iobis.org/obiscanada/
       description: |
-        Deployed by [OBIS Canada](https://www.dfo-mpo.gc.ca/science/data-donnees/obis/index-eng.html), this IPT is for publication of marine datasets
+        Deployé par [OBIS Canada](https://www.dfo-mpo.gc.ca/science/data-donnees/obis/index-fra.html), cet IPT est utilisé pour publier des jeux de données sur des espèces marines 
       background: /assets/logo/Obis-logo.png
     - title: University of Alberta Museums
       href: https://ipt.museums.ualberta.ca/ipt/
       description: |
-        Deployed by the University of Alberta for the publication of their collections
+        Deployé par l'Université de l'Alberta pour la publication de leurs popres collections
       background: /assets/logo/Museums_University_of_Alberta_Logo.png
-    - title: Royal Ontario Museum
+    - title: Musée Royal de l'Ontario (ROM)
       href: https://www.gbif.org/publisher/ff418020-1d67-11d9-8435-b8a03c50a862
       description: |
-        Deployed by the Royal Ontario Museum to publish their own collections
+        Deployé par le Musée Royal de l'Ontario Museum afin de publier leurs propres collections
       background: /assets/logo/rom-logo.png # img required 
     - title: Specimen Micropublications
       href: https://data.canadensys.net/micropublications
       description: |
-        To publish datasets associated with micropublications in the journals [Specimen](https://specimenpub.org/) and [Collection](https://specimenpub.org/collection/)
+        Publication de jeux de données associées à des micropublications dans les journaux [Specimen](https://specimenpub.org/) et [Collection](https://specimenpub.org/collection/)
       background: /assets/logo/SpecimenMicropublications_000000.png # img required
 
 canadensys:
   reverse: true
-  title: Canadensys IPTs
+  title: IPT de Canadensys
   description: |
-    This IPT publishes data from any institution or collection in Canada, regardless of scope or institution
+    Cet IPT permet la publication de données de n'importe quelle institution ou collection au Canada, peu importe sa spécialité ou le type d'institution
   background: /assets/logo/Canadensys-logo_red-resize.png
   href: https://data.canadensys.net/ipt/
