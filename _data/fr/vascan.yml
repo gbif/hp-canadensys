@@ -6,7 +6,7 @@ vascan:
     VASCAN est basé sur la littérature, bien que les ajouts récents soient parfois basés sur des spécimens.
   cta:
   - text: Accédez à VASCAN
-    href: https://data.canadensys.net/vascan/search
+    href: https://data.canadensys.net/vascan/search?lang=fr
     isPrimary: true
 
 checklistBuilder:
@@ -15,5 +15,5 @@ checklistBuilder:
     Le générateur de listes est un outil développé afin de créer des listes d'espèces pour la région ou le groupe qui vous intéresse.
   cta:
   - text: Accédez au Générateur de Listes
-    href: https://data.canadensys.net/vascan/checklist
+    href: https://data.canadensys.net/vascan/checklist?lang=fr
     isPrimary: true
