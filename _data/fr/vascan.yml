@@ -9,7 +9,7 @@ vascan:
     href: https://data.canadensys.net/vascan/search
     isPrimary: true
 
-  checklistBuilder:
+checklistBuilder:
   title: Create checklists for vascular plants in Canada of in specific provinces
   description: |
     The checklist-builder is a tool to create checklists for the region and the group you are interested in.
