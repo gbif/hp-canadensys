@@ -17,8 +17,8 @@ height: 70vh
 # Introduction
 
 The Tools API accepts GET and POST requests. Methods are expressed as resource URIs, they accept a parameter **data**, and their outputs are either XML or JSON.  
-The **data** parameter can have a single value for GET requests or multiple values for POST requests, each separated by line breaks, \n.  
-An optional identifier may precede each value, followed by a tab, or a pipe, \|.  
+The **data** parameter can have a single value for GET requests or multiple values for POST requests, each separated by line breaks, \\\n.  
+An optional identifier may precede each value, followed by a tab, or a pipe, \\|.  
 For increased performance, set the optional **idprovided** = TRUE if all your data have identifiers or **idprovided** = FALSE if none of your data have identifiers.  
 GET requests for JSON-based URIs may have an additional **callback** parameter for [JSONP](https://en.wikipedia.org/wiki/JSONP) responses.
 
@@ -32,9 +32,8 @@ http://data.canadensys.net/tools/coordinates.xml
 
 Outputs are expressed as [GeoJSON](https://geojson.org/) or [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language), respectively. 
 
-e.g. ht<span>tp://data.canadensys.net/tools/coordinates.json?**data**=35|45° 32' 25"N,129° 40' 31"W&**idprovided**=TRUE&**callback**=MyCallback 
-
-Produces 
+For example: ht<span>tp://data.canadensys.net/tools/coordinates.json?**data**=35|45° 32' 25"N,129° 40' 31"W&**idprovided**=TRUE&**callback**=MyCallback 
+Produces this answer:
 
 ```md
 MyCallback({
@@ -55,9 +54,8 @@ MyCallback({
 });
 ```  
 
-e.g. ht<span>tp://data.canadensys.net/tools/coordinates.xml?**data**=35|45° 32' 25"N,129° 40' 31"W  
-
-Produces 
+For example: ht<span>tp://data.canadensys.net/tools/coordinates.xml?**data**=35|45° 32' 25"N,129° 40' 31"W  
+Produces this answer:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
