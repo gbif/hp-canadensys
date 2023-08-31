@@ -1,6 +1,6 @@
 ---
 layout: compose
-sideNavigation: sidenav.vascan
+#sideNavigation: sidenav.vascan
 lang-ref: checklist-builder
 lang: en
 title: Checklist Builder

@@ -1,19 +1,19 @@
 vascan:
-  title: Access the Database of Vascular plant of Canada
+  title: 
   description: |
-    VASCAN is the Database of Vascular Plants of Canada. 
-    It is a comprehensive list of all vascular plants reported in Canada, Greenland (Denmark) and Saint Pierre and Miquelon (France). 
-    VASCAN is literature-based, though recent additions are sometimes specimen-based.
+    VASCAN est la Base de Données des Plantes Vasculaires du Canada. 
+    Il s'agit d'une liste complète de toutes les plantes vasculaires signalées au Canada, au Groenland (Danemark) et à Saint-Pierre-et-Miquelon (France).
+    VASCAN est basé sur la littérature, bien que les ajouts récents soient parfois basés sur des spécimens.
   cta:
-  - text: Access the Database of Vascular plant of Canada
+  - text: Accédez à VASCAN
     href: https://data.canadensys.net/vascan/search
     isPrimary: true
 
 checklistBuilder:
-  title: Create checklists for vascular plants in Canada of in specific provinces
+  #title: Create checklists for vascular plants in Canada in specific provinces
   description: |
-    The checklist-builder is a tool to create checklists for the region and the group you are interested in.
+    Le générateur de listes est un outil développé afin de créer des listes d'espèces pour la région ou le groupe qui vous intéresse.
   cta:
-  - text: Access the checklist-builder
+  - text: Accédez au Générateur de Listes
     href: https://data.canadensys.net/vascan/checklist
-    isPrimary: true  
+    isPrimary: true
