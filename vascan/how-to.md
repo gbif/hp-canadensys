@@ -59,7 +59,7 @@ The data are there to be used, which is why we licensed them under the [Creative
 
 ## Search
 
-The VASCAN Search API accepts GET and POST requests. The path contains an explicit version and the search resource accepts a parameter **q**. The value for **q** can be a scientific name, a vernacular name or a VASCAN taxon identifier (e.g. 861). It may be a single value for GET requests or multiple values (maximum 200) for POST requests, each separated by line breaks, \\\n. Scientific or vernacular names may optionally be preceded by your local identifier and a pipe, |. GET requests for JSON-based URIs may have an additional callback parameter for JSONP responses.  
+The VASCAN Search API accepts GET and POST requests. The path contains an explicit version and the search resource accepts a parameter **q**. The value for **q** can be a scientific name, a vernacular name or a VASCAN taxon identifier (e.g. 861). It may be a single value for GET requests or multiple values (maximum 200) for POST requests, each separated by line breaks, \\n. Scientific or vernacular names may optionally be preceded by your local identifier and a pipe, \|. GET requests for JSON-based URIs may have an additional callback parameter for JSONP responses.  
 
 ```
 http://data.canadensys.net/vascan/api/0.1/search.json  
