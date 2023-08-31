@@ -12,7 +12,6 @@ imageLicense: |
   <em>Odocoileus hemionus</em> (Rafinesque, 1817). Photo by John Krampl via [https://www.gbif.org/occurrence/4011988341]
 description: Introduction à la publication de données de biodiversité 
 height: 70vh
-toc: true
 parallax: true
 ---
 La publication de données est le processus de mise à disposition en ligne des informations sur la biodiversité et constitue la mission principale de Canadensys.
