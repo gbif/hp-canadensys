@@ -1,4 +1,5 @@
 listIPT:
+  klass: ipts_in_canada
   title: Autres IPTs au Canada
   description: |
     Plusieurs institutions ont déployés un IPT au Canada, permettant aux collections et institutions de rendre leurs données accessibles.
