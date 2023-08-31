@@ -17,7 +17,7 @@ toc: true
 
 # Introduction
 
-The Database of Vascular Plants of Canada (VASCAN) is a comprehensive list of all vascular plants reported in Canada, Greenland (Denmark) and Saint Pierre and Miquelon (France). VASCAN is a checklist database. Its core record is a taxon, e.g. a species like Acer saccharum Marshall. It also contains information related to that taxon, such as its distribution, taxonomy, synonyms and vernacular names, and a source for almost all of these elements. VASCAN is literature-based, though recent additions are sometimes specimen-based.  
+The Database of Vascular Plants of Canada (VASCAN) is a comprehensive list of all vascular plants reported in Canada, Greenland (Denmark) and Saint Pierre and Miquelon (France). VASCAN is a checklist database. Its core record is a taxon, e.g. a species like *Acer saccharum* Marshall. It also contains information related to that taxon, such as its distribution, taxonomy, synonyms and vernacular names, and a source for almost all of these elements. VASCAN is literature-based, though recent additions are sometimes specimen-based.  
 
 As opposed to many other checklist websites, we designed VASCAN to be as open as possible. Instead of locking the data in an unusable format, users can download the [whole database](http://data.canadensys.net/ipt/resource.do?r=vascan) or their own subset through the [checklist builder](/vascan/checklist-builder/) as Darwin Core Archives or flat text files. Users can also report and view issues with the data and interface in [our open issue tracker](https://github.com/Canadensys/vascan-data/issues). 
 
@@ -51,7 +51,7 @@ Interested to know which trees are native in Newfoundland, which genera are intr
 
 Once the result answer your needs you can download the checklist as a simple tab delimited text file or as a standardized Darwin Core archive. The latter one also includes the vernacular names and synonyms.
 
-The data are there to be used, which is why we licensed them under the Creative Commons Attribution-ShareAlike 3.0 Unported License, allowing you to build upon our work. You can also download the full database as a Darwin Core archive.
+The data are there to be used, which is why we licensed them under the [Creative Commons Attribution-ShareAlike 3.0 Unported License (CC-BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/), allowing you to build upon our work. You can also download the full database as a Darwin Core archive.
 
 ![](/assets/images/Checklist-builder.png)
 
@@ -70,7 +70,6 @@ http://data.canadensys.net/vascan/api/0.1/search.xml
 ### Parameter
 
 Scientific name, vernacular name, or VASCAN taxon identifier.  
-Use line breaks, \n between values for POST requests. Precede values with your local identifier and a pipe, | (optional).  
 
 **e.g. ?q=Crataegus dodgei  
 e.g. ?q=1004232|lowbush blueberry  
