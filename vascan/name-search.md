@@ -1,6 +1,6 @@
 ---
 layout: compose
-sideNavigation: sidenav.vascan
+#sideNavigation: sidenav.vascan
 #composition:
 #  - type: heroImage
 lang-ref: name-search
@@ -16,6 +16,3 @@ composition:
 - type: floatingText
   data: vascan.vascan
 ---
-
-
-Access the Database of Vascular plant of Canada
