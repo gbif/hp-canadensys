@@ -10,7 +10,7 @@ vascan:
     isPrimary: true
 
 checklistBuilder:
-  #title: Create checklists for vascular plants in Canada in specific provinces
+  title: 
   description: |
     Le générateur de listes est un outil développé afin de créer des listes d'espèces pour la région ou le groupe qui vous intéresse.
   cta:
