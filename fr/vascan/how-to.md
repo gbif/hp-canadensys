@@ -59,7 +59,7 @@ Les données sont là pour être utilisées, c'est pourquoi nous utilisons une l
 
 ## Recherche
 
-L'API de recherche VASCAN accepte les requêtes GET et POST. Le chemin contient une version explicite et la ressource de recherche accepte un paramètre **q**. La valeur de **q** peut être un nom scientifique, un nom vernaculaire ou un identifiant de taxon VASCAN (ex. 861). Il peut s'agir d'une valeur unique pour les requêtes GET ou de plusieurs valeurs (maximum 200) pour les requêtes POST, chacune séparée par des sauts de ligne, \n. Les noms scientifiques ou noms vernaculaires peuvent éventuellement être précédés de votre identifiant local et d'un "pipe", |. Les requêtes GET pour les URI basés sur JSON peuvent avoir un paramètre de rappel supplémentaire pour les réponses JSONP.
+L'API de recherche VASCAN accepte les requêtes GET et POST. Le chemin contient une version explicite et la ressource de recherche accepte un paramètre **q**. La valeur de **q** peut être un nom scientifique, un nom vernaculaire ou un identifiant de taxon VASCAN (ex. 861). Il peut s'agir d'une valeur unique pour les requêtes GET ou de plusieurs valeurs (maximum 200) pour les requêtes POST, chacune séparée par des sauts de ligne, \\\n. Les noms scientifiques ou noms vernaculaires peuvent éventuellement être précédés de votre identifiant local et d'une barre verticale, |. Les requêtes GET pour les URI basés sur JSON peuvent avoir un paramètre de rappel supplémentaire pour les réponses JSONP.
 
 ```
 http://data.canadensys.net/vascan/api/0.1/search.json  
