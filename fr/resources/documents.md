@@ -4,7 +4,7 @@ composition:
   - type: heroImage
   - type: pageMarkdown
 lang-ref: documents
-lang: en
+lang: fr
 title: Documentation
 background: https://inaturalist-open-data.s3.amazonaws.com/photos/218909053/original.jpg
 imageLicense: |
@@ -14,33 +14,33 @@ height: 70vh
 toc: true
 ---
 
-# Digitization and Imaging
+# Numérisation et imagerie
 
-**Digitization** can take several forms or means different processes, for example:
-* Entering data from a specimen to a database
-* Taking an image of a herbarium specimen label or of the entire specimen
-* Transfering a record of a bird song from an analog to a digital format
-* 3D-scanning of an insect
+La **numérisation** peut prendre différentes formes et signifier des processus différents, comme par exemple :
+* Entrer les données d'un spécimen à la base de données
+* Prendre une image de l'étiquette d'un spécimen d'herbier ou d'un spécimen entier
+* Transférer un enregistrer de chant d'oiseau d'un format analogique à un format digital
+* Scanner un insecte en 3D
 
-> Digitization is the process of converting information into a digital (i.e. computer-readable) format. (Wikipedia)
+> La numérisation est le processus permettant de convertir de l'information dans un format digital (c.à.d. lisisble par un ordinateur). (Wikipedia)
 
-1. **Imaging labels**
+1. **Numérisation d'étiquettes**
 
-Photographing specimen labels is often used as a first step towards text digitization of the precious information located on the label. Afterwards, text can be extracted manually or automatically from the image with [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition), the later requiring human proofreading and structuring of the information, which can sometimes be more time-consuming than keystroking. Label images importantly serve as a verbatim backup, allowing users to verify the information and report errors without having access to the physical specimen. Nowadays, labels are usually imaged at the same time as the entire specimen, but further processing of the information contained on the label is not immediate.
+La photographie des étiquettes de spécimens est souvent utilisée comme la première étape vers la numérisation textuelle des précieuses informations contenues sur l'étiquette. Par la suite, le texte pourra être extrait manuellement ou de manière automatisée à partir de l'image en utilisant la [Reconnaissance Optique de Caractères (OCR)](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res), ce dernier nécessitant une relecture et une structuration de l'information, ce qui peut parfois prendre plus de temps que de taper l'information à la main. Les images d'étiquettes jouent un rôle important de sauvegarde textuelle, permettant aux utilisateurs de vérifier l'information et de rapporter les erreurs sans avoir besoin d'accéder au spécimen physqiue. De nos jours, les étiquettes sont le plus souvent photographiées en même temps que le spécimen complet, mais le traitement des informations contenues sur l'étiquette n'est le plus souvent pas immédiate.
 
-2. **Imaging specimens**
+2. **Numérisation de spécimens**
 
-Photographing specimens results in one or more images of the whole specimen. This process is generally more complex than imaging labels, but the resulting image can be important for scientific research. Method (camera vs scanner), resolution, color, light-conditions, format and storage are all factors to be considered. As a result, this type of imaging can become time-consuming and, unless automated, should first be considered for the most scientifically valuable specimens, such as types, or for specific taxa, depending on the specificity of the collection (geographical or taxonomic focus). Methods used to image specimens also widely vary depending on the type of specimens and collections. Imaging a pinned insect is generally more chalenging than imaging a pressed ou mounted plant.
+Photographier des spécimens engendre une ou plusieurs images du spécimen complet. Ce processus est généralement plus complexe que la numérisation d'étiquettes, mais l'image en résultant peut être importante pour la recherche scientifique. La méthode (caméra vs. scanner), la résolution, la couleur, les conditions lumineuses, le format et la méthode de stockage sont tous des facteurs devant êtres pris en considération. Par conséquent, ce type de numérisation peut devenir très gourmand en temps et, à moins d'être automatisé, devrait en premier lieu être considéré pour les spécimens de plus grande valeur scientifique, comme les types, ou pour des groupes taxonomiques spécifiques, tout dépendant de la spécificité de la collection (focus géographique ou taxonomique). Les méthodes utilisées pour la numérisation varient également beaucoup en fonction du type de spécimens et de collections. Photographier un insecte épinglé est généralement plus complexe que numériser un spécimen d'herbier pressé et monté.
 
-3. **Tools**
+3. **Outils**
 
-* [SilverImage](http://www.silverbiology.com/products/silverimage/), a tool from [SilverBiology](http://www.silverbiology.com/) that helps to follow and analyze the imaging process
-* [Adobe Lightroom](https://www.adobe.com/ca/products/photoshop-lightroom.html) helps with the organization and enhancement of photo taken
-* [Tesseract](https://tesseract-ocr.github.io/tessdoc/) is an open source text recognition (OCR) Engine supporting a wide variety of languages (open source)
-* [Google Vision AI](https://cloud.google.com/vision) has been developped by Google and is a powerfull AI application enabling the extraction of information from images (fees after a certain amount of requests)
-* [Google Documents AI](https://cloud.google.com/document-ai), also developped by Google is able to extract data from documents (fees applied). 
+* [SilverImage](http://www.silverbiology.com/products/silverimage/), un outil de [SilverBiology](http://www.silverbiology.com/) pouvant aider à suivre et analyser le processus de numérisation
+* [Adobe Lightroom](https://www.adobe.com/ca/products/photoshop-lightroom.html) est très utile pour l'amélioration et l'organisation des photos prises
+* [Tesseract](https://tesseract-ocr.github.io/tessdoc/) est un logiciel de reconnaissance de texte (OCR) open source supportant une grande variété de langues
+* [Google Vision AI](https://cloud.google.com/vision) a été développé par Google et est une puissante application AI permettant l'extraction d'informations à partir d'images (certains frais peuvent s'appliquer après un certain nombre de requêtes)
+* [Google Documents AI](https://cloud.google.com/document-ai), également développé par Google, permet d'extraire des données depuis des documents (des frais sont appliqués).
 
-4. **Literature and documentation**
+4. **Litérature et documentation**
 
 * Gribomont, Isabelle. OCR with Google Vision API and Tesseract (2023). <https://doi.org/10.46430/phen0109>
 * Hegghammer, T. OCR with Tesseract, Amazon Textract, and Google Document AI: a benchmarking experiment. J Comput Soc Sc 5, 861–882 (2022). <https://doi.org/10.1007/s42001-021-00149-1>
@@ -48,31 +48,31 @@ Photographing specimens results in one or more images of the whole specimen. Thi
 * [Häuser et al., 2005. Digital imaging of biological type specimens : A manual of best practice](https://www.gbif.org/fr/document/80576/digital-imaging-of-biological-type-specimens-a-manual-of-best-practice)
 * [Melissa Tulig and Kimberly Watson, 2011. Streamlining Collaborative Digitization](https://www.idigbio.org/content/streamlining-collaborative-digitization)
 
-# Georeferencing
+# Géoréférencement
 
-Georeferencing is the process of interpreting textual descriptions of places into spatial descriptions (i.e. [geographic coordinates](https://en.wikipedia.org/wiki/Geographic_coordinate_system)). Georeferencing biological specimens – which often only have textual descriptions of their locality – allows the information to be displayed on a map and used in spatial analyses.
+Le géoréférencement est le processus permettant d'interpréter les descriptions textuelles de localisation afin d'en extraire des descriptions géographiques ([coordonnées géographiques](https://fr.wikipedia.org/wiki/Coordonn%C3%A9es_g%C3%A9ographiques)). Le géoréférencement de spécimens biologiques, qui n'ont souvent que des descriptions textuelles à propos de leur localisation, permet au spécimen d'être placé sur une carte et utilisé dans des analyses spatiales.
 
-e.g. “Bear Island, Lake Temagami, Nipissing District, Ontario, Canada” → decimal latitude: 46.9831216, decimal longitude: -80.0681018, uncertainty: 1410m.  
+Ex. “Bear Island, Lake Temagami, Nipissing District, Ontario, Canada” → latitude décimale : 46.9831216, longitude décimale : -80.0681018, incertitude : 1410m. 
 
-Georeferencing is time-consuming and should be tackled with the right tools and [guidelines](https://docs.gbif.org/course-data-mobilization/en/key-documentation.html#georeferencing). We encourage [collaborative georeferencing](https://docs.gbif.org/georeferencing-best-practices/1.0/en/#collaborative-georeferencing), which greatly reduces the duplication of efforts and can generate more accurate results, since specimens can be grouped per province/locality in the overall network (instead of per collection), and thus be georeferenced by the people with the most knowledge of these provinces/localities.
+Le géoréférencement peut prendre beaucoup de temps et devrait être effectué à l'aide des bons outils et des bonnes [lignes directrices](https://docs.gbif.org/course-data-mobilization/en/key-documentation.html#georeferencing). Nous encourageons le [géoréférencement collaboratif](https://docs.gbif.org/georeferencing-best-practices/1.0/en/#collaborative-georeferencing), qui réduit grandement la duplication des efforts et peut générer des résultats plus précis, puisque les spécimens peuvent être groupés par province ou localité dans un réseau plus général (au lieu d'une collection seulement), puis géoréférencés par les personnes ayant le plus de connaissances à propos des ces provinces et localités.
 
-One of the goals of Canadensys is to georeference a large part of the published specimen information as accurately as possible, and to provide uncertainties for coordinates, which gives key information to determine the data’s fitness for use and thus the data quality. 
+L'un des objectifs de Canadensys est de géoréférencer une large partie des spécimens publiés de manière la plus précise possible, et de fournir des données d'incertitudes pour les coordonnées, ce qui donne des informations clés pour déterminer leur utilité et ainsi la qualité des données.
 
-> By far the most difficult issue in georeferencing primary species occurrence data is the massive amount of legacy data held in the world’s museums, herbaria, universities, etc. Most modern collectors are now using GPSs or large scale maps to locate their collection events, and thus most of the new data entering institutions already include georeferences. Most museums beginning to database their collections, however, are faced with the massive task of georeferencing the huge backlog of data in their collections, much of it with very little or vague location information. 
+> La quantité massive de données patrimoniales conservées dans les musées, herbiers, universités et autres de ce monde est de loin la plus grande difficulté en géoréférencement de données primaires d'occurrences d'espèces. La plupart des récolteurs actuels utilisent maintenant des GPS ou des cartes à grande échelle afin de localiser leurs événements de collecte. La plupart des nouvelles données entrant dans les institutions possèdent donc déjà des coordonnées. Néanmoins, la plupart des musées commençant la numérisation de leurs collections font face à une vaste tâche de géoréférencement de la grande quantité de données ne possédant que des informations minimales quant à leur localisation. 
 
-For more information on georeferencing, consult: Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. <https://doi.org/10.15468/doc-gg7h-s853>
+Pour plus d'informations sur le géoréférencement, consultez : Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. <https://doi.org/10.15468/doc-gg7h-s853>
 
-[APIs (Appication Programming Interface)](https://en.wikipedia.org/wiki/API) can tremendously help to georeference batch of information, allowing to retrieve geographic coordinates from adresses or localities, or the opposite.
-API requests can be automated in data cleaning tools, such as [OpenRefine](http://openrefine.org/) or [R](https://www.r-project.org/).
+Les [APIs (Appication Programming Interface)](https://fr.wikipedia.org/wiki/Interface_de_programmation) peuvent drastiquement aider en facilitant le géoréférencement de lots de données, permettant de retrouver des coordonnées géographiques provenant d'adresses et de localités, ou l'inverse.
+Les requêtes API peuvent être automatisées dans des outils de nettoyage de données tels que [OpenRefine](http://openrefine.org/) ou [R](https://www.r-project.org/).
 
-**Georeferencing tools**
+**Outils de géoréférencement**
 
-* [Georeferencing Calculator](http://georeferencing.org/georefcalculator/gc.html) and its [manual](https://doi.org/10.35035/gdwq-3v93)
+* [Georeferencing Calculator](http://georeferencing.org/georefcalculator/gc.html) et son [manuel](https://doi.org/10.35035/gdwq-3v93)
 * [GeoLocate](https://www.geo-locate.org/developers/default.html)
 * [UTM / MTM calculator](http://leware.net/geo/utmgoogleapp.htm)
 * [SimpleMappr](https://www.simplemappr.net/)
-* [GeoNames](http://www.geonames.org/), a database referencing geographical names around the world.
-* [GeoRepository](https://epsg.org/home.html), a web application and API to search and display geodetic metadata.
+* [GeoNames](http://www.geonames.org/), une base de données référençant des noms géographiques de partout dans le monde.
+* [GeoRepository](https://epsg.org/home.html), une applicarion web et une API permettant de chercher et afficher des métadonnées géodésiques.
 * [CoordinateCleaner](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13152)
 
 # Data Cleaning
