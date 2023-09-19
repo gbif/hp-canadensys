@@ -136,7 +136,7 @@ The Darwin Core includes a [glossary of terms](https://dwc.tdwg.org/terms/) inte
 
 **Mapping to Darwin Core**
 
-One of the first steps in publishing your data, is translating or “mapping” your data from its current format to Darwin Core. For example, you might have the field *Collector* in your database or spreadsheet, which corresponds to [*recordedBy*](https://dwc.tdwg.org/terms/#recordedBy) in Darwin Core. In other cases it might not be so straightforward, which is why we offer support in mapping your data to Darwin Core. For more details, see [step 4 of our publication guide](https://canadensys.hp.gbif-staging.org/publish/7-step-guide/#4-darwin-core-mapping).
+One of the first steps in publishing your data, is translating or “mapping” your data from its current format to Darwin Core. For example, you might have the field *Collector* in your database or spreadsheet, which corresponds to [*recordedBy*](https://dwc.tdwg.org/terms/#recordedBy) in Darwin Core. In other cases it might not be so straightforward, which is why we offer support in mapping your data to Darwin Core. For more details, see [step 4 of our publication guide](/publish/7-step-guide/#4-darwin-core-mapping).
 
 **Should you use Darwin Core to design a database?**
 

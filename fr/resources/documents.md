@@ -22,15 +22,15 @@ La **numérisation** peut prendre différentes formes et signifier des processus
 * Transférer un enregistrer de chant d'oiseau d'un format analogique à un format digital
 * Scanner un insecte en 3D
 
-> La numérisation est le processus permettant de convertir de l'information dans un format digital (c.à.d. lisisble par un ordinateur). (Wikipedia)
+> La numérisation est le processus permettant de convertir de l'information dans un format digital (c.à.d. lisible par un ordinateur). (Wikipédia)
 
 1. **Numérisation d'étiquettes**
 
-La photographie des étiquettes de spécimens est souvent utilisée comme la première étape vers la numérisation textuelle des précieuses informations contenues sur l'étiquette. Par la suite, le texte pourra être extrait manuellement ou de manière automatisée à partir de l'image en utilisant la [Reconnaissance Optique de Caractères (OCR)](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res), ce dernier nécessitant une relecture et une structuration de l'information, ce qui peut parfois prendre plus de temps que de taper l'information à la main. Les images d'étiquettes jouent un rôle important de sauvegarde textuelle, permettant aux utilisateurs de vérifier l'information et de rapporter les erreurs sans avoir besoin d'accéder au spécimen physqiue. De nos jours, les étiquettes sont le plus souvent photographiées en même temps que le spécimen complet, mais le traitement des informations contenues sur l'étiquette n'est le plus souvent pas immédiate.
+La photographie des étiquettes de spécimens est souvent utilisée comme la première étape vers la numérisation textuelle des précieuses informations contenues sur l'étiquette. Par la suite, le texte pourra être extrait manuellement ou de manière automatisée à partir de l'image en utilisant la [Reconnaissance Optique de Caractères (OCR)](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res), ce dernier nécessitant une relecture et une structuration de l'information, ce qui peut parfois prendre plus de temps que de taper l'information à la main. Les images d'étiquettes jouent un rôle important de sauvegarde textuelle, permettant aux utilisateurs de vérifier l'information et de rapporter les erreurs sans avoir besoin d'accéder au spécimen physique. De nos jours, les étiquettes sont le plus souvent photographiées en même temps que le spécimen complet, mais le traitement des informations contenues sur l'étiquette n'est le plus souvent pas immédiate.
 
 2. **Numérisation de spécimens**
 
-Photographier des spécimens engendre une ou plusieurs images du spécimen complet. Ce processus est généralement plus complexe que la numérisation d'étiquettes, mais l'image en résultant peut être importante pour la recherche scientifique. La méthode (caméra vs. scanner), la résolution, la couleur, les conditions lumineuses, le format et la méthode de stockage sont tous des facteurs devant êtres pris en considération. Par conséquent, ce type de numérisation peut devenir très gourmand en temps et, à moins d'être automatisé, devrait en premier lieu être considéré pour les spécimens de plus grande valeur scientifique, comme les types, ou pour des groupes taxonomiques spécifiques, tout dépendant de la spécificité de la collection (focus géographique ou taxonomique). Les méthodes utilisées pour la numérisation varient également beaucoup en fonction du type de spécimens et de collections. Photographier un insecte épinglé est généralement plus complexe que numériser un spécimen d'herbier pressé et monté.
+Photographier des spécimens engendre une ou plusieurs images du spécimen complet. Ce processus est généralement plus complexe que la numérisation d'étiquettes, mais l'image en résultant peut être importante pour la recherche scientifique. La méthode (caméra vs. scanner), la résolution, la couleur, les conditions lumineuses, le format et la méthode de stockage sont tous des facteurs devant être pris en considération. Par conséquent, ce type de numérisation peut devenir très gourmand en temps et, à moins d'être automatisé, devrait en premier lieu être considéré pour les spécimens de plus grande valeur scientifique, comme les types, ou pour des groupes taxonomiques spécifiques, tout dépendant de la spécificité de la collection (focus géographique ou taxonomique). Les méthodes utilisées pour la numérisation varient également beaucoup en fonction du type de spécimens et de collections. Photographier un insecte épinglé est généralement plus complexe que numériser un spécimen d'herbier pressé et monté.
 
 3. **Outils**
 
@@ -40,12 +40,12 @@ Photographier des spécimens engendre une ou plusieurs images du spécimen compl
 * [Google Vision AI](https://cloud.google.com/vision) a été développé par Google et est une puissante application AI permettant l'extraction d'informations à partir d'images (certains frais peuvent s'appliquer après un certain nombre de requêtes)
 * [Google Documents AI](https://cloud.google.com/document-ai), également développé par Google, permet d'extraire des données depuis des documents (des frais sont appliqués).
 
-4. **Litérature et documentation**
+4. **Littérature et documentation**
 
 * Gribomont, Isabelle. OCR with Google Vision API and Tesseract (2023). <https://doi.org/10.46430/phen0109>
 * Hegghammer, T. OCR with Tesseract, Amazon Textract, and Google Document AI: a benchmarking experiment. J Comput Soc Sc 5, 861–882 (2022). <https://doi.org/10.1007/s42001-021-00149-1>
 * iDigBio documentation about [Specimen Image Capture](https://www.idigbio.org/wiki/index.php/Specimen_Image_Capture) and [Specimen Image Processing](https://www.idigbio.org/wiki/index.php/Specimen_Image_Processing)
-* [Häuser et al., 2005. Digital imaging of biological type specimens : A manual of best practice](https://www.gbif.org/fr/document/80576/digital-imaging-of-biological-type-specimens-a-manual-of-best-practice)
+* [Häuser et al., 2005. Digital imaging of biological type specimens: A manual of best practice](https://www.gbif.org/fr/document/80576/digital-imaging-of-biological-type-specimens-a-manual-of-best-practice)
 * [Melissa Tulig and Kimberly Watson, 2011. Streamlining Collaborative Digitization](https://www.idigbio.org/content/streamlining-collaborative-digitization)
 
 # Géoréférencement
@@ -54,7 +54,7 @@ Le géoréférencement est le processus permettant d'interpréter les descriptio
 
 Ex. “Bear Island, Lake Temagami, Nipissing District, Ontario, Canada” → latitude décimale : 46.9831216, longitude décimale : -80.0681018, incertitude : 1410m. 
 
-Le géoréférencement peut prendre beaucoup de temps et devrait être effectué à l'aide des bons outils et des bonnes [lignes directrices](https://docs.gbif.org/course-data-mobilization/en/key-documentation.html#georeferencing). Nous encourageons le [géoréférencement collaboratif](https://docs.gbif.org/georeferencing-best-practices/1.0/en/#collaborative-georeferencing), qui réduit grandement la duplication des efforts et peut générer des résultats plus précis, puisque les spécimens peuvent être groupés par province ou localité dans un réseau plus général (au lieu d'une collection seulement), puis géoréférencés par les personnes ayant le plus de connaissances à propos des ces provinces et localités.
+Le géoréférencement peut prendre beaucoup de temps et devrait être effectué à l'aide des bons outils et des bonnes [lignes directrices](https://docs.gbif.org/course-data-mobilization/en/key-documentation.html#georeferencing). Nous encourageons le [géoréférencement collaboratif](https://docs.gbif.org/georeferencing-best-practices/1.0/en/#collaborative-georeferencing), qui réduit grandement la duplication des efforts et peut générer des résultats plus précis, puisque les spécimens peuvent être groupés par province ou localité dans un réseau plus général (au lieu d'une collection seulement), puis géoréférencés par les personnes ayant le plus de connaissances à propos de ces provinces et localités.
 
 L'un des objectifs de Canadensys est de géoréférencer une large partie des spécimens publiés de manière la plus précise possible, et de fournir des données d'incertitudes pour les coordonnées, ce qui donne des informations clés pour déterminer leur utilité et ainsi la qualité des données.
 
@@ -75,110 +75,111 @@ Les requêtes API peuvent être automatisées dans des outils de nettoyage de do
 * [GeoRepository](https://epsg.org/home.html), une applicarion web et une API permettant de chercher et afficher des métadonnées géodésiques.
 * [CoordinateCleaner](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13152)
 
-# Data Cleaning
+# Nettoyage de données
 
-Data Cleaning is an essential part of the information management chain. As noted by [Chapman (2005)](http://www.gbif.org/document/80528):
- > error prevention should be considered a priority relative to error detection and cleaning, as it is cheaper and more efficient to prevent errors than to try to find them and correct them later. No matter how efficient the process of data entry, errors will still occur and therefore data validation and correction cannot be ignored. Error detection, validation and cleaning all have key roles to play, especially with legacy data (e.g., museum and herbarium data collected over the last 300 years), and thus both error prevention and data cleaning should be incorporated in an organization’s data management policy.
+Le nettoyage de données est un aspect essentiel de la chaine de gestion de l'information. Tel que noté par [Chapman (2005)](http://www.gbif.org/document/80528) :
+ > la prévention des erreurs devrait être considérée comme une priorité par rapport à la détection et correction de celles-ci, puisqu'il est plus économique de prévenir les erreurs que d'essayer de les trouver et de les corriger plus tard. Quelle que soit l’efficacité du processus de saisie des données, des erreurs se produiront toujours et, par conséquent, la validation et la correction des données ne peuvent être ignorées. La détection, la validation et le nettoyage des erreurs ont tous un rôle clé à jouer, en particulier avec les données patrimoniales (ex. les données de musées et d'herbiers récoltées pendant les 300 dernières années), et donc la prévention des erreurs et le nettoyage des données doivent être intégrés dans la politique de gestion des données d’une organisation.
 
-Several tools have been developed to help find errors and to implement modifications. These tools can also help enrich datasets by deriving information from available fields.
+Plusieurs outils ont été développés pour aider à trouver les erreurs et à mettre en œuvre des modifications. Ces outils peuvent également contribuer à enrichir les jeux de données en ajoutant de l'information à partir des champs disponibles.
 
-**Tools**
+**Outils**
 
-* [OpenRefine](http://openrefine.org/) - a powerful free, open source tool for working with messy data
-* [bdc R package](https://brunobrr.github.io/bdc/) - A toolkit for standardizing, integrating, and cleaning biodiversity data
-* [bdclean](https://bdverse.org/bdclean/) - user friendly data cleaning Shiny app
-* GBIF Tools such as:
-   * [Species matching](https://www.gbif.org/tools/species-lookup) which normalize species names from a csv file against the GBIF backbone
-   * [Name parser](https://www.gbif.org/tools/name-parser) which dissect name strings into its component
-   * [Data validator](https://www.gbif.org/tools/data-validator) which will help to locate the issues and flags within a dataset
+* [OpenRefine](http://openrefine.org/), un puissant outil gratuit et open source pour travailler avec des données désordonnées
+* [bdc R package](https://brunobrr.github.io/bdc/), une boîte à outils pour normaliser, intégrer et nettoyer les données sur la biodiversité
+* [bdclean](https://bdverse.org/bdclean/), Application Shiny conviviale de nettoyage de données
+* Outils GBIF tels que :
+   * [Correspondance Taxonomique](https://www.gbif.org/fr/tools/species-lookup) qui normalise les noms d'espèces à partir d'un fichier csv par rapport au backbone GBIF
+   * [Analyseur de Noms](https://www.gbif.org/fr/tools/name-parser) qui dissèque les noms en plusieurs composantes
+   * [Validateur de Données](https://www.gbif.org/fr/tools/data-validator) qui aide à localiser les problèmes et les drapeaux à l'intérieur d'un jeu de données
 
-**Literature**
+**Littérature**
 
 * Chapman, A. D. 2005. Principles and Methods of Data Cleaning: Primary Species and Species-Occurrence Data, version 1.0. Report for the Global Biodiversity Information Facility, Copenhagen. <http://www.gbif.org/document/80528>
 * Ribeiro et al. 2022. bdc: A toolkit for standardizing, integrating and cleaning biodiversity data. Methods in Ecology and Evolution 13(7). <https://doi.org/10.1111/2041-210X.13868>
 * Zermoglio PF, Plata Corredor CA, Wieczorek JR, Ortiz Gallego R & Buitrago L (2021) Guía para la limpieza de datos sobre biodiversidad con OpenRefine. Versión 3. Copenhagen: GBIF Secretariat. <https://doi.org/10.15468/doc-gzjg-af18>
 
 
-# Data types
+# Types de Données
 
-Since the beginning, GBIF has been focusing on publication and visualization of species occurrence data (something, somewhere, at a certain point in time).  
-Datasets are centered on a core table with potential extensions linked to that core, creating a star-like schema, and allowing the publication of more informative datasets.
-Three cores can be used:
-* [Occurrence](https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml): publication linked to occurrences.
-* [Taxon](https://rs.gbif.org/core/dwc_taxon_2022-02-02.xml): publication linked to taxa. It is used to publish checklists.
-* [Event](https://rs.gbif.org/core/dwc_event_2022-02-02.xml): publication linked to one or several collection events, with multiple occurrences collected during each event. This core is especially useful when publishing ecological datasets, usually based on sampling-events.
+Depuis le début, le GBIF s'est concentré sur la publication et la visualisation de données d'occurrence d'espèces (quelque chose, quelque part, à un moment donné).
+Les jeux de données sont centrés sur une table principale avec des extensions potentielles liées à ce noyau, créant un schéma en étoile et permettant la publication de jeux de données plus informatifs.
+Trois coeurs peuvent être utilisés :
+* [Occurrence](https://rs.gbif.org/core/dwc_occurrence_2022-02-02.xml) : publication liée à des occurrences
+* [Taxon](https://rs.gbif.org/core/dwc_taxon_2022-02-02.xml) : publication liée à des taxa. Utilisé pour publier des liste d'espèces.
+* [Event](https://rs.gbif.org/core/dwc_event_2022-02-02.xml) : publication liée à un pu plusieurs événements de récolte, pendant lesquels plusieurs occurrences ont été récoltées pour chaque événement. Ce coeur est particulièrement utile pour publier des jeux de données écologiques, généralement basés sur des événements d'échantillonnage.
 
-With theses cores and extensions, it is possible to publish [four types of dataset (plus one!)](https://data-blog.gbif.org/post/data-shareability/)
-* Organism occurrences
-* Checklists
-* Sampling events
-* DNA-derived occurrences
-* Metadata-only datasets (that's the plus one)
+En utilisant ces coeurs et extensions, il est possible de publier [quatre types de jeux de données (plus un !)](https://data-blog.gbif.org/post/data-shareability/)
+* Occurrences d'organismes
+* Listes d'espèces
+* Événements d'échantillonnage
+* Occurrences dérivées de données ADN
+* Jeux de données contenant uniquement des métadonnées (c'est le plus un)
 
-Examples of what it is NOT possible to share on GBIF:
-* Human occurrences
-* Datasets originating from GBIF and cleaned or modified by users to fit their purpose (republishing them would create duplicates)
-* Predicted occurrences based on predictive models
-* Non-organismal occurrences (rocks for example)
+Exemples de ce qu'il est IMPOSSIBLE de publier sur GBIF :
+* Occurrences humaines
+* Jeux de données provenant de GBIF et nettoyées ou modifiées par les utilisateurs afin de s'adapter à leurs besoins (les republier créera des doublons)
+* Occurrences prédites par des modèles prédictifs
+* Occurrences non organiques (des roches par exemple)
 
-If you are not sure how to publish your dataset, [contact us](maitlo:canadensys.network@gmail.com) or the [GBIF helpdesk](mailto:helpdesk@gbif.org).
-GBIF, TDWG, and other partners, are exploring new approaches to publish more complex types of data. If you are interested to know more about this subject, visit the [New data models page on GBIF](https://www.gbif.org/composition/HjlTr705BctcnaZkcjRJq/data-model-principal-composition).
+Si vous n'êtes pas certain de la manière de publier votre jeu de données, [contactez-nous](maitlo:canadensys.network@gmail.com) ou le [bureau d'aide de GBIF](mailto:helpdesk@gbif.org).
+GBIF, TDWG et d'autres partenaires explorent de nouvelles approches afin de publier des types de données plus complexes. Si vous êtes intéressés à en apprendre plus sur ce sujet, visitez la [page sur les nouveaux modèles de données de GBIF](https://www.gbif.org/composition/HjlTr705BctcnaZkcjRJq/data-model-principal-composition).
 
 
-# Data standardization and Darwin Core
+# Standardisation des données et Darwin Core
 
 **Darwin Core**
 
-[Darwin Core](https://dwc.tdwg.org/) – or DwC for short – is a group of standards designed for sharing biodiversity data. Developed by the [Biodiversity Information Standards (TDWG)](http://www.tdwg.org/), these standards allow data owners to publish biodiversity information in a language (**Darwin Core**) and format (e.g. **Darwin Core archives**) that can be understood and used by everyone. A data standard facilitates data sharing and re-use by other projects.
+[Darwin Core](https://dwc.tdwg.org/), ou DwC, est un ensemble de normes conçues pour le partage de données sur la biodiversité. Développées par le [Biodiversity Information Standards (TDWG)](http://www.tdwg.org/), ces normes permettent aux propriétaires de données de publier des informations sur la biodiversité dans une langue (**Darwin Core**) et un format (ex. **Archives Darwin Core**) compréhensibles et utilisables par tous. Une norme de données facilite le partage et la réutilisation des données par d'autres projets.
+
+Le Darwin Core comprend un [glossaire de termes](https://dwc.tdwg.org/terms/) destiné à faciliter le partage d'informations sur la diversité biologique en fournissant des définitions de référence, des exemples et des commentaires (voir [site Web Darwin Core](https://dwc.tdwg.org/)). Le Darwin Core est principalement basé sur les taxons, leur présence dans la nature telle que documentée par des observations, des spécimens et des échantillons, ainsi que des informations associées. Le [Simple Darwin Core](https://dwc.tdwg.org/simple/) est une spécification pour une  manière particulière d'utiliser les termes : partager des données sur les taxons et leurs occurrences d'une manière structurée simplement. D'autres extensions Darwin Core sont disponibles pour partager des données sur [la répartition des espèces](https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml), [l'historique d'identification](https://rs.gbif.org/extension/dwc/identification_history_2022-02-02.xml), les [mesures et faits](https://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml), les [analyses écologiques](https://rs.gbif.org/core/dwc_event_2022-02-02.xml) ou les [données dérivées de l'ADN](https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2022-02-23.xml).
  
-The Darwin Core includes a [glossary of terms](https://dwc.tdwg.org/terms/) intended to facilitate the sharing of information about biological diversity by providing reference definitions, examples, and commentaries (see [Darwin Core website](https://dwc.tdwg.org/)). The Darwin Core is primarily based on taxa, their occurrence in nature as documented by observations, specimens and samples, and related information. The [Simple Darwin Core](https://dwc.tdwg.org/simple/) is a specification for one particular way to use the terms – to share data about taxa and their occurrences in a simply structured way. Other Darwin Core extensions are available to share data about [species distribution](https://rs.gbif.org/extension/gbif/1.0/distribution_2022-02-02.xml), [identification history](https://rs.gbif.org/extension/dwc/identification_history_2022-02-02.xml), [measurements and facts](https://rs.gbif.org/extension/obis/extended_measurement_or_fact.xml), [ecological survey](https://rs.gbif.org/core/dwc_event_2022-02-02.xml) or [DNA derived data](https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2022-02-23.xml) for example.
 
+**Cartographie Darwin Core**
 
-**Mapping to Darwin Core**
+L'une des premières étapes de la publication de vos données consiste à traduire ou à « mapper » vos données de leur format actuel vers le Darwin Core. Par exemple, vous pourriez avoir le champ *Collector* dans votre base de données ou votre feuille de calcul, qui correspond à [*recordedBy*](https://dwc.tdwg.org/terms/#recordedBy) dans le Darwin Core. Dans d'autres cas, cela peut ne pas être aussi simple, c'est pourquoi nous vous proposons une assistance pour mapper vos données vers le Darwin Core. Pour plus de détails, consultez [l'étape 4 de notre guide de publication](/publish/7-step-guide/#4-darwin-core-mapping).
 
-One of the first steps in publishing your data, is translating or “mapping” your data from its current format to Darwin Core. For example, you might have the field *Collector* in your database or spreadsheet, which corresponds to [*recordedBy*](https://dwc.tdwg.org/terms/#recordedBy) in Darwin Core. In other cases it might not be so straightforward, which is why we offer support in mapping your data to Darwin Core. For more details, see [step 4 of our publication guide](https://canadensys.hp.gbif-staging.org/publish/7-step-guide/#4-darwin-core-mapping).
+**Faut-il utiliser le Darwin Core pour concevoir une base de données ?**
 
-**Should you use Darwin Core to design a database?**
-
-Darwin Core is designed to exchange biodiversity information, not to manage data. You should design your database/spreadsheet in a way that fits the needs of your collection and make it practical and informative for your team, while facilitation sharing the dataset later in Darwin Core. The list of all [Darwin Core terms](http://rs.tdwg.org/dwc/terms/index.htm) or the ones used for other datasets in the Canadensys network might give you an idea of what fields you could include and how you could share your database as Darwin Core.
+Le Darwin Core est conçu pour échanger des informations sur la biodiversité, et non pour gérer des données. Vous devriez concevoir votre base de données/feuille de calcul d'une manière qui répond aux besoins de votre collection et la rendre pratique et informative pour votre équipe, tout en facilitant le partage ultérieur de l'ensemble de données en Darwin Core. La liste de tous les [termes Darwin Core](http://rs.tdwg.org/dwc/terms/index.htm) ou de ceux utilisés pour d'autres ensembles de données du réseau Canadensys peut vous donner une idée des champs que vous pourriez inclure. et comment partager votre base de données en tant que Darwin Core.
 
 **Documentation**
 
-* [Darwin Core quick reference guide](https://dwc.tdwg.org/terms/)
-* [Templates](https://github.com/tdwg/dwc/tree/master/dist) to start using Darwin Core
-* The [Darwin Core Hour](https://github.com/tdwg/dwc-qa/wiki/Webinars), a series of webinar, organized by [iDigBio](https://www.idigbio.org/), around the Darwin Core standards.
+* [Guide rapide de référence Darwin Core](https://dwc.tdwg.org/terms/)
+* [Modèles](https://github.com/tdwg/dwc/tree/master/dist) afin de commencer à utiliser le Darwin Core
+* La [Darwin Core Hour](https://github.com/tdwg/dwc-qa/wiki/Webinars), une série de webinaire, organisée par [iDigBio](https://www.idigbio.org/), à propos des normes Darwin Core.
 
-# Metadata
+# Métadonnées
 
-Metadata is **data about data**, and can be used to define, structure, manage and discover information. In the context of a specimen dataset, metadata includes the address of the collection, the number of specimens, the taxonomic scope, the names and definitions of the dataset fields, etc.  
+Les métadonnées sont des **données sur les données** et peuvent être utilisées pour définir, structurer, gérer et découvrir des informations. Dans le contexte d'un ensemble de données de spécimens, les métadonnées comprennent l'adresse de la collection, le nombre de spécimens, la portée taxonomique, les noms et définitions des champs de l'ensemble de données, etc.
 
-Metadata is no different than ‘regular data’: one person’s data is often another person’s metadata. For example, the address of a collection is metadata for a specimen dataset, but data for a registry of collections. For a data user, good metadata will enable them to discover data and assess their appropriateness for particular needs.
+Les métadonnées ne sont pas différentes des « données ordinaires » : les données d’une personne sont souvent les métadonnées d’une autre personne. Par exemple, l’adresse d’une collection correspond à des métadonnées pour un ensemble de données de spécimens, mais à des données pour un registre de collections. Pour un utilisateur de données, de bonnes métadonnées lui permettront de découvrir des données et d'évaluer leur adéquation à des besoins particuliers.
 
-**Metadata standards**
+**Normes de métadonnées**
 
-Data standards are used to exchange metadata (primarily used for machine-machine interaction). In the biodiversity informatics community, the standards used are:
+Les normes de données sont utilisées pour échanger des métadonnées (principalement utilisées pour l'interaction machine-machine). Dans la communauté de l'informatique de la biodiversité, les standards utilisés sont :
 
 * [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/)
 * [Resource Description Framework (RDF)](https://www.w3.org/RDF/)
 * [Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)](https://www.openarchives.org/pmh/)
 
-All standards are expressed as [XML](https://en.wikipedia.org/wiki/XML). Datasets which are published via the IPT automatically express their metadata as [EML](https://eml.ecoinformatics.org/).
+Toutes les normes sont exprimées au format [XML](https://en.wikipedia.org/wiki/XML). Les jeux de données publiés via l'IPT expriment automatiquement leurs métadonnées sous forme de [EML](https://eml.ecoinformatics.org/).
 
-# Registries
 
-In order to allow the discovery of data, a dataset/collection not only needs metadata, but also needs to be registered somewhere. For institutions and collections, [the Global Registry of Scientific Collections (GrSciColl)](https://www.gbif.org/grscicoll), maintained by [GBIF](https://www.gbif.org/), is the main registry. Information contained in this registry is based on partners and previous initiatives like the Biodiversity Collection Index (BCI) or the Global Registry of Biodiversity Repositories (GRBio).
+# Registres
 
->
-GRSciColl includes data on institutions, collections and associated staff members and spans all scientific disciplines, including earth and space sciences, anthropology, archaeology, biology and biomedicine, as well as applied fields like agriculture, veterinary medicine and technology.
+Afin de permettre la découverte de données, un jeu de données/collection a non seulement besoin de métadonnées, mais doit également être enregistré quelque part. Pour les institutions et les collections, [le Registre mondial des collections scientifiques (GrSciColl)](https://www.gbif.org/grscicoll), maintenu par le [GBIF](https://www.gbif.org/), est le registre principal. Les informations contenues dans ce registre sont basées sur des partenaires et des initiatives antérieures telles que le Biodiversity Collection Index (BCI) ou le Global Registry of Biodiversity Repositories (GRBio).
 
 >
-GRSciColl also serves as the registry for InstitutionCodes and CollectionCodes — elements used in the DarwinCore data standard used in the biodiversity informatics community. Use of these terms enables publications and databases to point unambiguously to collections and their contents.
+GRSciColl comprend des données sur les institutions, les collections et les membres du personnel associé et couvre toutes les disciplines scientifiques, incluant les sciences de la terre et de l'espace, l'anthropologie, l'archéologie, la biologie et la biomédecine, ainsi que des domaines appliqués comme l'agriculture, la médecine vétérinaire et la technologie.
 >
 
 >
-GBIF is working with partners to establish a standardized, interoperable flow of information between this registry and other key collections infrastructures. GRSciColl runs a weekly synchronization with [Index Herbariorum (IH)](http://sweetgum.nybg.org/science/ih/). Following content migration from [iDigBio Collections](https://www.idigbio.org/portal/collections), GRSciColl shares an integrated registry delivering consistent information with shared editing access to users of both GBIF.org and iDigBio.org.
+GRSciColl sert également de registre pour les codes d'institutions et de collections (institutionCode et collectionCode), qui sont des éléments DarwinCore utilisés dans la communauté de l'informatique de la biodiversité. L'utilisation de ces termes permet aux publications et aux bases de données de pointer sans ambiguïté vers les collections et leur contenu.
 >
 
-For institution and collection managers, GBIF has community-curation functionality, allowing for updates and additions of information within the registry.  
-More information (and videos) are available on the [GBIF website](https://www.gbif.org/grscicoll).
+>
+Le GBIF travaille avec des partenaires pour établir un flux d'informations standardisé et interopérable entre ce registre et d'autres infrastructures clés sur les collectionsd. GRSciColl effectue une synchronisation hebdomadaire avec [Index Herbariorum (IH)](http://sweetgum.nybg.org/science/ih/). Suite à la migration du contenu des [Collection iDigBio](https://www.idigbio.org/portal/collections), GRSciColl partage un registre intégré fournissant des informations cohérentes avec un accès d'édition partagé aux utilisateurs de [GBIF](https://www.gbif.org/) et d'[iDigBio](https://www.idigbio.org/).
+>
 
+Pour les gestionnaires d'institutions et de collections, le GBIF dispose d'une fonctionnalité de curation communautaire, permettant des mises à jour et des ajouts d'informations au sein du registre.
+Plus d'informations (et des vidéos) sont disponibles sur le [site Web du GBIF](https://www.gbif.org/grscicoll).
