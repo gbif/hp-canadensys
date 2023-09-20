@@ -22,12 +22,14 @@ var siteConfig = {
   collection: {
     availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
     rootFilter: { // filters on the grscicoll collection v1 API https://www.gbif.org/developer/summary
+      publishingCountry: 'CA',
       displayOnNHCPortal: true 
     }
   },
   institution: {
     availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
     rootFilter: { // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
+      publishingCountry: 'CA',
       displayOnNHCPortal: true,
       active: true
     },
@@ -58,7 +60,9 @@ var siteConfig = {
     highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
   },
   dataset: {
-    rootFilter: {type: ['CHECKLIST']}
+    rootFilter: {publishingCountry: 'CA'},
+    highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
+    excludedFilters: ['publishingCountryCode'],
   },
   //apiKeys: {
     //maptiler: "GET_YOUR_OWN_TOKEN", // https://github.com/gbif/hosted-portals/issues/229
