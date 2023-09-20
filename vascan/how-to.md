@@ -17,20 +17,20 @@ toc: true
 
 # Introduction
 
-The Database of Vascular Plants of Canada (VASCAN) is a comprehensive list of all vascular plants reported in Canada, Greenland (Denmark) and Saint Pierre and Miquelon (France). VASCAN is a checklist database. Its core record is a taxon, e.g. a species like *Acer saccharum* Marshall. It also contains information related to that taxon, such as its distribution, taxonomy, synonyms and vernacular names, and a source for almost all of these elements. VASCAN is literature-based, though recent additions are sometimes specimen-based.  
+The Database of Vascular Plants of Canada (VASCAN) is a comprehensive list of all vascular plants reported in Canada, Greenland (Denmark) and Saint Pierre and Miquelon (France). VASCAN is a checklist database. Its core record is a taxon, e.g. a species like *Acer saccharum* Marshall. It also contains information related to that taxon, such as its distribution, taxonomy, synonyms and vernacular names, and a source for most of these elements. VASCAN is literature-based, though recent additions are sometimes specimen-based.  
 
-As opposed to many other checklist websites, we designed VASCAN to be as open as possible. Instead of locking the data in an unusable format, users can download the [whole database](http://data.canadensys.net/ipt/resource.do?r=vascan) or their own subset through the [checklist builder](/vascan/checklist-builder/) as Darwin Core Archives or flat text files. Users can also report and view issues with the data and interface in [our open issue tracker](https://github.com/Canadensys/vascan-data/issues). 
+We designed VASCAN to be as open as possible. As such, users can download the [entire database](http://data.canadensys.net/ipt/resource.do?r=vascan) or a subset through the [checklist builder](/vascan/checklist-builder/) as Darwin Core Archives or flat text files. Users can also report and view issues with the data and interface in [our open issue tracker](https://github.com/Canadensys/vascan-data/issues). 
 
-VASCAN is a [Java](https://www.java.com/) application running in [Tomcat](http://tomcat.apache.org/) using a [MySQL](https://www.mysql.com/) database. Although it was designed for plants, we made an effort to generalize the structure of the database and application, so it could also be used for other taxonomic groups, such as animals and fungi. 
+VASCAN is a [Java](https://www.java.com/) application that operates in [Tomcat](http://tomcat.apache.org/) using a [MySQL](https://www.mysql.com/) database. Although it was designed for plants, we have made an effort to generalize the structure of the database and application, so that it could also be used for other taxonomic groups, such as animals and fungi. 
 
 # Name search
 
 Enter a scentific name or a vernacular name and the database will give you suggestions of corresponding names starting with the name you have entered. 
 A search on "arte" will return "Artemisia", but not "Two-parted sedge". 
 
-For each scientific name, several information are provided: 
-* Status of the species (accepted of synonym)
-* Vernacular names, both in French and English, with status of the vernacular name (accepted or synonym)
+For each scientific name, several pieces of information are provided: 
+* Status of the species (accepted or synonym)
+* Vernacular names, in French and English, with status of the vernacular name (accepted or synonym)
 * Synonyms
 * Distribution at the province level, with distribution status:
   * **Native**: Taxon present as a result of natural processes only, without human agency.
@@ -47,11 +47,11 @@ For each scientific name, several information are provided:
 
 # Checklist builder
 
-Interested to know which trees are native in Newfoundland, which genera are introduced in all of the prairies or which *Salix* species occur in British Columbia, but not in the rest of Canada? You can find it out with the checklist builder, which allows you to combine a set of selection criteria (taxonomic group, habit, distribution, status or a combination of these) and display criteria (ranks to include, sort preference) to create your own customized checklist.
+Interested to know which trees are native in Newfoundland, which genera are introduced in all of the prairies or which *Salix* species occur in British Columbia, but not in the rest of Canada? You can find out with the checklist builder, which allows you to combine a set of selection criteria (taxonomic group, habit, distribution, status or a combination of these) and display criteria (ranks to include, sort preference) to create your own customized checklist.
 
-Once the result answer your needs you can download the checklist as a simple tab delimited text file or as a standardized Darwin Core archive. The latter one also includes the vernacular names and synonyms.
+Once the result answers your needs you can download the checklist as a simple tab delimited text file or as a standardized Darwin Core archive. The latter also includes the vernacular names and synonyms.
 
-The data are there to be used, which is why we licensed them under the [Creative Commons Attribution-ShareAlike 3.0 Unported License (CC-BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/), allowing you to build upon our work. You can also download the full database as a Darwin Core archive.
+The data are there to be used, which is why they are licensed under the [Creative Commons Attribution-ShareAlike 3.0 Unported License (CC-BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/), allowing you to build upon our work. You can also download the full database as a Darwin Core archive.
 
 ![](/assets/images/Checklist-builder.png)
 
@@ -59,7 +59,7 @@ The data are there to be used, which is why we licensed them under the [Creative
 
 ## Search
 
-The VASCAN Search API accepts GET and POST requests. The path contains an explicit version and the search resource accepts a parameter **q**. The value for **q** can be a scientific name, a vernacular name or a VASCAN taxon identifier (e.g. 861). It may be a single value for GET requests or multiple values (maximum 200) for POST requests, each separated by line breaks, \\n. Scientific or vernacular names may optionally be preceded by your local identifier and a pipe, \|. GET requests for JSON-based URIs may have an additional callback parameter for JSONP responses.  
+The VASCAN Search API accepts GET and POST requests. The path contains an explicit version and the search resource accepts a parameter **q**. The value for **q** can be a scientific name, a vernacular name or a VASCAN taxon identifier (e.g., 861). It may be a single value for GET requests or multiple values (maximum 200) for POST requests, each separated by line breaks, \\n. Scientific or vernacular names may optionally be preceded by your local identifier and a pipe, \|. GET requests for JSON-based URIs may have an additional callback parameter for JSONP responses.  
 
 ```
 http://data.canadensys.net/vascan/api/0.1/search.json  
