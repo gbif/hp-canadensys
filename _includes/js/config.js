@@ -10,13 +10,24 @@ var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', ext
 }});
 
 var siteConfig = {
-  routes: {
-    occurrenceSearch: {
+  //routes: {
+    //occurrenceSearch: {
       // The route you are currently using for occurrence search. The language prefix will be added automatically
       // If you need special routes per language, then you have to add locale specific overwrites. The page language is available as a global variable called `pageLang`
-      route: '/data'
-    }
+      //route: '/data'
+    //}
+  routes: {
+    enabledRoutes: ['occurrenceSearch', 'institutionKey', 'institutionSearch', 'collectionKey', 'collectionSearch', 'datasetKey', 'datasetSearch'],
+institution: {
+    mapSettings: {
+      enabled: true,
+      lat: 58,
+      lng: -102,
+      zoom: 3.5
+      },
+    },
   },
+  
   occurrence: {
     mapSettings: {
       lat: 58,
