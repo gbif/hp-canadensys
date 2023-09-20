@@ -13,7 +13,7 @@ height: 70vh
 
 Biological collections are replete with taxonomic, geographic, temporal, numerical, and historical information. This information is crucial for understanding and properly managing biodiversity and ecosystems, but is often difficult to access. Canadensys, operated from the [Université de Montréal Biodiversity Centre](https://irbv.umontreal.ca/institute/infrastructure/biodiversity-centre/?lang=en), is a Canada-wide effort to make the biodiversity information held in Canadian biological collections and institutions accessible to everyone.
 
-Canadensys publishes specimen data from Canadian natural history collections, as well as other kinds of biodiversity data such as species checklists (many of which include estimates of species richness), observations and ecological data. Some of these resources include data on species new to science. Canadensys also hosts the data publication platforms for two online taxonomic journals, [Specimen](https://specimenpub.org/) and [Collection](https://specimenpub.org/).
+Canadensys publishes specimen data from Canadian natural history collections, as well as other kinds of biodiversity data, such as species checklists (many of which include estimates of species richness), observations and ecological data. Some of these resources include data on species new to science. Canadensys also hosts the data publication platforms for two online taxonomic journals, [Specimen](https://specimenpub.org/) and [Collection](https://specimenpub.org/).
 
 Our goal is to [digitize](/resources/documents/#Digitization), [publish](/publish/introduction) and [georeference](/resources/documents/#Georeferencing) data compatible with the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/). Collection managers openly publish their data as [Darwin Core](/resources/documents/#Darwin-core), an internationally-accepted [biodiversity information standard](https://www.tdwg.org/). A [data portal](/occurrence/search), based on the [GBIF data portal](https://www.gbif.org/occurrence/search), allows access to biodiversity data from Canadian publishers, including images and geospatial information. In addition, we host the [Database of Canadian Vascular Plants (VASCAN)](/vascan/name-search), a searchable checklist of up-to-date scientific and vernacular names.
 
@@ -21,7 +21,7 @@ By enabling the publication of these data, Canadensys facilitates cross-analyses
 
 ## Data published on Canadensys
 	
-Since September 2011, Canadian institutions and researchers have been publishing their biodiversity information via the [Canadensys repository]. Most of the datasets contain specimen data, but checklists and observation data are present as well. All datasets are published in the biodiversity information standard Darwin Core, and you can explore, download and use them for free under an open license.
+Since September 2011, Canadian institutions and researchers have been publishing their biodiversity information via the [Canadensys repository](https://data.canadensys.net/ipt/). Most of the datasets contain specimen data, but checklists and observation data are present as well. All datasets are published in the biodiversity information standard [Darwin Core](/resources/documents/#Darwin-core), and you can explore, download and use them for free under an open license.
 If you are interested in publishing your own dataset, start [here](https://canadensys.hp.gbif-staging.org/publish/7-step-guide/).
 
 add two stat images here
