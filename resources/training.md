@@ -20,7 +20,6 @@ height: 70vh
 * [Biodiversity Data Mobilization](https://docs.gbif.org/course-data-mobilization/en)
 * [Biodiversity Data Use](https://docs.gbif.org/course-data-use/en/)
 * [Accelerating biodiversity research through DNA barcodes, colection and observation data](https://docs.gbif.org/course-dna-barcoding/en/)
-* [Establishing a GBIF Participant Node](https://elearning.gbif.es/course/64/about)
 
 # Data/Library Carpentry
 
