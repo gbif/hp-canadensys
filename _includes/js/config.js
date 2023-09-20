@@ -2,9 +2,9 @@ var siteConfig = {
   version: 2,
   routes: {
     enabledRoutes: ['occurrenceSearch', 'collectionSearch', 'collectionKey', 'institutionSearch', 'institutionKey', 'datasetKey', 'datasetSearch', 'literature'], // what widgets do you include on your site. If not included we will link to gbif.org (for showing individual datasets for example)
-    //occurrenceSearch: { // you can overwrite individual routes. 
-      //route: '/occurrence/search' // in this case we want the occurrence search to be available on a url that says specimens instead
-    //}
+    occurrenceSearch: { // you can overwrite individual routes. 
+      route: '/occurrence/search' // in this case we want the occurrence search to be available on a url that says occurrence
+    }
   },
   availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE', 'DATASET'],
   occurrence: {
@@ -20,11 +20,13 @@ var siteConfig = {
   occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
   
   collection: {
+    availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
     rootFilter: { // filters on the grscicoll collection v1 API https://www.gbif.org/developer/summary
       displayOnNHCPortal: true 
     }
   },
   institution: {
+    availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
     rootFilter: { // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
       displayOnNHCPortal: true,
       active: true
@@ -62,6 +64,7 @@ var siteConfig = {
     //maptiler: "GET_YOUR_OWN_TOKEN", // https://github.com/gbif/hosted-portals/issues/229
     //mapbox: "GET_YOUR_OWN__TOKEN"
   //},
+  availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
   maps: {
     //locale: 'ja', // we want to show the maps in japanese
     defaultProjection: 'MERCATOR',
@@ -73,7 +76,7 @@ var siteConfig = {
       ANTARCTIC: ['NATURAL', 'BRIGHT', 'DARK']
     }
   },
-  messages: { // custom overwrites for the translations, e.g. label the occurrence catalog as a specimen catalog to match our data scope of specimens.
-    "catalogues.occurrences": "Occurrences"
-  }
+  //messages: { // custom overwrites for the translations, e.g. label the occurrence catalog as a specimen catalog to match our data scope of specimens.
+    //"catalogues.occurrences": "Occurrences"
+  //}
 };
