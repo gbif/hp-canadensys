@@ -1,6 +1,6 @@
 ---
-title: Data
+title: Institution
 description: We publish open data
-permalink: /institution/key
+permalink: /institution/_key_
 layout: institution-key
 ---
