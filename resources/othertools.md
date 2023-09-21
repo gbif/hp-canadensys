@@ -20,8 +20,8 @@ height: 70vh
 [pyGBIF](https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client): Python client for the GBIF API.  
 [taxize - Taxonomic Information from Around the Web](https://docs.ropensci.org/taxize/): R package for interacting with a suite of web 'APIs' for taxonomic tasks.  
 [Bionomia](https://en.bionomia.net/): Ttool to link natural history specimens to the world's collectors.  
-[gnparser](https://github.com/gnames/gnparser): Tool for spliting scientific names into their semantic elements with an associated meta information.  
-[Biogeo](https://cran.r-project.org/web/packages/biogeo/index.html): R package developped to detect and correct geographic errors in occurrences datasets.  
+[gnparser](https://github.com/gnames/gnparser): Tool for splitting scientific names into their semantic elements with an associated meta information.  
+[Biogeo](https://cran.r-project.org/web/packages/biogeo/index.html): R package developped to detect and correct geographic errors in occurrence datasets.  
 
 # Tools
 
