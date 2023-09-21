@@ -1,3 +1,8 @@
+var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
+  primary: themeStyle.colors.primary,
+  fontSize: '16px'
+}});
+
 var siteConfig = {
   version: 2,
   routes: {
