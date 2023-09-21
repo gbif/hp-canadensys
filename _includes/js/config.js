@@ -7,9 +7,6 @@ var siteConfig = {
   version: 2,
   routes: {
     enabledRoutes: ['occurrenceSearch', 'collectionSearch', 'collectionKey', 'institutionSearch', 'institutionKey', 'datasetKey', 'datasetSearch', 'literature'], // what widgets do you include on your site. If not included we will link to gbif.org (for showing individual datasets for example)
-    occurrenceSearch: { // you can overwrite individual routes. 
-      route: '/occurrence/search' // in this case we want the occurrence search to be available on a url that says occurrence
-    }
   },
   availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE', 'DATASET'],
   occurrence: {
