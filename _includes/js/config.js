@@ -1,7 +1,7 @@
 var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
   primary: themeStyle.colors.primary,
   fontSize: '16px'
-}});
+)}};
 
 var siteConfig = {
   version: 2,
@@ -22,13 +22,13 @@ var siteConfig = {
     occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
   },
   collection: {
-    rootFilter: { // filters on the grscicoll collection v1 API https://www.gbif.org/developer/summary
-      predicate: {
-        type: 'equals', key: 'country', value:'CA' 
-      }
+    //rootFilter: { // filters on the grscicoll collection v1 API https://www.gbif.org/developer/summary
+      //predicate: {
+        //type: 'equals', key: 'country', value:'CA' 
+      //}
       //publishingCountry: 'CA',
-      displayOnNHCPortal: true
-    }
+    rootPredicate: {type: 'equals', key: 'country', value:'CA'}
+    displayOnNHCPortal: true
   },
   institution: {
     rootFilter: { // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
