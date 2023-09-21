@@ -2,7 +2,7 @@
 llang-ref: home
 layout: home
 title: Canadensys
-description: Rendre l’information Canadienne sur la biodiversité accessible à tous 
+description: Rendre l’information canadienne sur la biodiversité accessible à tous 
 background: https://inaturalist-open-data.s3.amazonaws.com/photos/190926491/original.jpg
 imageLicense: |
   <em>Sanguinaria canadensis</em> L. Photo by Suzanne Labbé via [iNaturalist](https://www.gbif.org/occurrence/3764124042)
