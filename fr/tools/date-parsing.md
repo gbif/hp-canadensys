@@ -30,7 +30,7 @@ height: 70vh
 #toc: true
 ---
 
-Utilisez cet outil pour convertir des dates en leurs différentes composantes. Entrez ou collez les dates sur des lignes séparées. Les dates peuvent être précédées d''un identifiant optionnel qui doit être séparé de la valeur par un tab ou une barre verticale |.
+Utilisez cet outil pour convertir des dates en leurs différentes composantes. Entrez ou collez les dates sur des lignes séparées. Les dates peuvent être précédées d'un identifiant optionnel qui doit être séparé de la valeur par un tab ou une barre verticale |.
 
 **Example d'entrée** 
 Jun 13, 2008 
