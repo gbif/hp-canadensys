@@ -32,8 +32,8 @@ http://data.canadensys.net/tools/coordinates.xml
 
 Outputs are expressed as [GeoJSON](https://geojson.org/) or [GML](https://en.wikipedia.org/wiki/Geography_Markup_Language), respectively. 
 
-For example: ht<span>tp://data.canadensys.net/tools/coordinates.json?**data**=35|45° 32' 25"N,129° 40' 31"W&**idprovided**=TRUE&**callback**=MyCallback 
-Produces this answer:
+For example: "ht<span>tp://data.canadensys.net/tools/coordinates.json?**data**=35|45° 32' 25"N,129° 40' 31"W&**idprovided**=TRUE&**callback**=MyCallback" 
+produces this answer:
 
 ```md
 MyCallback({
