@@ -17,9 +17,9 @@ toc: true
 
 # Introduction
 
-La Base de données des plantes vasculaires du Canada (VASCAN) est une liste complète de toutes les plantes vasculaires signalées au Canada, au Groenland (Danemark) et à Saint-Pierre-et-Miquelon (France). VASCAN est une base de données de liste d'espèces. Son enregistrement principal est un taxon, par ex. une espèce comme *Acer saccharum* Marshall. Elle contient également des informations relatives à ce taxon, telles que sa répartition, sa taxonomie, ses synonymes et noms vernaculaires, ainsi qu'une source pour presque tous ces éléments. VASCAN est basée sur la littérature, bien que les ajouts récents soient parfois basés sur des spécimens. 
+La Base de données des plantes vasculaires du Canada (VASCAN) est une liste complète de toutes les plantes vasculaires signalées au Canada, au Groenland (Danemark) et à Saint-Pierre-et-Miquelon (France). VASCAN est une base de données de liste d'espèces. Son enregistrement principal est un taxon, par ex. une espèce comme *Acer saccharum* Marshall. Elle contient également des informations relatives à ce taxon, telles que sa répartition, sa taxonomie, ses synonymes et noms vernaculaires, ainsi qu'une source bibliographique pour presque tous ces éléments. VASCAN est développé à partir de la littérature, bien que des ajouts récents soient parfois issus d’informations provenant directement des spécimens. 
 
-Contrairement à de nombreux autres sites Web de listes d'espèces, nous avons conçu VASCAN pour être aussi ouvert que possible. Au lieu de verrouiller les données dans un format inutilisable, les utilisateurs peuvent télécharger la [base de données entière](http://data.canadensys.net/ipt/resource.do?r=vascan) ou leur propre sous-ensemble via le [générateur de liste](/vascan/checklist-builder/) sous forme d'archives Darwin Core ou de fichiers texte. Les utilisateurs peuvent également signaler et afficher les problèmes liés aux données et à l'interface dans [notre outil de suivi des problèmes](https://github.com/Canadensys/vascan-data/issues).
+Nous avons conçu VASCAN pour être aussi ouvert que possible. Ainsi, les utilisateurs peuvent télécharger la [base de données entière](http://data.canadensys.net/ipt/resource.do?r=vascan) ou leur propre sous-ensemble via le [générateur de liste](/vascan/checklist-builder/) sous forme d'archives Darwin Core ou de fichiers texte. Les utilisateurs peuvent également signaler et afficher les problèmes liés aux données et à l'interface dans [notre outil de suivi des problèmes](https://github.com/Canadensys/vascan-data/issues).
 
 VASCAN est une application [Java](https://www.java.com/) exécutée dans [Tomcat](http://tomcat.apache.org/) utilisant une base de données [MySQL](https://www.mysql.com/). Bien qu'elle ait été conçue pour les plantes, nous nous sommes efforcés de généraliser la structure de la base de données et de l'application, afin qu'elle puisse également être utilisée pour d'autres groupes taxonomiques, tels que les animaux et les champignons.
 
@@ -30,7 +30,7 @@ Une recherche sur "arte" renverra "Artemisia", mais pas "two-parted sedge".
 
 Pour chaque nom scientifique, plusieurs informations sont fournies :
 * Statut de l'espèce (accepté ou synonyme)
-* Noms vernaculaires, à la fois en français et en anglais, avec le statut du nom vernaculaire (accepté ou synonyme)
+* Noms vernaculaires, en français et en anglais, avec le statut du nom vernaculaire (accepté ou synonyme)
 * Synonymes
 * Distribution au niveau provincial, avec le statut de distribution :
   * **Native** : Taxon présent uniquement à la suite de processus naturels, sans intervention humaine.
