@@ -39,16 +39,16 @@ explorer:
       * Accédez à la galerie d'images pour parcourir des milliers d'images, allant des spécimens de collection aux observations
       * Grâce à notre explorateur de données, vous pouvez découvrir et télécharger des données pour les utiliser et les réutiliser
   background: /assets/images/Map-Canadensys.png
-  href: /data?view=MAP
+  href: /fr/occurrence/search?view=MAP
   cta:
   - text: |
       <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
-    href: /data
+    href: /fr/occurrence/search
     isPrimary: true
   - text: Carte
-    href: /occurrence/search/?view=MAP
+    href: /fr/occurrence/search/?view=MAP
   - text: Galerie
-    href: /occurrence/search/?view=GALLERY
+    href: /fr/occurrence/search/?view=GALLERY
 
 training:
   reverse: true
@@ -60,9 +60,9 @@ training:
     <em>Cardinalis cardinalis</em> (Linnaeus, 1758) observed in Canada by jnaffy via [iNaturalist](https://www.gbif.org/occurrence/4039169691)
   cta:
   - text: Documentation
-    href: /resources/documents/
+    href: /fr/resources/documents/
     isPrimary: true
   - text: Outils
-    href: /resources/othertools/
+    href: /fr/resources/othertools/
   - text: Formation
-    href: /resources/training/
+    href: /fr/resources/training/

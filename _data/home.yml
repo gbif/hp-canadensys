@@ -39,11 +39,11 @@ explorer:
       * Go to the Image Gallery to browse thousands of images from collection specimens to observations  
       * Through our Data Explorer you can discover and download data for use and re-use
   background: /assets/images/Map-Canadensys.png
-  href: /data?view=MAP
+  href: /occurrence/search?view=MAP
   cta:
   - text: |
       <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
-    href: /data
+    href: /occurrence/search
     isPrimary: true
   - text: Map
     href: /occurrence/search/?view=MAP
