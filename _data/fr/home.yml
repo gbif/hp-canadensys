@@ -22,9 +22,9 @@ stats:
 
 about:
   reverse: true
-  title: Un réseau de fournisseurs de données
+  title: Un réseau de données sur la biodiversité
   description: |      # required
-      Canadensys rend l'information sur la biodiversité librement et ouvertement accessible à tous. Nous sommes un réseau de chercheurs, récolteurs, conservateurs, technologues de l'information, étudiants et éducateurs qui partagent des données sur la présence et l'identité des plantes, des animaux, des champignons et d'autres espèces au Canada.
+      Canadensys rend l'information sur la biodiversité librement et ouvertement accessible à tous. Nous sommes un réseau de chercheurs, collectionneurs, conservateurs, technologues de l'information, étudiants et éducateurs qui partagent des données sur la présence et l'identité des plantes, des animaux, des champignons et d'autres espèces au Canada.
   # img required
   background: /assets/images/tree-canopy.jpeg
 
@@ -32,9 +32,9 @@ explorer:
   reverse: false
   title: Explorateur de données
   description: |
-      * Accès à plusieurs millions de données de biodiversité publiées par des institutions Canadiennes  
+      * Accès à plusieurs millions de données de biodiversité publiées par des institutions canadiennes  
       * Accédez à la carte pour visualiser les enregistrements d'occurrences dans l'espace et dans le temps  
-      * Des critères de filtrage spéciaux permettent le développement de requêtes personnalisées directement dans le portail  
+      * Des filtres spécifiques permettent le développement de requêtes personnalisées directement dans le portail  
       * Le suivi des problèmes et des drapeaux permettent le contrôle de la qualité des données
       * Accédez à la galerie d'images pour parcourir des milliers d'images, allant des spécimens de collection aux observations
       * Grâce à notre explorateur de données, vous pouvez découvrir et télécharger des données pour les utiliser et les réutiliser
