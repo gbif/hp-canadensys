@@ -58,7 +58,7 @@ Georeferencing is time-consuming and should be tackled with the right tools and 
 
 One of the goals of Canadensys is to georeference a large part of the published specimen information as accurately as possible, and to provide uncertainties for coordinates, which gives key information to determine the data’s fitness for use and thus the data quality. 
 
-> By far the most difficult issue in georeferencing primary species occurrence data is the massive amount of legacy data held in the world’s museums, herbaria, universities, etc. Most modern collectors are now using GPSs or large scale maps to locate their collection events, and thus most of the new data entering institutions already include georeferences. Most museums beginning to database their collections, however, are faced with the massive task of georeferencing the huge backlog of data in their collections, much of it with very little or vague location information. 
+> By far the most difficult issue in georeferencing primary species occurrence data is the massive amount of legacy data held in the world’s museums, herbaria, universities, etc. Most modern collectors are now using GPSs or large scale maps to locate their collection events, and thus most of the new data entering institutions already include georeferences. Most museums beginning to database their collections, however, are faced with the massive task of georeferencing the huge backlog of data in their collections, much of it with very little or vague location information. (Chapman & Wieczorek 2006)
 
 For more information on georeferencing, consult: Chapman AD & Wieczorek JR (2020) Georeferencing Best Practices. Copenhagen: GBIF Secretariat. <https://doi.org/10.15468/doc-gg7h-s853>
 
@@ -78,7 +78,7 @@ API requests can be automated in data cleaning tools, such as [OpenRefine](http:
 # Data Cleaning
 
 Data Cleaning is an essential part of the information management chain. As noted by [Chapman (2005)](http://www.gbif.org/document/80528):
- > Error prevention should be considered a priority relative to error detection and cleaning, as it is cheaper and more efficient to prevent errors than to try to find them and correct them later. No matter how efficient the process of data entry, errors will still occur and therefore data validation and correction cannot be ignored. Error detection, validation and cleaning all have key roles to play, especially with legacy data (e.g., museum and herbarium data collected over the last 300 years), and thus both error prevention and data cleaning should be incorporated in an organization’s data management policy.
+ > ...error prevention should be considered a priority relative to error detection and cleaning, as it is cheaper and more efficient to prevent errors than to try to find them and correct them later. No matter how efficient the process of data entry, errors will still occur and therefore data validation and correction cannot be ignored. Error detection, validation and cleaning all have key roles to play, especially with legacy data (e.g., museum and herbarium data collected over the last 300 years), and thus both error prevention and data cleaning should be incorporated in an organization’s data management policy. (Chapman 2005)
 
 Several tools have been developed to help find errors and to implement modifications. These tools can also help enrich datasets by deriving information from available fields.
 
