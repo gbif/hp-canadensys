@@ -18,9 +18,9 @@ parallax: true
 
 # Introduction
 
-Ce guide explique comment publier vos données de biodiversité auprès de [GBIF](http://www.gbif.org/), pour les partager avec le monde entier, via le [dépôt Canadensys](http://data.canadensys.net/ipt). Ce n’est pas la seule méthode que vous pouvez utiliser pour publier vos données, mais nous pensons que c’est, à l’heure actuelle, la plus pratique pour les collections et organisations canadiennes.
+Ce guide explique comment publier vos données de biodiversité auprès de [GBIF](http://www.gbif.org/), pour les partager avec le monde entier, via le [dépôt Canadensys](http://data.canadensys.net/ipt). Ce n’est pas la seule méthode que vous pouvez utiliser pour publier vos données, mais nous pensons que c’est, à l’heure actuelle, la plus pratique pour les collections et institutions canadiennes.
 
-Notre dépôt est propulsé par l’[Outil de Publication Intégré du GBIF (IPT)](https://www.gbif.org/en/ipt) et maintenu par notre équipe, ce qui vous permet de télécharger, standardiser, publier et enregistrer vos données en **7 étapes**, sans le soucis d’installer et maintenir votre propre outil de publication. Les données sont publiées au nom de votre organisation et tout ceci est parfaitement gratuit.
+Notre dépôt est propulsé par l’[Outil de Publication Intégré du GBIF (IPT)](https://www.gbif.org/en/ipt) et maintenu par notre équipe, ce qui vous permet de télécharger, standardiser, publier et enregistrer vos données en **7 étapes**, sans le soucis d’installer et maintenir votre propre outil de publication. Les données sont publiées au nom de votre institution et tout ceci est parfaitement gratuit.
 
 ![](/assets/images/data-publication-guide-schema-fr.png)
 
@@ -35,7 +35,7 @@ Pour de l’information sur les différentes classes de données, suivez les gui
 
 Nous nous soucions des données et nous voulons nous assurer qu’il en va de même pour vous. Afin de publier vos données à l’aide du dépôt Canadensys vous devez répondre aux critères suivants :
 
-* Vous êtes associés à une collection ou une organisation **canadienne**.
+* Vous êtes associés à une collection ou une institution **canadienne**.
 * Vous publiez des jeux de données de spécimens ou d’observations, une checklist taxonomique, un jeu de données d’échantillonnage ou simplement des métadonnées (en d’autres mots, l’un des **4 types de jeu de données** supportés par l'IPT).
 * Vous détenez les **droits** pour publier ces données.
 * Vous avez la volonté de **conserver et maintenir** ce jeu de données et d’améliorer sa qualité lorsque possible.
@@ -87,7 +87,7 @@ Suivez le [manuel de l'IPT](https://ipt.gbif.org/manual/en/ipt/latest/manage-res
 
 # 6. Publication
 
-Tout est maintenant prêt pour la publication ! Rendez-vous sur la vue d’ensemble de votre ressource > *Versions publiées* et cliquez sur *Publier*. Le IPT va transformer vos données en Darwin Core, les combiner avec les métadonnées et les empaqueter dans un fichier compressé appelé une ["**Archive Darwin Core**"](https://dwc.tdwg.org/text/).
+Tout est maintenant prêt pour la publication ! Rendez-vous sur la vue d’ensemble de votre ressource > *Versions publiées* et cliquez sur *Publier*. Le IPT va transformer vos données en Darwin Core, les combiner avec les métadonnées et les assembler dans un fichier compressé appelé une ["**Archive Darwin Core**"](https://dwc.tdwg.org/text/).
 
 Si vous souhaitez attribuer un [DOI](https://fr.wikipedia.org/wiki/Digital_Object_Identifier) à votre jeu de données, vous devez au préalable cliquer sur « Reserve » puis modifier la visibilité de votre ressource vers « Public », avant de cliquer sur « Publier ». Le DOI est enregistré directement auprès de [DataCite](https://datacite.org) et un lien est ajouté aux métadonnées de votre ressource. Pour de plus amples information à propos de l’attribution de DOI, veuillez consulter le [Flux de travail IPT DOI](https://ipt.gbif.org/manual/en/ipt/latest/doi-workflow). Consultez le [manuel de l'IPT](https://ipt.gbif.org/manual/) pour plus de détails sur la publication en général.
 
