@@ -17,27 +17,27 @@ toc: true
 # Numérisation et imagerie
 
 La **numérisation** peut prendre différentes formes et signifier des processus différents, comme par exemple :
-* Entrer les données d'un spécimen à la base de données
+* Ajouter les données provenant d'un spécimen à la base de données
 * Prendre une image de l'étiquette d'un spécimen d'herbier ou d'un spécimen entier
 * Transférer un enregistrer de chant d'oiseau d'un format analogique à un format digital
 * Scanner un insecte en 3D
 
 > La numérisation est le processus permettant de convertir de l'information dans un format digital (c.à.d. lisible par un ordinateur). (Wikipédia)
 
-1. **Numérisation d'étiquettes**
+**Numérisation d'étiquettes**
 
-La photographie des étiquettes de spécimens est souvent utilisée comme la première étape vers la numérisation textuelle des précieuses informations contenues sur l'étiquette. Par la suite, le texte pourra être extrait manuellement ou de manière automatisée à partir de l'image en utilisant la [Reconnaissance Optique de Caractères (OCR)](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res), ce dernier nécessitant une relecture et une structuration de l'information, ce qui peut parfois prendre plus de temps que de taper l'information à la main. Les images d'étiquettes jouent un rôle important de sauvegarde textuelle, permettant aux utilisateurs de vérifier l'information et de rapporter les erreurs sans avoir besoin d'accéder au spécimen physique. De nos jours, les étiquettes sont le plus souvent photographiées en même temps que le spécimen complet, mais le traitement des informations contenues sur l'étiquette n'est le plus souvent pas immédiate.
+La photographie des étiquettes de spécimens est souvent utilisée comme première étape vers la numérisation textuelle des précieuses informations contenues sur l'étiquette. Par la suite, le texte pourra être extrait manuellement ou de manière automatisée à partir de l'image en utilisant la [Reconnaissance Optique de Caractères (OCR)](https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caract%C3%A8res), ce dernier nécessitant une relecture et une structuration de l'information, ce qui peut parfois prendre plus de temps que de taper l'information à la main. Les images d'étiquettes jouent un rôle important de sauvegarde textuelle, permettant aux utilisateurs de vérifier l'information et de rapporter les erreurs sans avoir besoin d'accéder au spécimen physique. De nos jours, les étiquettes sont le plus souvent photographiées en même temps que le spécimen complet, mais le traitement des informations contenues sur l'étiquette se fait souvent seulement par la suite.
 
-2. **Numérisation de spécimens**
+**Numérisation de spécimens**
 
-Photographier des spécimens engendre une ou plusieurs images du spécimen complet. Ce processus est généralement plus complexe que la numérisation d'étiquettes, mais l'image en résultant peut être importante pour la recherche scientifique. La méthode (caméra vs. scanner), la résolution, la couleur, les conditions lumineuses, le format et la méthode de stockage sont tous des facteurs devant être pris en considération. Par conséquent, ce type de numérisation peut devenir très gourmand en temps et, à moins d'être automatisé, devrait en premier lieu être considéré pour les spécimens de plus grande valeur scientifique, comme les types, ou pour des groupes taxonomiques spécifiques, tout dépendant de la spécificité de la collection (focus géographique ou taxonomique). Les méthodes utilisées pour la numérisation varient également beaucoup en fonction du type de spécimens et de collections. Photographier un insecte épinglé est généralement plus complexe que numériser un spécimen d'herbier pressé et monté.
+Photographier des spécimens engendre une ou plusieurs images du spécimen complet. Ce processus est généralement plus complexe que la numérisation d'étiquettes, mais l'image en résultant peut être importante pour la recherche scientifique. La méthode (caméra vs. scanner), la résolution, la couleur, les conditions lumineuses, le format et la méthode de stockage sont tous des facteurs devant être pris en considération. Par conséquent, ce type de numérisation peut devenir très gourmand en temps et, à moins d'être automatisé, devrait en premier lieu être considéré pour les spécimens de plus grande valeur scientifique, comme les types, ou pour des groupes taxonomiques spécifiques, tout dépendant de la spécificité de la collection (focus géographique ou taxonomique). Les méthodes utilisées pour la numérisation varient également en fonction du type de spécimens et de collections. Photographier un insecte épinglé est généralement plus complexe que numériser un spécimen d'herbier.
 
-3. **Outils**
+**Outils**
 
 * [SilverImage](http://www.silverbiology.com/products/silverimage/), un outil de [SilverBiology](http://www.silverbiology.com/) pouvant aider à suivre et analyser le processus de numérisation
 * [Adobe Lightroom](https://www.adobe.com/ca/products/photoshop-lightroom.html) est très utile pour l'amélioration et l'organisation des photos prises
 * [Tesseract](https://tesseract-ocr.github.io/tessdoc/) est un logiciel de reconnaissance de texte (OCR) open source supportant une grande variété de langues
-* [Google Vision AI](https://cloud.google.com/vision) a été développé par Google et est une puissante application AI permettant l'extraction d'informations à partir d'images (certains frais peuvent s'appliquer après un certain nombre de requêtes)
+* [Google Vision AI](https://cloud.google.com/vision), développé par Google, est une puissante application AI permettant l'extraction d'informations à partir d'images (certains frais peuvent s'appliquer après un certain nombre de requêtes)
 * [Google Documents AI](https://cloud.google.com/document-ai), également développé par Google, permet d'extraire des données depuis des documents (des frais sont appliqués).
 
 4. **Littérature et documentation**
