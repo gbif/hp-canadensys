@@ -23,7 +23,10 @@ var siteConfig = {
   },
   collection: {
     rootFilter: { // filters on the grscicoll collection v1 API https://www.gbif.org/developer/summary
-      publishingCountry: 'CA',
+      predicate: {
+        type: 'equals', key: 'country', value:'CA' 
+      }
+      //publishingCountry: 'CA',
       displayOnNHCPortal: true
     }
   },
