@@ -19,7 +19,7 @@ height: 70vh
 [rGBIF](https://www.gbif.org/tool/81747/rgbif) : Une interface vers l'API de GBIF pour l'environnement de programmation statistique R.  
 [pyGBIF](https://www.gbif.org/tool/OlyoYyRbKCSCkMKIi4oIT/pygbif-gbif-python-client) : client Python pour l'API de GBIF.  
 [taxize - Taxonomic Information from Around the Web](https://docs.ropensci.org/taxize/): paquet R interragissant avec une suite d'API pour effectuer des tâches taxonomiques.  
-[Bionomia](https://en.bionomia.net/) : Un outil pour lier les spécimens d'histoire naturelle avec les récolteurs du monde entier.  
+[Bionomia](https://en.bionomia.net/) : Un outil pour lier les spécimens d'histoire naturelle avec les collectionneurs du monde entier.  
 [gnparser](https://github.com/gnames/gnparser) : outil divisant les noms scientifiques en leurs éléments sémantiques avec une méta-information associée.  
 [Biogeo](https://cran.r-project.org/web/packages/biogeo/index.html) : Paquet R développé pour détecter et corriger les erreurs géographiques dans les jeux de données d'occurrences.  
 
