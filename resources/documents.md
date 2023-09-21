@@ -176,7 +176,7 @@ GRSciColl also serves as the registry for *InstitutionCodes* and *CollectionCode
 >
 
 >
-GBIF is working with partners to establish a standardized, interoperable flow of information between this registry and other key collections infrastructures. GRSciColl runs a weekly synchronization with [Index Herbariorum (IH)](http://sweetgum.nybg.org/science/ih/). Following content migration from [iDigBio Collections](https://www.idigbio.org/portal/collections), GRSciColl shares an integrated registry delivering consistent information with shared editing access to users of both GBIF.org and iDigBio.org. ( [GrSciColl](https://www.gbif.org/grscicoll))
+GBIF is working with partners to establish a standardized, interoperable flow of information between this registry and other key collections infrastructures. GRSciColl runs a weekly synchronization with [Index Herbariorum (IH)](http://sweetgum.nybg.org/science/ih/). Following content migration from [iDigBio Collections](https://www.idigbio.org/portal/collections), GRSciColl shares an integrated registry delivering consistent information with shared editing access to users of both GBIF.org and iDigBio.org. ([GrSciColl](https://www.gbif.org/grscicoll))
 >
 
 For institution and collection managers, GBIF has community-curation functionality, allowing for updates and additions of information within the registry.  
