@@ -1,6 +1,6 @@
 ---
 title: Data
 description: We publish open data
-permalink: /specimen/
+permalink: /occurrence/search
 layout: occurrence
 ---
