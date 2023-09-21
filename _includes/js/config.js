@@ -23,7 +23,7 @@ var siteConfig = {
     },
    rootPredicate: { type: 'equals', key: 'publishingCountry', value: "CA" }, 
   occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
-  
+  },
   collection: {
     availableCatalogues: ['INSTITUTION', 'COLLECTION', 'OCCURRENCE'],
     rootFilter: { // filters on the grscicoll collection v1 API https://www.gbif.org/developer/summary
