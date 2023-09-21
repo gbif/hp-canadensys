@@ -20,7 +20,7 @@ parallax: true
 
 # Introduction à l'IPT 
 
-L'[outil de publication intégré de GBIF](https://github.com/gbif/ipt), ou IPT, est une application web Open Source gratuite utilisée pour publier des données de biodiversité.
+L'[Outil de Publication Intégré de GBIF](https://github.com/gbif/ipt), ou IPT, est une application web Open Source gratuite utilisée pour publier des données de biodiversité.
 Développé par le [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) avec l'aide de la communauté de l'informatique de la biodiversité, incluant Canadensys, il est l'outil recommandé par la communauté internationale pour publier des données de biodiversité. 
 
 Le [dépôt Canadensys](https://data.canadensys.net/ipt/) est un IPT personnalisé que nous utilisons pour publier et enregistrer tous nos jeux de données, incluant des données d'occurrences primaires (tel que les spécimens), des listes taxonomiques, des métadonnées de ressources et des données d'échantillonnage. Si vous êtes intéréssés à utiliser cet IPT pour publier des données, veuillez vous référer à notre [guide de publication](/fr/publish/7-step-guide/) pour de plus amples détails. Le [manuel de l'utilisateur](https://ipt.gbif.org/manual/en/ipt/latest/) développé par GBIF est également une excellente source d'information.
