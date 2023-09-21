@@ -1,7 +1,17 @@
 - text: À Propos
   href: /fr/about
 - text: Données
-  href: /occurrence/search
+  menu:
+    - text: Occurrences
+      href: /fr/occurrence/search
+    - text: Collections
+      href: /fr/collection/search
+    - text: Institutions
+      href: /fr/institution/search
+    - text: Jeux de données
+      href: /fr/dataset/search
+    - text: Littérature
+      href: /fr/literature/serach
 - text: Publier
   menu: # Dropdown menu (one level deep only)
     - text: Dépôt de données

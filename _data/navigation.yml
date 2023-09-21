@@ -3,7 +3,17 @@
 - text: About
   href: /about
 - text: Data
-  href: /occurrence/search
+  menu:
+    - text: Occurrences
+      href: /occurrence/search
+    - text: Collections
+      href: /collection/search
+    - text: Institutions
+      href: /institution/search
+    - text: Datasets
+      href: /dataset/search
+    - text: Literature
+      href: /literature/serach
 - text: Publish
   menu: # Dropdown menu (one level deep only)
     - text: Data repository
