@@ -16,7 +16,7 @@ height: 70vh
 
 # Introduction
 
-L'API des Outils accepte les requêtes de types GET et POST. Les méthodes sont exprimées comme des URI de ressource et acceptent un paramètre **data** et leurs résultats sont en XML ou JSON. Le paramètre data peut avoir une ou plusieurs valeurs, toutes les valeurs doivent être séparées par un saut de ligne \\\n. Un identifiant optionnel peut précéder chaque valeur. Ce dernier doit être séparé de la valeur par un tab ou une barre verticale \\|. Pour de meilleurs performances, utilisez le paramètre optionnel **idprovided** = TRUE si vos données incluent un identifiant ou **idprovided** = FALSE s'ils n'en n'incluent pas. Les requêtes GET ayant un URI pointant vers une ressource JSON peuvent avoir un paramètre additionnel **callback** pour obtenir une réponse [JSONP](http://en.wikipedia.org/wiki/JSONP).
+L'API des Outils accepte les requêtes de types GET et POST. Les méthodes sont exprimées comme des URI de ressource et acceptent un paramètre **data** et leurs résultats sont en XML ou JSON. Le paramètre data peut avoir une ou plusieurs valeurs, chaque valeur doit être séparée par un saut de ligne \\\n. Un identifiant optionnel peut précéder chaque valeur. Ce dernier doit être séparé de la valeur par un tab ou une barre verticale \\|. Pour de meilleurs performances, utilisez le paramètre optionnel **idprovided** = TRUE si vos données incluent un identifiant ou **idprovided** = FALSE s'ils n'en n'incluent pas. Les requêtes GET ayant un URI pointant vers une ressource JSON peuvent avoir un paramètre additionnel **callback** pour obtenir une réponse [JSONP](http://en.wikipedia.org/wiki/JSONP).
 
 # Conversion de coordonnées
 
@@ -28,7 +28,7 @@ http://data.canadensys.net/tools/coordinates.xml
 
 Les résultats sont exprimés en [GeoJSON](http://www.geojson.org/) et [GML](http://en.wikipedia.org/wiki/Geography_Markup_Language) respectivement.
 
-Par exemple : ht<span>tp://data.canadensys.net/tools/coordinates.json?**data**=35|45° 32' 25"N,129° 40' 31"W&**idprovided**=TRUE&**callback**=MyCallback 
+Par exemple : "ht<span>tp://data.canadensys.net/tools/coordinates.json?**data**=35|45° 32' 25"N,129° 40' 31"W&**idprovided**=TRUE&**callback**=MyCallback" 
 Génère la réponse suivante :   
 
 ```md
@@ -50,7 +50,7 @@ MyCallback({
 });
 ```  
 
-Par exemple : ht<span>tp://data.canadensys.net/tools/coordinates.xml?**data**=35|45° 32' 25"N,129° 40' 31"W  
+Par exemple : "ht<span>tp://data.canadensys.net/tools/coordinates.xml?**data**=35|45° 32' 25"N,129° 40' 31"W"  
 Génère la réponse suivante :  
 
 ```
@@ -81,7 +81,7 @@ OR
 http://data.canadensys.net/tools/dates.xml
 ``` 
 
-Par exemple : ht<span>tp://data.canadensys.net/tools/dates.json?**data**=Jun 13, 2008&**callback**=MyCallback 
+Par exemple : "ht<span>tp://data.canadensys.net/tools/dates.json?**data**=Jun 13, 2008&**callback**=MyCallback"
 Génère la réponse suivante : 
 
 ```md
