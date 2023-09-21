@@ -1,5 +1,6 @@
 ---
-llang-ref: home
+lang-ref: home
+lang: fr
 layout: home
 title: Canadensys
 description: Rendre l’information canadienne sur la biodiversité accessible à tous 
@@ -11,7 +12,7 @@ parallax: true
 klass: home
 cta:
   - text: Explorer
-    href: /fr//occurrence/search/?view=MAP
+    href: /fr/occurrence/search/?view=MAP
     isPrimary: true
   - text: Publier
     href: /fr/publish/ipt

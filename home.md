@@ -1,5 +1,6 @@
 ---
 lang-ref: home
+lang: en
 layout: home
 title: Canadensys
 description: Making Canadian biodiversity information freely and openly available 
