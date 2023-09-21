@@ -18,13 +18,13 @@ var siteConfig = {
       lng: -102,
       zoom: 3.5
     },
-   rootPredicate: { type: 'equals', key: 'publishingCountry', value: "CA" }, 
-  occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
+    rootPredicate: { type: 'equals', key: 'publishingCountry', value: "CA" },
+    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
   },
   collection: {
     rootFilter: { // filters on the grscicoll collection v1 API https://www.gbif.org/developer/summary
       publishingCountry: 'CA',
-      displayOnNHCPortal: true 
+      displayOnNHCPortal: true
     }
   },
   institution: {
@@ -60,13 +60,13 @@ var siteConfig = {
     highlightedFilters: ['q', 'countriesOfResearcher', 'countriesOfCoverage', 'year']
   },
   dataset: {
-    rootFilter: {publishingCountry: 'CA'},
+    rootFilter: { publishingCountry: 'CA' },
     highlightedFilters: ['q', 'anyPublisherKey', 'datasetType', 'license'],
     excludedFilters: ['publishingCountryCode'],
   },
   //apiKeys: {
-    //maptiler: "GET_YOUR_OWN_TOKEN", // https://github.com/gbif/hosted-portals/issues/229
-    //mapbox: "GET_YOUR_OWN__TOKEN"
+  //maptiler: "GET_YOUR_OWN_TOKEN", // https://github.com/gbif/hosted-portals/issues/229
+  //mapbox: "GET_YOUR_OWN__TOKEN"
   //},
   maps: {
     //locale: 'ja', // we want to show the maps in japanese
@@ -78,5 +78,8 @@ var siteConfig = {
       MERCATOR: ['NATURAL', 'BRIGHT', 'SATELLITE', 'DARK'],
       ANTARCTIC: ['NATURAL', 'BRIGHT', 'DARK']
     }
-  }
+  },
+  //messages: { // custom overwrites for the translations, e.g. label the occurrence catalog as a specimen catalog to match our data scope of specimens.
+  //"catalogues.occurrences": "Occurrences"
+  //}
 };
