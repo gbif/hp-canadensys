@@ -25,7 +25,8 @@ Depuis septembre 2011, des institutions et des chercheurs canadiens publient leu
 
 Si vous souhaitez publier votre propre jeu de données, commencez [ici](/fr/publish/7-step-guide/).
 
-add two stat images here
+![](/assets/images/specimen_stats.png)
+![](/assets/images/dataset_stats.png)
 
 Pour des statistiques additionneles d'utilisation, consultez [ce document](https://docs.google.com/spreadsheets/d/12AjfIiwXogeDwkZuwUhWOTOmebV-2xiWNUATJkUHSjw/edit#gid=2).
 
