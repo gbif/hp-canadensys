@@ -32,7 +32,7 @@ var siteConfig = {
   },
   institution: {
     rootFilter: { // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
-      publishingCountry: 'CA',
+      country: 'CA',
       displayOnNHCPortal: true,
       active: true
     },
