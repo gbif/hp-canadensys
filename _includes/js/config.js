@@ -1,7 +1,9 @@
-var siteTheme = gbifReactComponents.themeBuilder.extend({baseTheme: 'light', extendWith: {
-  primary: themeStyle.colors.primary,
-  fontSize: '16px'
-}});
+var siteTheme = gbifReactComponents.themeBuilder.extend({
+  baseTheme: 'light', extendWith: {
+    primary: themeStyle.colors.primary,
+    fontSize: '16px'
+  }
+});
 
 var siteConfig = {
   version: 2,
@@ -22,16 +24,17 @@ var siteConfig = {
     occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
   },
   collection: {
-    //rootFilter: { // filters on the grscicoll collection v1 API https://www.gbif.org/developer/summary
-      //predicate: {
-        //type: 'equals', key: 'country', value:'CA' 
-      //}
-      //publishingCountry: 'CA',
-    rootPredicate: {type: 'equals', key: 'country', value:'CA'},
-    displayOnNHCPortal: true
+    // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
+    // https://hp-theme.gbif-staging.org/data-exploration-config
+    rootFilter: {
+      country: 'CA',
+      displayOnNHCPortal: true,
+      active: true
+    },
+    excludedFilters: ['countrySingleGrSciColl'],// no reason to show a filter on country, when there is only one
   },
   institution: {
-    rootFilter: { // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
+    rootFilter: {
       country: 'CA',
       displayOnNHCPortal: true,
       active: true
