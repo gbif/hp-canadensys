@@ -21,7 +21,7 @@ En permettant la publication de ces données, Canadensys facilite les analyses c
 
 ## Données publiées sur Canadensys
 	
-Depuis septembre 2011, des institutions et des chercheurs canadiens publient leurs données sur la biodiversité via le [dépôt Canadensys](https://data.canadensys.net/ipt/?request_locale=fr). La plupart des jeux de données contiennent des données de spécimens, mais des listes d'espèces et des données d'observation sont également présentes. Tous les jeux de données sont publiés en suivant la norme internationale d'information sur la biodiversité Darwin Core. Vous pouvez les explorer, les télécharger et les utiliser gratuitement sous une licence ouverte.
+Depuis septembre 2011, des institutions et des chercheurs canadiens publient leurs données sur la biodiversité via le [répertoire Canadensys](https://data.canadensys.net/ipt/?request_locale=fr). La plupart des jeux de données contiennent des données de spécimens, mais des listes d'espèces et des données d'observation sont également présentes. Tous les jeux de données sont publiés en suivant la norme internationale d'information sur la biodiversité Darwin Core. Vous pouvez les explorer, les télécharger et les utiliser gratuitement sous une licence ouverte.
 
 Si vous souhaitez publier votre propre jeu de données, commencez [ici](/fr/publish/7-step-guide/).
 
