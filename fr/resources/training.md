@@ -19,11 +19,11 @@ height: 70vh
 * [Introduction à GBIF](https://docs.gbif.org/course-introduction-to-gbif/fr/)
 * [Cours de mobilisation des données sur la biodiversité](https://docs.gbif.org/course-data-mobilization/fr/)
 * [Utilisation des données sur la Biodiversité](https://docs.gbif.org/course-data-use/fr/)
-* [Accelerating biodiversity research through DNA barcodes, colection and observation data](https://docs.gbif.org/course-dna-barcoding/en/)
+* [Accelerating biodiversity research through DNA barcodes, collection and observation data](https://docs.gbif.org/course-dna-barcoding/en/)
 
 # Data/Library Carpentry (anglais)
 
-* [Nettoyage de Données avec OpenRefine pour les Écologistes](https://datacarpentry.org/OpenRefine-ecology-lesson/)
+* [Nettoyage de données avec OpenRefine pour les écologistes](https://datacarpentry.org/OpenRefine-ecology-lesson/)
 * [Gestion de données avec SQL pour les écologistes](https://datacarpentry.org/sql-ecology-lesson/)
 * [Organisation de données dans des tableurs pour les écologistes](https://datacarpentry.org/spreadsheet-ecology-lesson/)
 * [Cours semestriel en biologie](https://datacarpentry.org/semester-biology/)
@@ -35,4 +35,4 @@ height: 70vh
 
 # QCBS/CSBQ
 
-* [Série d'ateliers R](https://r.qcbs.ca/workshops/)
+* [Série d'ateliers R](https://r.qcbs.ca/workshops/), en français et anglais
