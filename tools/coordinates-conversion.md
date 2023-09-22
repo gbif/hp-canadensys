@@ -21,7 +21,8 @@ height: 70vh
 
 Use this tool to convert geographic coordinates from DDMMSS to decimal degrees. Type coordinate pairs on separate lines or paste latitude and longitude columns from a spreadsheet. Each row may be optionally preceded by an identifier followed by a pipe or tab. 
 
-**Example input** 
+**Example input**  
+
 45° 32' 25" N, 129° 40' 31" W 
  
 1 | 45.5° N, 129.6° W 
