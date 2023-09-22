@@ -18,9 +18,9 @@ parallax: true
 
 # Introduction
 
-Ce guide explique comment publier vos données de biodiversité auprès de [GBIF](http://www.gbif.org/), pour les partager avec le monde entier, via le [dépôt Canadensys](http://data.canadensys.net/ipt). Ce n’est pas la seule méthode que vous pouvez utiliser pour publier vos données, mais nous pensons que c’est, à l’heure actuelle, la plus pratique pour les collections et institutions canadiennes.
+Ce guide explique comment publier vos données de biodiversité auprès de [GBIF](http://www.gbif.org/), pour les partager avec le monde entier, via le [répertoire Canadensys](http://data.canadensys.net/ipt). Ce n’est pas la seule méthode que vous pouvez utiliser pour publier vos données, mais nous pensons que c’est, à l’heure actuelle, la plus pratique pour les collections et institutions canadiennes.
 
-Notre dépôt est propulsé par l’[Outil de Publication Intégré du GBIF (IPT)](https://www.gbif.org/en/ipt) et maintenu par notre équipe, ce qui vous permet de télécharger, standardiser, publier et enregistrer vos données en **7 étapes**, sans le soucis d’installer et maintenir votre propre outil de publication. Les données sont publiées au nom de votre institution et tout ceci est parfaitement gratuit.
+Notre répertoire est propulsé par l’[Outil de Publication Intégré du GBIF (IPT)](https://www.gbif.org/en/ipt) et maintenu par notre équipe, ce qui vous permet de télécharger, standardiser, publier et enregistrer vos données en **7 étapes**, sans le soucis d’installer et maintenir votre propre outil de publication. Les données sont publiées au nom de votre institution et tout ceci est parfaitement gratuit.
 
 ![](/assets/images/data-publication-guide-schema-fr.png)
 
@@ -33,7 +33,7 @@ Pour de l’information sur les différentes classes de données, suivez les gui
 
 # Conditions
 
-Nous nous soucions des données et nous voulons nous assurer qu’il en va de même pour vous. Afin de publier vos données à l’aide du dépôt Canadensys vous devez répondre aux critères suivants :
+Nous nous soucions des données et nous voulons nous assurer qu’il en va de même pour vous. Afin de publier vos données à l’aide du répertoire Canadensys vous devez répondre aux critères suivants :
 
 * Vous êtes associés à une collection ou une institution **canadienne**.
 * Vous publiez des jeux de données de spécimens ou d’observations, une checklist taxonomique, un jeu de données d’échantillonnage ou simplement des métadonnées (en d’autres mots, l’un des **4 types de jeu de données** supportés par l'IPT).
@@ -44,7 +44,7 @@ Nous nous soucions des données et nous voulons nous assurer qu’il en va de m�
 
 # 1. Création de votre ressource sur l'IPT
 
-Le [dépôt Canadensys](https://data.canadensys.net/ipt/) utilise l’[Outil de Publication Intégré du GBIF (IPT)](https://www.gbif.org/ipt), une application web libre de droit développée par [GBIF](https://www.gbif.org/) et personalisée par Canadensys afin de s'intégrer parfaitement à notre site Internet. Nous l’utilisons pour publier et enregistrer tous nos jeux de données. Afin de pouvoir créer et gérer votre propre jeu de données (appelé « ressource »), vous aurez besoin d’un **compte utilisateur**. 
+Le [répertoire Canadensys](https://data.canadensys.net/ipt/) utilise l’[Outil de Publication Intégré du GBIF (IPT)](https://www.gbif.org/ipt), une application web libre de droit développée par [GBIF](https://www.gbif.org/) et personalisée par Canadensys afin de s'intégrer parfaitement à notre site Internet. Nous l’utilisons pour publier et enregistrer tous nos jeux de données. Afin de pouvoir créer et gérer votre propre jeu de données (appelé « ressource »), vous aurez besoin d’un **compte utilisateur**. 
 [Contactez-nous](mailto:canadensys.network@gmail.com) afin que nous puissions vous le créer.
 
 Une fois votre compte créé, connectez-vous en haut de [cette page](https://data.canadensys.net/ipt/?request_locale=fr). Cliquez sur l'onglet *gérer les ressources* afin d’accéder à votre page de gestion. Cette page affiche toutes les ressources que vous gérez. Elle vous apparaîtra donc vide lors de la première utilisation. Vous pouvez **créer une nouvelle ressource** au bas de la page. Suivez le [manuel de l'IPT](https://ipt.gbif.org/manual/) pour de plus amples instructions.
@@ -93,7 +93,7 @@ Si vous souhaitez attribuer un [DOI](https://fr.wikipedia.org/wiki/Digital_Objec
 
 En retournant sur la vue d’ensemble de votre ressource > *Versions publiées*, vous pouvez voir les détails de votre premier jeu de données publié, incluant la date de publication et la version. Votre jeu de données étant publié de manière privée, la dernière chose qu’il vous reste à faire est de cliquer sur *Visibilité de la ressource* > **Public** (voir le [manuel de l'IPT](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#publication)) afin de le rendre disponible à tous. Attention : veuillez, s.v.p, ne pas rendre publique une version test.
 
-Félicitations, vous venez de publier votre premier jeu de données aux yeux du monde ! Il est maintenant listé sur la [page d’accueil du dépôt](https://data.canadensys.net/ipt/?request_locale=fr) et vous pouvez le partager et en faire un lien : https://data.canadensys.net/ipt/resource?r=dataset-shortname. C’est le moment opportun pour prévenir les réseaux régionaux ou thématiques dont vous faites partie, comme par exemple [VertNet](http://www.vertnet.org/), le [Consortium of Northeastern Herbaria](https://neherbaria.org/portal/) ou la [Société d’Entomologie du Canada](https://esc-sec.ca/).
+Félicitations, vous venez de publier votre premier jeu de données aux yeux du monde ! Il est maintenant listé sur la [page d’accueil du répertoire](https://data.canadensys.net/ipt/?request_locale=fr) et vous pouvez le partager et en faire un lien : https://data.canadensys.net/ipt/resource?r=dataset-shortname. C’est le moment opportun pour prévenir les réseaux régionaux ou thématiques dont vous faites partie, comme par exemple [VertNet](http://www.vertnet.org/), le [Consortium of Northeastern Herbaria](https://neherbaria.org/portal/) ou la [Société d’Entomologie du Canada](https://esc-sec.ca/).
 
 Votre jeu de données publié est une **vue statique** de vos données qui ne changera pas tant que vous ne téléchargerez pas une version mise à jour de votre fichier source et cliquiez de nouveau sur *Publier*. Les avantages sont que vos données sont toujours disponibles, ne requièrent pas de connexion directe à votre base de données et peuvent-être aisément partagées (ex. vous pouvez envoyer par courriel l’Archive Darwin Core à un(e) collègue). Cela vous permet également de mieux contrôler le processus de publication : version 1, version 2, etc. et les usagers sont informés de la date de la ressource et des différences entre les versions (ajout de données, corrections d’erreurs, etc).
 
