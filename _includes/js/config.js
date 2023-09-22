@@ -36,6 +36,7 @@ var siteConfig = {
       displayOnNHCPortal: true,
       active: true
     },
+    excludedFilters: ['countrySingleGrSciColl'],// no reason to show a filter on country, when there is only one
     mapSettings: {
       enabled: true, // show a map on institution search?
       lat: 58,
