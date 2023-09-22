@@ -21,7 +21,8 @@ height: 70vh
 
 Utilisez cet outil pour convertir des coordonnées géographiques du format DDMMSS au format degrés décimaux. Tapez les paires de coordonnées sur des lignes séparées ou collez les colonnes de latitude et de longitude à partir d'une feuille de calcul. Chaque ligne peut éventuellement être précédée d'un identifiant suivi d'une barre verticale ou d'une tabulation.
 
-**Example d'entrée** 
+**Example d'entrée**  
+
 45° 32' 25" N, 129° 40' 31" W 
  
 1 | 45.5° N, 129.6° W 
