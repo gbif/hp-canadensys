@@ -32,7 +32,7 @@ height: 70vh
 
 Use this tool to parse dates into their component parts. Type or paste dates on separate lines, optionally preceded by your own identifier followed by a tab or a pipe. 
 
-**Example input** 
+**Example input**\ 
 Jun 13, 2008  
 
 15 Jan 2011  
