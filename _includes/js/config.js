@@ -27,7 +27,7 @@ var siteConfig = {
         //type: 'equals', key: 'country', value:'CA' 
       //}
       //publishingCountry: 'CA',
-    rootPredicate: {type: 'equals', key: 'country', value:'CA'}
+    rootPredicate: {type: 'equals', key: 'country', value:'CA'},
     displayOnNHCPortal: true
   },
   institution: {
