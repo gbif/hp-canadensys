@@ -32,11 +32,16 @@ height: 70vh
 
 Utilisez cet outil pour convertir des dates en leurs différentes composantes. Entrez ou collez les dates sur des lignes séparées. Les dates peuvent être précédées d'un identifiant optionnel qui doit être séparé de la valeur par un tab ou une barre verticale |.
 
-**Example d'entrée** 
-Jun 13, 2008 
-15 Jan 2011 
-2009 IV 02 
-2 VII 1986 
+**Example d'entrée**  
+
+Jun 13, 2008  
+
+15 Jan 2011  
+
+2009 IV 02  
+
+2 VII 1986  
+
  
 1 | 1999/02/24 
 2 | 02/17/1921
