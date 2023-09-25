@@ -90,7 +90,4 @@ var siteConfig = {
   //messages: { // custom overwrites for the translations, e.g. label the occurrence catalog as a specimen catalog to match our data scope of specimens.
   //"catalogues.occurrences": "Occurrences"
   //}
-// example of a language specific route overwrite
-if (pageLang === 'fr')  {
-  siteConfig.routes.occurrenceSearch.route = '/fr/occurrences/search';
 };
