@@ -42,13 +42,14 @@ explorer:
   href: /occurrence/search?view=MAP
   cta:
   - text: |
-      <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
+# <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
+      Occurrences
     href: /occurrence/search
     isPrimary: true
-  - text: Map
-    href: /occurrence/search/?view=MAP
-  - text: Gallery
-    href: /occurrence/search/?view=GALLERY
+  - text: Collections
+    href: /collection/search
+  - text: Datasets
+    href: /dataset/search
 
 training:
   reverse: true

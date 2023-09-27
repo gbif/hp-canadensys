@@ -1,4 +1,5 @@
 stats:
+  klass: contentTypesStat
   features:
       # we can also use the graphql API to allow richer queries
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>
@@ -42,13 +43,14 @@ explorer:
   href: /fr/occurrence/search?view=MAP
   cta:
   - text: |
-      <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
+# <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
+      Occurrences
     href: /fr/occurrence/search
     isPrimary: true
-  - text: Carte
-    href: /fr/occurrence/search/?view=MAP
-  - text: Galerie
-    href: /fr/occurrence/search/?view=GALLERY
+  - text: Collections
+    href: /fr/collection/search
+  - text: Jeux de données
+    href: /fr//dataset/search
 
 training:
   reverse: true
