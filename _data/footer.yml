@@ -7,20 +7,21 @@ columns:
     description: | # Can be Markdown
       * Biodiversity Centre
       * 4101 Sherbrooke Est
-      * Montréal, QC, H1X 2B2
-      * Canada
+      * Montréal, QC, H1X 2B2, Canada
       * [Contact Node manager](mailto:canadensys.network@gmail.com)  
     connectIcons: true
   - name: Code
     description: | # Can be Markdown
       This project is open source. All files are available on [GitHub](https://github.com/gbif/hp-canadensys).
-  #- name: Partners
+  - name: Partners
     # - description: [](https://www.gbif.org/)
-    #- description: [<img src="/assets/logo/Logo_UdeM-bleu-RVB.png" alt="Université de Montréal">](https://www.umontreal.ca/)
+    - description: [<img src="/assets/logo/Logo_UdeM-bleu-RVB.png" alt="Université de Montréal">](https://www.umontreal.ca/)
+    - description: [<img src="/assets/logo/CMN_Masterbrand_EN_RGB.png" alt="Canadian Museum of Nature">](https://nature.ca/en/)
+    - description: [<img src="/assets/logo/243px-Agriculture_and_Agri-Food_Canada_logo.png" alt="Agriculture and Agrifood Canada">]()
     # - description: [](https://alliancecan.ca/)
     # - description: [](https://www.innovation.ca/)
     # - description: [](https://www.nserc-crsng.gc.ca/)
-  #- description: [<img src="/assets/logo/pn-green-logo.png" alt="GBIF Node">](https://www.gbif.org/participant/365)
+    - description: [<img src="/assets/logo/pn-green-logo.png" alt="GBIF Node">](https://www.gbif.org/participant/365)
 
   
 
@@ -41,5 +42,5 @@ columns:
 # Will be prefixed by "© {{ site.author }}" if defined in _config.yml
 # Will be postfixed by "Powered by GBIF"
 # (Disabled by default, remove the '#' lines on the following two lines to enable.)
-#license: >
-#  Content on this site is licensed under an [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+license: >
+  Content on this site is licensed under an [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/).

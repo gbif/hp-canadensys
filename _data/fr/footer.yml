@@ -7,8 +7,7 @@ columns:
     description: | # Can be Markdown
       * Centre sur la biodiversité
       * 4101 Sherbrooke Est
-      * Montréal, QC, H1X 2B2
-      * Canada
+      * Montréal, QC, H1X 2B2, Canada
       * [Contacter le gestionnaire de Noeud](mailto:canadensys.network@gmail.com)  
     connectIcons: true
   - name: Code
