@@ -17,7 +17,7 @@ columns:
     # - description: [](https://www.gbif.org/)
     - description: [<img src="/assets/logo/Logo_UdeM-bleu-RVB.png" alt="Université de Montréal">](https://www.umontreal.ca/)
     - description: [<img src="/assets/logo/CMN_Masterbrand_EN_RGB.png" alt="Canadian Museum of Nature">](https://nature.ca/en/)
-    - description: [<img src="/assets/logo/243px-Agriculture_and_Agri-Food_Canada_logo.png" alt="Agriculture and Agrifood Canada">]()
+    - description: [<img src="/assets/logo/243px-Agriculture_and_Agri-Food_Canada_logo.png" alt="Agriculture and Agrifood Canada">](https://agriculture.canada.ca/)
     # - description: [](https://alliancecan.ca/)
     # - description: [](https://www.innovation.ca/)
     # - description: [](https://www.nserc-crsng.gc.ca/)
