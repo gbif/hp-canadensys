@@ -12,8 +12,6 @@
       href: /institution/search
     - text: Datasets
       href: /dataset/search
-    - text: Literature
-      href: /literature/serach
 - text: Publish
   menu: # Dropdown menu (one level deep only)
     - text: Data repository

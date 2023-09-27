@@ -10,11 +10,9 @@
       href: /fr/institution/search
     - text: Jeux de données
       href: /fr/dataset/search
-    - text: Littérature
-      href: /fr/literature/serach
 - text: Publier
   menu: # Dropdown menu (one level deep only)
-    - text: Dépôt de données
+    - text: Répertoire de données
       href: /fr/publish/ipt
     - text: Comment publier 
       href: /fr/publish/introduction
