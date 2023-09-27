@@ -2,6 +2,7 @@
 title:  "GBIF Graduate Researchers Award"
 date:   2023-04-18 14:30:00 +0100
 categories: ["GBIF","Announcement"]
+lang: en
 lang-ref: graduateResearchers
 background: /assets/images/GraduateResarcher.png
 ---
