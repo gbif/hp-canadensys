@@ -41,9 +41,7 @@ explorer:
   background: /assets/images/Map-Canadensys.png
   href: /occurrence/search?view=MAP
   cta:
-  - text: |
-# <div><span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishing_country=CA&limit=0">xx</span>  occurrences</div>
-      Occurrences
+  - text: Occurrences
     href: /occurrence/search
     isPrimary: true
   - text: Collections
