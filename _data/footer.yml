@@ -16,11 +16,11 @@ columns:
   # - name: Partners
     # - description: [](https://www.gbif.org/)
   - description: |
-      [<img src="/assets/logo/Logo_UdeM-bleu-RVB.png" alt="Université de Montréal" style="width: 100px; height: 47.15px"/>](https://www.umontreal.ca/)
+      [<img src="/assets/logo/Logo_UdeM-bleu-RVB.png" alt="Université de Montréal" style="width: 200px; height: 94px"/>](https://www.umontreal.ca/)
   - description: |
-      [<img src="/assets/logo/CMN_Masterbrand_EN_RGB.png" alt="Canadian Museum of Nature" style="width: 100px; height: 25.42px"/>](https://nature.ca/en/)
+      [<img src="/assets/logo/CMN_Masterbrand_EN_RGB.png" alt="Canadian Museum of Nature" style="width: 200px; height: 50px"/>](https://nature.ca/en/)
   - description: |
-      [<img src="/assets/logo/243px-Agriculture_and_Agri-Food_Canada_logo.png" alt="Agriculture and Agrifood Canada" style="width: 100px; height: 7.82px"/>](https://agriculture.canada.ca/)
+      [<img src="/assets/logo/243px-Agriculture_and_Agri-Food_Canada_logo.png" alt="Agriculture and Agrifood Canada" style="width: 243px; height: 19px"/>](https://agriculture.canada.ca/)
     # - description: [](https://alliancecan.ca/)
     # - description: [](https://www.innovation.ca/)
     # - description: [](https://www.nserc-crsng.gc.ca/)
