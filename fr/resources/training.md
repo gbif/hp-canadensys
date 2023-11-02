@@ -20,6 +20,8 @@ height: 70vh
 * [Cours de mobilisation des données sur la biodiversité](https://docs.gbif.org/course-data-mobilization/fr/)
 * [Utilisation des données sur la Biodiversité](https://docs.gbif.org/course-data-use/fr/)
 * [Accelerating biodiversity research through DNA barcodes, collection and observation data](https://docs.gbif.org/course-dna-barcoding/en/)
+* [Data Use Club](https://www.gbif.org/fr/data-use-club)
+* [GBIF Technical Hour](https://www.gbif.org/event/6Byy5QOj9IwwuPQnZTNndj/technical-support-hour-for-gbif-nodes-june-2023#:~:text=The%20drop%2Din%20office%20hour,part%20of%20a%20trial%20period.)
 
 # Data/Library Carpentry (anglais)
 
