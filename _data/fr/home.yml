@@ -28,19 +28,19 @@ about:
       Canadensys rend l'information sur la biodiversité librement et ouvertement accessible à tous. Nous sommes un réseau de chercheurs, collectionneurs, conservateurs, technologues de l'information, étudiants et éducateurs qui partagent des données sur la présence et l'identité des plantes, des animaux, des champignons et d'autres espèces au Canada.
   # img required
   background: /assets/images/tree-canopy.jpeg
+  ratio: 70
 
 explorer:
   reverse: false
   title: Explorateur de données
   description: |
-      * Accès à plusieurs millions de données de biodiversité publiées par des institutions canadiennes  
-      * Accédez à la carte pour visualiser les enregistrements d'occurrences dans l'espace et dans le temps  
-      * Des filtres spécifiques permettent le développement de requêtes personnalisées directement dans le portail  
-      * Le suivi des problèmes et des drapeaux permettent le contrôle de la qualité des données
-      * Accédez à la galerie d'images pour parcourir des milliers d'images, allant des spécimens de collection aux observations
-      * Grâce à notre explorateur de données, vous pouvez découvrir et télécharger des données pour les utiliser et les réutiliser
+      * Accédez à des données de biodiversité publiées par des institutions canadiennes  
+      * Visualisez les enregistrements d'occurrences dans l'espace et dans le temps  
+      * Filtrez vos recherches grâce à des critères spécifiques 
+      * Suivi des problèmes assurant un contrôle de la qualité des données
+      * Accédez à la galerie d'images de spécimens de collection et d'observations
   background: /assets/images/Map-Canadensys.png
-  href: /fr/occurrence/search?view=MAP
+  #href: /fr/occurrence/search?view=MAP
   cta:
   - text: Occurrences
     href: /fr/occurrence/search
@@ -56,6 +56,7 @@ training:
   description: |
       Explorez notre documentation, découvrez nos outils et notre matériel de formation
   background: https://inaturalist-open-data.s3.amazonaws.com/photos/256402192/original.jpg
+  ratio: 70
   imageLicense: |
     <em>Cardinalis cardinalis</em> (Linnaeus, 1758) observed in Canada by jnaffy via [iNaturalist](https://www.gbif.org/occurrence/4039169691)
   cta:

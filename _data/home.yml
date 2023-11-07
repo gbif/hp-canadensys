@@ -27,19 +27,19 @@ about:
       Canadensys makes biodiversity information freely and openly available to everyone. We are a network of researchers, collectors, curators, information technologists, students, and educators that shares data on the occurrence and identity of plant, animal, fungi, and other species in Canada.
   # img required
   background: /assets/images/tree-canopy.jpeg
+  ratio: 70
 
 explorer:
   reverse: false
   title: Data Explorer
   description: |
-      * Get access to millions of biodiversity data, published by Canadian publishers  
-      * Go to the Map feature to visualize occurrence records in space and time  
-      * Special filtering criteria enable customized query development within the portal framework 
+      * Access biodiversity data from Canadian publishers  
+      * Visualize occurrence records in space and time  
+      * Filter data with customized criteria 
       * Issues and flags enable quality control 
-      * Go to the Image Gallery to browse thousands of images from collection specimens to observations  
-      * Through our Data Explorer you can discover and download data for use and re-use
+      * Browse the image Gallery of collection specimens and observations
   background: /assets/images/Map-Canadensys.png
-  href: /occurrence/search?view=MAP
+  #href: /occurrence/search?view=MAP
   cta:
   - text: Occurrences
     href: /occurrence/search
@@ -51,10 +51,11 @@ explorer:
 
 training:
   reverse: true
-  title: Documentation and Training
+  title: Other ressources
   description: |
       Explore our documentation, discover tools and training materials
   background: https://inaturalist-open-data.s3.amazonaws.com/photos/256402192/original.jpg
+  ratio: 70
   imageLicense: |
     <em>Cardinalis cardinalis</em> (Linnaeus, 1758) observed in Canada by jnaffy via [iNaturalist](https://www.gbif.org/occurrence/4039169691)
   cta:
