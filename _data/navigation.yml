@@ -38,9 +38,9 @@
       href: /tools/tools-api
 - text: Resources
   menu: # Dropdown menu (one level deep only)
-  - text: Documents
+  - text: Documentation
     href: /resources/documents
-  - text: Other tools
+  - text: External tools
     href: /resources/othertools
   - text: Training material
     href: /resources/training
