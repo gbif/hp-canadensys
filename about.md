@@ -24,6 +24,10 @@ By enabling the publication of these data, Canadensys facilitates cross-analyses
 Since September 2011, Canadian institutions and researchers have been publishing their biodiversity information via the [Canadensys repository](https://data.canadensys.net/ipt/). Most of the datasets contain specimen data, but checklists and observation data are present as well. All datasets are published in the biodiversity information standard [Darwin Core](/resources/documents/#Darwin-core), and you can explore, download and use them for free under an open license.
 If you are interested in publishing your own dataset, start [here](https://canadensys.hp.gbif-staging.org/publish/7-step-guide/).
 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=13&amp;format=image"></iframe>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=12&amp;format=interactive"></iframe>
+
 ![](/assets/images/specimen_stats.png)
 ![](/assets/images/dataset_stats.png)
 
@@ -33,5 +37,21 @@ For more detailed statistics, see this [Google Spreadsheet](https://docs.google.
 
 This is the preferred format for citing data published through the Canadensys network. If other citation practices apply, feel free to use them, but please include a link.
 
-Format: \[list of data publishers, i.e. institution or group of institutions\]. http://data.canadensys.net/explorer (accessed on \[date\])
+### Aggregated data
+
+Example: Acadia University, Université de Montréal Biodiversity Centre, University of Toronto Mississauga, University of British Columbia. http://data.canadensys.net/explorer (accessed on 2012-03-21)  
+
+Format: [list of data publishers]. http://data.canadensys.net/explorer (accessed on [date])  
+
+### Single dataset
+
+Example with DOI: Green Plant Herbarium (TRT) from Royal Ontario Museum. http://dx.doi.org/10.5886/g7j6gct1 (accessed on 2012-03-21)  
+
+Format: [dataset name] from [data publisher]. http://dx.doi.org/[DOI of dataset] (accessed on [date])  
+
+### Single specimen/observation record
+
+Example: MT00012345, Marie-Victorin Herbarium (MT) from Université de Montréal Biodiversity Centre. http://dataset.canadensys.net/mt-specimens (accessed on 2012-03-21)  
+
+Format: [record id], [dataset name] from [data publisher]. [link to dataset] (accessed on [date])  
 
