@@ -5,7 +5,7 @@ composition:
   - type: pageMarkdown
 lang-ref: othertools
 lang: fr
-title: Autres outils
+title: Outils externes
 background: https://inaturalist-open-data.s3.amazonaws.com/photos/257158398/original.jpg
 imageLicense: |
   <em>Pisaster ochraceus</em> (Brandt, 1835) observed in Canada by errooke via [iNaturalist](https://www.gbif.org/occurrence/4039489698)
