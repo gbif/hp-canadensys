@@ -17,11 +17,9 @@ toc: true
 
 # Introduction
 
-The Database of Vascular Plants of Canada (VASCAN) is a comprehensive list of all vascular plants reported in Canada, Greenland (Denmark) and Saint Pierre and Miquelon (France). VASCAN is a checklist database. Its core record is a taxon, e.g. a species like *Acer saccharum* Marshall. It also contains information related to that taxon, such as its distribution, taxonomy, synonyms and vernacular names, and a source for most of these elements. VASCAN is literature-based, though recent additions are sometimes specimen-based.  
+The Database of Vascular Plants of Canada (VASCAN) is a comprehensive list of all vascular plants reported in Canada, Greenland and Saint Pierre and Miquelon, containing information related to each taxon, such as its distribution, taxonomy, synonyms and vernacular names, and a source for most of these elements. VASCAN is literature-based, though recent additions are sometimes specimen-based.
 
-We designed VASCAN to be as open as possible. As such, users can download the [entire database](http://data.canadensys.net/ipt/resource.do?r=vascan) or a subset through the [checklist builder](/vascan/checklist-builder/) as Darwin Core Archives or flat text files. Users can also report and view issues with the data and interface in [our open issue tracker](https://github.com/Canadensys/vascan-data/issues). 
-
-VASCAN is a [Java](https://www.java.com/) application that operates in [Tomcat](http://tomcat.apache.org/) using a [MySQL](https://www.mysql.com/) database. Although it was designed for plants, we have made an effort to generalize the structure of the database and application, so that it could also be used for other taxonomic groups, such as animals and fungi. 
+We designed VASCAN to be as open as possible. As such, users can download the entire database or a subset through the checklist builder as Darwin Core Archives or flat text files. Users can also report and view issues with the data and interface in our open issue tracker.  
 
 # Name search
 
