@@ -12,11 +12,11 @@ listIPT:
       #imageLicense: Ulex europaeus L. by Cara via [iNaturalist](https://www.gbif.org/occurrence/4062797577)
       #href: https://data.canadensys.net/ipt/
       # categories: [drawings] # optional
-    - title: Musée Canadien de la Nature
-      href: http://ipt.nature.ca/
-      description: |
-        Deployé par le Musée Canadien de la Nature afin de publier leurs propres collections
-      background: /assets/logo/CMN_Masterbrand_EN_RGB-resize.png
+    #- title: Musée Canadien de la Nature
+      #href: http://ipt.nature.ca/
+      #description: |
+      #  Deployé par le Musée Canadien de la Nature afin de publier leurs propres collections
+      #background: /assets/logo/CMN_Masterbrand_EN_RGB-resize.png
     - title: Noeud Canadien du Système d'Information sur la Biodiversité des Océans (OBIS)
       href: https://ipt.iobis.org/obiscanada/
       description: |
@@ -27,11 +27,11 @@ listIPT:
       description: |
         Deployé par l'Université de l'Alberta pour la publication de leurs popres collections
       background: /assets/logo/Museums_University_of_Alberta_Logo.png
-    - title: Musée Royal de l'Ontario (ROM)
-      href: https://www.gbif.org/publisher/ff418020-1d67-11d9-8435-b8a03c50a862
-      description: |
-        Deployé par le Musée Royal de l'Ontario Museum afin de publier leurs propres collections
-      background: /assets/logo/rom-logo.png # img required 
+    #- title: Musée Royal de l'Ontario (ROM)
+      #href: https://www.gbif.org/publisher/ff418020-1d67-11d9-8435-b8a03c50a862
+      #description: |
+      #  Deployé par le Musée Royal de l'Ontario Museum afin de publier leurs propres collections
+      #background: /assets/logo/rom-logo.png # img required 
     - title: Specimen Micropublications
       href: https://data.canadensys.net/micropublications
       description: |
