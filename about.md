@@ -24,9 +24,11 @@ By enabling the publication of these data, Canadensys facilitates cross-analyses
 Since September 2011, Canadian institutions and researchers have been publishing their biodiversity information via the [Canadensys repository](https://data.canadensys.net/ipt/). Most of the datasets contain specimen data, but checklists and observation data are present as well. All datasets are published in the biodiversity information standard [Darwin Core](/resources/documents/#Darwin-core), and you can explore, download and use them for free under an open license.
 If you are interested in publishing your own dataset, start [here](https://canadensys.hp.gbif-staging.org/publish/7-step-guide/).
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=13&amp;format=image"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=13&amp;format=image"></iframe>  
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=12&amp;format=interactive"></iframe>
+<div></div>
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=12&amp;format=image"></iframe>  
 
 ![](/assets/images/specimen_stats.png)
 ![](/assets/images/dataset_stats.png)
