@@ -34,11 +34,7 @@ explorer:
   reverse: false
   title: Explorateur de données
   description: |
-      * Accédez à des données de biodiversité publiées par des institutions canadiennes  
-      * Visualisez les enregistrements d'occurrences dans l'espace et dans le temps  
-      * Filtrez vos recherches grâce à des critères spécifiques 
-      * Suivi des problèmes assurant un contrôle de la qualité des données
-      * Accédez à la galerie d'images de spécimens de collection et d'observations
+      Accédez, naviguez, visualisez et filtrez les données de biodiversité publiés par des institutions canadienne
   background: /assets/images/Map-Canadensys.png
   ratio: 70
   #href: /fr/occurrence/search?view=MAP
