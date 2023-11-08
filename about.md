@@ -25,11 +25,11 @@ Since September 2011, Canadian institutions and researchers have been publishing
 If you are interested in publishing your own dataset, start [here](https://canadensys.hp.gbif-staging.org/publish/7-step-guide/).
 
 <div>
-	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=13&amp;format=image"></iframe>
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=13&amp;format=image" width="500" height="600"></iframe>
 </div>
 
 <div>
-	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=12&amp;format=image"></iframe>
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=12&amp;format=image" width="500" height="600"></iframe>
 </div>
 
 ![](/assets/images/specimen_stats.png)
