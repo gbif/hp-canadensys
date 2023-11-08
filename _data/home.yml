@@ -39,6 +39,7 @@ explorer:
       * Issues and flags enable quality control 
       * Browse the image Gallery of collection specimens and observations
   background: /assets/images/Map-Canadensys.png
+  ratio: 70
   #href: /occurrence/search?view=MAP
   cta:
   - text: Occurrences
