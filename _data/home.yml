@@ -33,11 +33,7 @@ explorer:
   reverse: false
   title: Data Explorer
   description: |
-      * Access biodiversity data from Canadian publishers  
-      * Visualize occurrence records in space and time  
-      * Filter data with customized criteria 
-      * Issues and flags enable quality control 
-      * Browse the image Gallery of collection specimens and observations
+      Access, browse, visualize and filter biodiversity data from Canadian publishers
   background: /assets/images/Map-Canadensys.png
   ratio: 70
   #href: /occurrence/search?view=MAP
