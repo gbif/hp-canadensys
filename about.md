@@ -32,9 +32,6 @@ If you are interested in publishing your own dataset, start [here](https://canad
 	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=12&amp;format=image" width="800" height="400"></iframe>
 </div>
 
-\![](/assets/images/specimen_stats.png)
-\![](/assets/images/dataset_stats.png)
-
 For more detailed statistics, see this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/12AjfIiwXogeDwkZuwUhWOTOmebV-2xiWNUATJkUHSjw/edit#gid=2).
 
 ## How to cite Canadensys
