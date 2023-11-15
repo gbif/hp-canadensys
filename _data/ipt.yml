@@ -49,3 +49,4 @@ canadensys:
   cta:
     - text: Access the IPT
       href: https://data.canadensys.net/ipt/
+      isPrimary: true
