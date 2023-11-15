@@ -22,7 +22,7 @@ columns:
   #- description: |
   #    [<img src="/assets/logo/AAFC-logo.png" alt="Agriculture and Agrifood Canada" style="width: 150px; height: 23.27px"/>](https://agriculture.canada.ca/)
   - description: |
-      [<img src="/assets/logo/pn-green-logo.png" alt="GBIF Node" style="width: 75px; height: 75px"/>](https://www.gbif.org/participant/365)
+      [<img src="/assets/logo/pn-green-logo.png" alt="GBIF Node" style="width: 50px; height: 50px"/>](https://www.gbif.org/participant/365)
 
   
 
