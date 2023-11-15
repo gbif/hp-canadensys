@@ -33,7 +33,7 @@ Si vous souhaitez publier votre propre jeu de données, commencez [ici](/fr/publ
 	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=12&amp;format=image" width="1200" height="400"></iframe>
 </div>
 
-Pour des statistiques additionneles d'utilisation, consultez [ce document](https://docs.google.com/spreadsheets/d/12AjfIiwXogeDwkZuwUhWOTOmebV-2xiWNUATJkUHSjw/edit#gid=2).
+Pour des statistiques additionneles d'utilisation, consultez [ce document](https://docs.google.com/spreadsheets/d/12AjfIiwXogeDwkZuwUhWOTOmebV-2xiWNUATJkUHSjw/).
 
 ## Comment citer Canadensys
 
