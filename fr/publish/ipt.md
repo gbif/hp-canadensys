@@ -10,15 +10,15 @@ description: Integrated Publishing Toolkit
 height: 70vh
 composition:
   - type: heroImage
-  - type: pageMarkdown
   - type: split
     data: fr.ipt.canadensys
+  - type: pageMarkdown
   - type: features # The block type "features" shows a list of cards
     data: fr.ipt.listIPT # We also need some data for those cards. In this case we refer to a yaml file in the _data folder.
 parallax: true 
 ---
 
-# Introduction à l'IPT 
+# Qu'est-ce qu'un IPT ? 
 
 L'[Outil de Publication Intégré de GBIF](https://github.com/gbif/ipt), ou IPT, est une application web Open Source gratuite utilisée pour publier des données de biodiversité.
 Développé par le [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) avec l'aide de la communauté de l'informatique de la biodiversité, incluant Canadensys, il est l'outil recommandé par la communauté internationale pour publier des données de biodiversité. 
