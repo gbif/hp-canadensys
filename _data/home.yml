@@ -63,3 +63,13 @@ training:
     href: /resources/othertools/
   - text: Training
     href: /resources/training/
+
+stories:
+  title: Events and training for the community
+  description: |
+    Events organised by the GBIF Secretariat and the GBIF community
+  useSiteLinkWhenPossible: true
+  filters:
+    contentType: 
+      - EVENT
+    limit: 6 
