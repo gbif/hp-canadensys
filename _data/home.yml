@@ -72,4 +72,4 @@ stories:
   filters:
     contentType: 
       - EVENT
-    limit: 6 
+    limit: 3
