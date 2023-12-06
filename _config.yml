@@ -55,7 +55,7 @@ siteMeasurements:
 
 algae:
   rootLang: en
-  latestPostLimit: 3
+  latestPostLimit: 4
   logo: /assets/logo/Canadensys-logo_red.png     # Logo in navbar, will be displayed with 28px height
   logoAndTitle: true              # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
