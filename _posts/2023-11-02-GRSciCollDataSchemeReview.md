@@ -5,6 +5,8 @@ categories: ["GBIF","GRSciColl"]
 lang: en
 lang-ref: GRSciColl-DataScheme
 background: https://api.gbif.org/v1/image/unsafe/1170x422/http:%2F%2Fimages.ctfassets.net%2Fuo17ejk9rkwj%2F20LXAvZuwbw3S9oEMzYFBC%2F8f401acf7f3b80cea6b112b0ab363caf%2Fbg-news-collections.jpg
+ratio: 70
+thumbnail: https://api.gbif.org/v1/image/unsafe/1170x422/http:%2F%2Fimages.ctfassets.net%2Fuo17ejk9rkwj%2F20LXAvZuwbw3S9oEMzYFBC%2F8f401acf7f3b80cea6b112b0ab363caf%2Fbg-news-collections.jpg
 ---
 
 The GBIF Secretariat has announced a process for reviewing the data schema underlying the [Global Registry of Scientific Collections](https://scientific-collections.gbif.org/)(GRSciColl). Community members are encouraged to share their feedback, suggestions and observations now through **Friday, 22 December 2023**.  
