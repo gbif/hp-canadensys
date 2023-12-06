@@ -55,7 +55,7 @@ siteMeasurements:
 
 algae:
   rootLang: en
-  # latestPostLimit: 2
+  latestPostLimit: 3
   logo: /assets/logo/Canadensys-logo_red.png     # Logo in navbar, will be displayed with 28px height
   logoAndTitle: true              # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
@@ -97,17 +97,32 @@ exclude:
 permalink: pretty # will strip extensions like .html from urls
 
 defaults:
-  - scope:
+  -
+    scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "page" # So by default any page will use the layout "page"
-      lang: en # And have the default language english
-  - scope:
+      layout: "page"
+      lang: en
+  -
+    scope:
       path: "_posts" # an empty string here means all files in the project
     values:
       layout: "post"
       permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
-  - scope:
-      path: "fr/" # For anything in the "fr" folder the default is to set the lang frontMatter property to "fr" . this should be deleted or adapted to your site if you support other languages
+  -
+    scope:
+      path: ""
+    values:
+      lang: en
+  -
+    scope:
+      path: "fr/"
     values:
       lang: fr
+  -
+    scope:
+      path: "_posts/fr/" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: "/fr/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
