@@ -26,8 +26,8 @@ description: >- # this means to ignore newlines (until baseurl:)
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://canadensys.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
-#url: "https://canadensys.net/"
+#url: "https://canadensys.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.canadensys.net/"
 # twitter_username: Canadensys # if you have an account you want to link to. Else comment this line out
 github_username:  Canadensys # if you have an account you want to link to. Else comment this line out
 
@@ -42,7 +42,7 @@ remote_theme: gbif/jekyll-hp-base-theme
 # For use by the 'standardPrivacy' layout
 privacy:
   name: Canadensys
-  domain: your-domain.org
+  domain: www.canadensys.net
   contactEmail: canadensys.network@gmail.com
   helpdeskEmail: canadensys.network@gmail.com
 
