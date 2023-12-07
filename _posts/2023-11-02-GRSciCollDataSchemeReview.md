@@ -40,5 +40,5 @@ For those keen on staying updated and actively participating in shaping the futu
 * **Mailing list**: [Subscribe to the GRSciColl mailing list](https://lists.gbif.org/mailman/listinfo/scientific-collections) for regular updates, notifications, and announcements related to GRSciColl and the data schema review.
 * **Community forum**: Stay connected to the topic by following the [GRSciColl category in the GBIF community forum](https://discourse.gbif.org/t/review-the-grscicoll-data-schema-and-first-community-call/4189), where you can post and discuss issues, share your insights, and collaborate with fellow community members on topics related to scientific collections.
 
-Please direct general comments or questions about GRSciColl to scientific-collections@gbif.org.
+Please direct general comments or questions about GRSciColl to <scientific-collections@gbif.org>.
 
