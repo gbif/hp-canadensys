@@ -21,19 +21,19 @@
 - text: Vascan
   menu:
     - text: VASCAN - Recherche de noms
-      href: /fr/vascan/name-search
+      href: https://data.canadensys.net/vascan/search?lang=fr
     - text: Générateur de liste
-      href: /fr/vascan/checklist-builder
+      href: https://data.canadensys.net/vascan/checklist?lang=fr
     - text: Comment utiliser VASCAN
       href: /fr/vascan/how-to
 - text: Outils
   menu:
     - text: Conversion de coordonnées
-      href: /fr/tools/coordinates
+      href: https://data.canadensys.net/tools/coordinates?lang=fr
     - text: Conversion de dates
-      href: /fr/tools/dates
+      href: https://data.canadensys.net/tools/dates?lang=fr
     - text: API des outils
-      href: /fr/tools/tools
+      href: https://data.canadensys.net/tools/api?lang=fr
 - text: Ressources
   menu: # Dropdown menu (one level deep only)
   - text: Documentation
