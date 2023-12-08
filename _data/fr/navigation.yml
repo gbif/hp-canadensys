@@ -29,11 +29,11 @@
 - text: Outils
   menu:
     - text: Conversion de coordonnées
-      href: /fr/tools/coordinates-conversion
+      href: /fr/tools/coordinates
     - text: Conversion de dates
-      href: /fr/tools/date-parsing
+      href: /fr/tools/dates
     - text: API des outils
-      href: /fr/tools/tools-api
+      href: /fr/tools/tools
 - text: Ressources
   menu: # Dropdown menu (one level deep only)
   - text: Documentation

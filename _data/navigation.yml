@@ -31,11 +31,11 @@
 - text: Tools
   menu:
     - text: Coordinates Conversion
-      href: /tools/coordinates-conversion
+      href: /tools/coordinates
     - text: Date Parsing
-      href: /tools/date-parsing
+      href: /tools/dates
     - text: Tools API
-      href: /tools/tools-api
+      href: /tools/api
 - text: Resources
   menu: # Dropdown menu (one level deep only)
   - text: Documentation
