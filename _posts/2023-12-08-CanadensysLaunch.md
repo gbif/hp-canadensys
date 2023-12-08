@@ -18,7 +18,7 @@ What does this mean for users and the managing team?
 # What has changed?
 
 Data exploration has been completely modified and is now directly based on data available on GBIF. This means a nearly immediate availability in the Explorer of the data published via our IPT.  
-This means that we now showcase all data published by Canadian organizations available on GBIF.
+This also means that we now showcase all data published by Canadian organizations available on GBIF.
 In addition to having access to occurrence data, you can also search and extract information about collections, institutions and datasets.  
 
 The data exploration feature includes the possibility to use filters, to directly visualize occurrence data by clicking on the dots on the map or the entries in the table, and to download a subset of data (GBIF account needed for this action).  
