@@ -1,8 +1,8 @@
 ---
-title:  "Simple, intuitive and good looking: here comes the new Canadensys portal!"
+title:  "Simple, intuitif et pas mal beau: voici le nouveau portail Canadensys !"
 date:   2023-12-08 13:20:00 +0100
 categories: ["Canadensys","Portal"]
-lang: en
+lang: fr
 preTitle: 08 December 2023
 lang-ref: CanadensysLaunch
 background: /assets/logo/Canadensys-logo_red.png
