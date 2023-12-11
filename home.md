@@ -17,7 +17,7 @@ cta:
   - text: Publish
     href: /publish/ipt/
   - text: Vascan
-    href: /vascan/name-search/
+    href: https://data.canadensys.net/vascan/
 permalink: /
 composition:
   - type: heroImage # the block type
