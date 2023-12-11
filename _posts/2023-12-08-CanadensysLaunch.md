@@ -5,9 +5,9 @@ categories: ["Canadensys","Portal"]
 lang: en
 preTitle: 08 December 2023
 lang-ref: CanadensysLaunch
-background: /assets/logo/Canadensys-logo_red.png
+background: /assets/logo/Canadensys-logo_red-resize.png
 ratio: 50
-thumbnail: /assets/logo/Canadensys-logo_red.png
+thumbnail: /assets/logo/Canadensys-logo_red-resize.png
 ---
 
 
