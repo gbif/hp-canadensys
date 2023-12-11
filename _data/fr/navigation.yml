@@ -33,7 +33,7 @@
     - text: Conversion de dates
       href: https://data.canadensys.net/tools/dates?lang=fr
     - text: API des outils
-      href: https://data.canadensys.net/tools/api?lang=fr
+      href: /fr/tools/tools-api
 - text: Ressources
   menu: # Dropdown menu (one level deep only)
   - text: Documentation

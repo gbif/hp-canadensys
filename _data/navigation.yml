@@ -35,7 +35,7 @@
     - text: Date Parsing
       href: https://data.canadensys.net/tools/dates
     - text: Tools API
-      href: https://data.canadensys.net/tools/api
+      href: /tools/tools-api
 - text: Resources
   menu: # Dropdown menu (one level deep only)
   - text: Documentation
