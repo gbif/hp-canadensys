@@ -15,7 +15,7 @@ Les collections biologiques regorgent d'informations taxonomiques, géographique
 
 Canadensys publie des données sur les spécimens des collections et institutions canadiennes d'histoire naturelle, ainsi que d'autres types de données sur la biodiversité, telles que des listes d'espèces (dont bon nombre comprennent des estimations de la richesse en espèces), des observations et des données écologiques. Certaines de ces ressources comprennent des données sur des espèces nouvelles pour la science. Canadensys héberge également les plateformes de publication de données pour deux revues taxonomiques en ligne, [Specimen](https://specimenpub.org/) et [Collection](https://specimenpub.org/).
 
-Notre objectif est de [numériser](/fr/resources/documents/#Numérisation), [publier](/fr/publier/introduction) et [géoréférencer](/fr/resources/documents/#Géoréférencement) des données compatibles avec le [Global Biodiversity Information Facility (GBIF )](https://www.gbif.org/). Les gestionnaires de collections publient de manière ouverte leurs données en [Darwin Core](/fr/resources/documents/#Darwin-core), une [norme d'information sur la biodiversité](https://www.tdwg.org/) acceptée à l'échelle internationale. Un [portail de données](/fr/occurrence/search), développé sur le modèle du [portail de données GBIF](https://www.gbif.org/occurrence/search), permet d'accéder aux données sur la biodiversité des fournisseurs de données canadiens, y compris des images et des informations géospatiales. De plus, nous hébergeons la [Base de données des plantes vasculaires canadiennes (VASCAN)](/fr/vascan/name-search), une liste validée, consultable et à jour des noms scientifiques et vernaculaires.
+Notre objectif est de [numériser](/fr/resources/documents/#Numérisation), [publier](/fr/publier/introduction) et [géoréférencer](/fr/resources/documents/#Géoréférencement) des données compatibles avec le [Global Biodiversity Information Facility (GBIF )](https://www.gbif.org/). Les gestionnaires de collections publient de manière ouverte leurs données en [Darwin Core](/fr/resources/documents/#Darwin-core), une [norme d'information sur la biodiversité](https://www.tdwg.org/) acceptée à l'échelle internationale. Un [portail de données](/fr/occurrence/search), développé sur le modèle du [portail de données GBIF](https://www.gbif.org/occurrence/search), permet d'accéder aux données sur la biodiversité des fournisseurs de données canadiens, y compris des images et des informations géospatiales. De plus, nous hébergeons la [Base de données des plantes vasculaires canadiennes (VASCAN)](https://data.canadensys.net/vascan/search?lang=fr), une liste validée, consultable et à jour des noms scientifiques et vernaculaires.
 
 En permettant la publication de ces données, Canadensys facilite les analyses croisées des données d'occurrence des espèces dans les modèles géospatiaux et environnementaux. Cela améliore à la fois notre compréhension des enjeux environnementaux mondiaux et l'élaboration de politiques judicieuses en matière de biodiversité dans l'ensemble du pays.
 
@@ -37,6 +37,23 @@ Pour des statistiques additionneles d'utilisation, consultez [ce document](https
 
 ## Comment citer Canadensys
 
-Voici le format privilégié pour citer les données publiées via le réseau Canadensys. Si d'autres pratiques de citation s'appliquent, n'hésitez pas à les utiliser, mais veuillez inclure un lien.
+Voici les formats à privilégier pour citer les données publiées via Canadensys. Si d'autres protocoles de citation doivent être appliqués, veuillez inclure un lien.
 
-Format: \[liste des éditeurs de données, c'est-à-dire établissement ou groupe d'établissements\]. http://data.canadensys.net/explorer (accessible le \[date\])
+### Données aggrégées
+
+Exemple : Acadia University, Université de Montréal Biodiversity Centre, University of Toronto Mississauga, University of British Columbia. https://canadensys.net/occurrence/ (accessed on 2012-03-21)  
+
+Format : [liste des éditeurs]. https://canadensys.net/occurrence/ (accessed on [date])  
+
+### Jeu de données unique
+
+Exemple avec DOI : Green Plant Herbarium (TRT) from Royal Ontario Museum. http://dx.doi.org/10.5886/g7j6gct1 (accessed on 2012-03-21)  
+
+Format : [nom du jeu de données] from [éditeur de données]. http://dx.doi.org/ [DOI of dataset] (accessed on [date])  
+
+### Spécimen ou observation unique
+
+Exemple : MT00012345, Marie-Victorin Herbarium (MT) from Université de Montréal Biodiversity Centre. https://canadensys.net/occurrence/ (accessed on 2012-03-21)  
+
+Format : [ID de l'occurrence], [nom du jeu de données] from [éditeur de données]. [link to dataset] (accessed on [date])  
+
