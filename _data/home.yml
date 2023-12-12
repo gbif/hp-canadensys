@@ -48,7 +48,7 @@ explorer:
 
 training:
   reverse: true
-  title: Other ressources
+  title: Other resources
   description: |
       Explore our documentation, discover tools and training materials
   background: https://inaturalist-open-data.s3.amazonaws.com/photos/256402192/original.jpg
