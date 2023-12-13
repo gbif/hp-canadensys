@@ -21,7 +21,7 @@ Ceci veut aussi dire que nous affichons maintenant toutes les données provenant
 
 Nous utilisons les derniers systèmes d’indexation et de recherche sur [**l’Explorateur**](/fr/occurrence/search). 
 
-L'application d'exploration des données permet l'utilisation de **filtres** de recherche, la visualisation directe des données d’occurrence en **cliquant sur un point sur la carte** ou sur **une entrée dans le tableau**, et le **téléchargement** de sous-ensembles des données (un compte GBIF est nécessaire pour ce dernier).  
+L'application d'exploration des données permet l'utilisation de **filtres de recherche**, la visualisation directe des données d’occurrence en **cliquant sur un point sur la carte** ou sur **une entrée dans le tableau**, et le **téléchargement** de sous-ensembles des données (un compte GBIF est nécessaire pour ce dernier).  
 
 Pour tous nos fournisseurs de données, vous remarquerez une mise à jour de notre [**IPT**](https://data.canadensys.net/ipt/), puisque nous avons migré vers la dernière version. Cette nouvelle version fonctionne de la même manière que la précédente, mais en mieux !  
  
