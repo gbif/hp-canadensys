@@ -37,7 +37,7 @@ We hope you will feel at home and we warmly welcome any feedback.
 [**Vascan**](https://data.canadensys.net/vascan/search), the beloved **Checklist of Vascular Plants of Canada**, is still available and is updated regularly. Keep an eye open for the news items announcing new releases.  
 Its companion, the [**Checklist builder**](https://data.canadensys.net/vascan/checklist), is also available to give you insight about what you can find in a particular province.  
 
-The **conversion tools** (**[coordinates]**(https://data.canadensys.net/tools/coordinates) and **[dates]**(https://data.canadensys.net/tools/dates)) have not been modified and are doing their simple but useful jobs.
+The **conversion tools** ([**coordinates**](https://data.canadensys.net/tools/coordinates) and [**dates**](https://data.canadensys.net/tools/dates)) have not been modified and are doing their simple but useful jobs.
 
 We still publish data for two online taxonomic journals, [**Specimen**](https://data.canadensys.net/micropublications) and [**Collection**](https://data.canadensys.net/micropublications).
 
