@@ -35,7 +35,7 @@ Nous espérons sincèrement que vous vous sentirez à l’aise et nous sommes à
 
 Son outil compagnon, le [**Générateur de listes**](https://data.canadensys.net/vascan/checklist), est toujours là pour vous indiquer ce que vous pourriez observer dans une province particulière.  
 
-Les **outils de conversion** ([coordonnées](https://data.canadensys.net/tools/coordinates) et [dates](https://data.canadensys.net/tools/dates)) n’ont pas été modifié et font leurs tâches simples mais utiles.
+Les **outils de conversion** ([**coordonnées**](https://data.canadensys.net/tools/coordinates) et [**dates**](https://data.canadensys.net/tools/dates)) n’ont pas été modifié et font leurs tâches simples mais utiles.
 
 Nous publions les données pour deux périodiques taxonomiques en ligne, [**Specimen**](https://data.canadensys.net/micropublications) et [**Collection**](https://data.canadensys.net/micropublications).
 
