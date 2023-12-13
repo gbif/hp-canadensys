@@ -17,7 +17,9 @@ Quelles sont les implications pour les utilisateurs et l'équipe de gestionnaire
 # Ce qui a changé ?
 
 L’[**exploration des données**](/fr/occurrence/search) est complètement modifiée et maintenant alignée directement avec les données disponibles sur GBIF. Ceci se traduit par une disponibilité presque immédiate sur l’Explorateur des données publiées par notre IPT.  
-Ceci veut aussi dire que nous affichons maintenant toutes les données provenant d’institutions canadiennes disponibles sur GBIF. Au-delà d’un accès aux données d’occurrences, vous pouvez aussi chercher et extraire l’information à propos des [**collections**](/fr/collection/search), [**institutions**](/fr/institution/search) et [**jeux de données**](/fr/dataset/search).  
+Ceci veut aussi dire que nous affichons maintenant toutes les données provenant d’institutions canadiennes disponibles sur GBIF. Au-delà d’un accès aux données d’occurrences, vous pouvez aussi chercher et extraire l’information à propos des [**collections**](/fr/collection/search), [**institutions**](/fr/institution/search) et [**jeux de données**](/fr/dataset/search). 
+
+Nous utilisons les derniers systèmes d’indexation et de recherche sur [**l’Explorateur**](/fr/occurrence/search). 
 
 L'application d'exploration des données permet l'utilisation de **filtres** de recherche, la visualisation directe des données d’occurrence en **cliquant sur un point sur la carte** ou sur **une entrée dans le tableau**, et le **téléchargement** de sous-ensembles des données (un compte GBIF est nécessaire pour ce dernier).  
 
@@ -33,7 +35,9 @@ Nous espérons sincèrement que vous vous sentirez à l’aise et nous sommes à
 
 Son outil compagnon, le [**Générateur de listes**](https://data.canadensys.net/vascan/checklist), est toujours là pour vous indiquer ce que vous pourriez observer dans une province particulière.  
 
-Les **outils de conversion** ([coordonnées](https://data.canadensys.net/tools/coordinates) et [dates](https://data.canadensys.net/tools/dates)) n’ont pas été modifié et font leurs tâches simples mais utiles.  
+Les **outils de conversion** ([coordonnées](https://data.canadensys.net/tools/coordinates) et [dates](https://data.canadensys.net/tools/dates)) n’ont pas été modifié et font leurs tâches simples mais utiles.
+
+Nous publions les données pour deux périodiques taxonomiques en ligne, [**Specimen**](https://data.canadensys.net/micropublications) et [**Collection**](https://data.canadensys.net/micropublications).
 
 # Pourquoi utiliser le service de portail hébergé de GBIF ?
 
