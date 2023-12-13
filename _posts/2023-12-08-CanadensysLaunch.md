@@ -21,7 +21,7 @@ What does this mean for users and the managing team?
 This also means that we now showcase all data published by Canadian organisations available on GBIF.
 In addition to having access to occurrence data, you can also search and extract information about [**collections**](/collection/search), [**institutions**](/institution/search) and [**datasets**](/dataset/search).  
 
-The data exploration feature includes the possibility to use **filters**, to directly visualise occurrence data by **clicking on the dots on the map** or the **entries in the table**, and to **download** a subset of data (GBIF account needed for this action).
+You can use **filters** to search for occurrences, directly visualise occurrence data by **clicking on the dots on the map** or the **entries in the table**, and you can **download** a subset of data (GBIF account needed for this action).
 
 We use the latest GBIF indexing and search systems in the [**Explorer**](/occurrence/search).
 
