@@ -21,7 +21,7 @@ What does this mean for users and the managing team?
 This also means that we now showcase all data published by Canadian organisations available on GBIF.
 In addition to having access to occurrence data, you can also search and extract information about [**collections**](/collection/search), [**institutions**](/institution/search) and [**datasets**](/dataset/search).  
 
-The data exploration feature includes the possibility to use **filters**, to directly visualize occurrence data by **clicking on the dots on the map** or the **entries in the table**, and to **download** a subset of data (GBIF account needed for this action).
+The data exploration feature includes the possibility to use **filters**, to directly visualise occurrence data by **clicking on the dots on the map** or the **entries in the table**, and to **download** a subset of data (GBIF account needed for this action).
 
 We use the latest GBIF indexing and search systems in the [**Explorer**](/occurrence/search).
 
@@ -37,7 +37,7 @@ We hope you will feel at home and we warmly welcome any feedback.
 [**Vascan**](https://data.canadensys.net/vascan/search), the beloved **Checklist of Vascular Plants of Canada**, is still available and is updated regularly. Keep an eye open for the news items announcing new releases.  
 Its companion, the [**Checklist builder**](https://data.canadensys.net/vascan/checklist), is also available to give you insight about what you can find in a particular province.  
 
-The **conversion tools** ([coordinates](https://data.canadensys.net/tools/coordinates) and [dates](https://data.canadensys.net/tools/dates)) have not been modified and are doing their simple but useful jobs.
+The **conversion tools** (**[coordinates]**(https://data.canadensys.net/tools/coordinates) and **[dates]**(https://data.canadensys.net/tools/dates)) have not been modified and are doing their simple but useful jobs.
 
 We still publish data for two online taxonomic journals, [**Specimen**](https://data.canadensys.net/micropublications) and [**Collection**](https://data.canadensys.net/micropublications).
 
@@ -46,6 +46,6 @@ We still publish data for two online taxonomic journals, [**Specimen**](https://
 The short answer to this question is: 'because it is easy and convenient'.  
 The long answer starts the same way, but we will add:
  - It reduces the technological workload, allowing us to focus on our main tasks: publishing occurrence data, supporting publishers and organisations, and acting as a link between the Canadian community and GBIF.
- - The direct alignement with data on GBIF improves data reliability and quality.
+ - The direct alignment with data on GBIF improves data reliability and quality.
  - GBIF is an active community with highly skilled personnel working at the Secretariat, ready to answer any technical question and to work with us to implement new features useful for users.
  - The growing community of organizations using the GBIF hosted portal is inspiring and full of ideas.
