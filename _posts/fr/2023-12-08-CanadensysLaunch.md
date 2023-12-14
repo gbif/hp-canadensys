@@ -11,6 +11,7 @@ thumbnail: /assets/logo/Canadensys-logo_red-resize.png
 ---
 
 Basé sur le [**service de Portail hébergé de GBIF**](https://www.gbif.org/hosted-portals), le lancement du nouveau portail Canadensys représente le début d’une nouvelle ère pour notre réseau. 
+
 [Canadensys](https://www.canadensys.net/fr), le [Musée canadien de la nature](https://nature.ca/fr/), et [Agriculture et Agroalimentaire Canada](https://agriculture.canada.ca/fr/science) se sont réunis pour offrir un site unifié de partage des données d’occurrence du Canada. 
 Après plusieurs années fructueuses de participation à la [communauté du Living Atlases](https://living-atlases.gbif.org/) et d’utilisation de la puissante plateforme informatique développé par l’[Atlas of Living Australia](https://www.ala.org.au/), nous avons décidé de faire le saut et de migrer Canadensys vers le service du Portail hébergé de GBIF.  
 Quelles sont les implications pour les utilisateurs et l'équipe de gestionnaires ?   
