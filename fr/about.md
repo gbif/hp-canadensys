@@ -41,19 +41,19 @@ Voici les formats à privilégier pour citer les données publiées via Canadens
 
 ### Données aggrégées
 
-Exemple : Acadia University, Université de Montréal Biodiversity Centre, University of Toronto Mississauga, University of British Columbia. https://canadensys.net/occurrence/ (accessed on 2012-03-21)  
+Exemple : Acadia University, Université de Montréal Biodiversity Centre, University of Toronto Mississauga, University of British Columbia. <https://canadensys.net/occurrence/> (accessed on 2012-03-21)  
 
-Format : [liste des éditeurs]. https://canadensys.net/occurrence/ (accessed on [date])  
+Format : [liste des éditeurs]. <https://canadensys.net/occurrence/> (accessed on [date])  
 
 ### Jeu de données unique
 
-Exemple avec DOI : Green Plant Herbarium (TRT) from Royal Ontario Museum. http://dx.doi.org/10.5886/g7j6gct1 (accessed on 2012-03-21)  
+Exemple avec DOI : Green Plant Herbarium (TRT) from Royal Ontario Museum. <http://dx.doi.org/10.5886/g7j6gct1> (accessed on 2012-03-21)  
 
-Format : [nom du jeu de données] from [éditeur de données]. http://dx.doi.org/ [DOI of dataset] (accessed on [date])  
+Format : [nom du jeu de données] from [éditeur de données]. <http://dx.doi.org/> [DOI of dataset] (accessed on [date])  
 
 ### Spécimen ou observation unique
 
-Exemple : MT00012345, Marie-Victorin Herbarium (MT) from Université de Montréal Biodiversity Centre. https://canadensys.net/occurrence/ (accessed on 2012-03-21)  
+Exemple : MT00012345, Marie-Victorin Herbarium (MT) from Université de Montréal Biodiversity Centre. <https://canadensys.net/occurrence/> (accessed on 2012-03-21)  
 
 Format : [ID de l'occurrence], [nom du jeu de données] from [éditeur de données]. [link to dataset] (accessed on [date])  
 

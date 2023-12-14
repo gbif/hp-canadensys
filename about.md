@@ -40,19 +40,19 @@ This is the preferred formats for citing data published through the Canadensys n
 
 ### Aggregated data
 
-Example: Acadia University, Université de Montréal Biodiversity Centre, University of Toronto Mississauga, University of British Columbia. hhttps://canadensys.net/occurrence/ (accessed on 2012-03-21)  
+Example: Acadia University, Université de Montréal Biodiversity Centre, University of Toronto Mississauga, University of British Columbia. <https://canadensys.net/occurrence/> (accessed on 2012-03-21)  
 
-Format: [list of data publishers]. https://canadensys.net/occurrence/ (accessed on [date])  
+Format: [list of data publishers]. <https://canadensys.net/occurrence/> (accessed on [date])  
 
 ### Single dataset
 
-Example with DOI: Green Plant Herbarium (TRT) from Royal Ontario Museum. http://dx.doi.org/10.5886/g7j6gct1 (accessed on 2012-03-21)  
+Example with DOI: Green Plant Herbarium (TRT) from Royal Ontario Museum. <http://dx.doi.org/10.5886/g7j6gct1> (accessed on 2012-03-21)  
 
-Format: [dataset name] from [data publisher]. http://dx.doi.org/ [DOI of dataset] (accessed on [date])  
+Format: [dataset name] from [data publisher]. <http://dx.doi.org/> [DOI of dataset] (accessed on [date])  
 
 ### Single specimen/observation record
 
-Example: MT00012345, Marie-Victorin Herbarium (MT) from Université de Montréal Biodiversity Centre. https://canadensys.net/occurrence/ (accessed on 2012-03-21)  
+Example: MT00012345, Marie-Victorin Herbarium (MT) from Université de Montréal Biodiversity Centre. <https://canadensys.net/occurrence/> (accessed on 2012-03-21)  
 
 Format: [record id], [dataset name] from [data publisher]. [link to dataset] (accessed on [date])  
 
