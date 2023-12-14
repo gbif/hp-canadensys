@@ -47,6 +47,6 @@ canadensys:
   href: https://data.canadensys.net/ipt/
   ratio: 100
   cta:
-    - text: Access the IPT
+    - text: Accéder à l'IPT
       href: https://data.canadensys.net/ipt/?request_locale=fr
       isPrimary: true
