@@ -106,4 +106,4 @@ On the resource overview page, click on *Visibility* > ***Register*** (see the [
 
 As all documents on this website, this guide is published under [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en). The preferred citation is:
 
-Desmet, P. & C. Sinou. 2012. 7-step guide to data publication. Canadensys. [link](https://canadensys.net/publish/7-step-guide/) 
+Desmet, P. & C. Sinou. 2012. 7-step guide to data publication. Canadensys. <https://canadensys.net/publish/7-step-guide/>
