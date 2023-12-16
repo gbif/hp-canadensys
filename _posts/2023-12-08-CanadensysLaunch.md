@@ -12,6 +12,8 @@ thumbnail: /assets/logo/Canadensys-logo_red-resize.png
 
 
 Based on the [**GBIF Hosted Portal program**](https://www.gbif.org/hosted-portals), the launch of the new Canadensys portal is the start of a new era for our network.  
+[Canadensys](https://www.canadensys.net/), the [Canadian Museum of Nature](https://nature.ca/en/), and [Agriculture and Agri-Food Canada](https://agriculture.canada.ca/en/science) have come together to offer a unified site for sharing occurrence data in Canada.
+
 After several years of being part of the [Living Atlases community](https://living-atlases.gbif.org/), and using the powerful framework built by the [Atlas of Living Australia](https://www.ala.org.au/), we decided to jump on the train of the GBIF Hosted Portals.  
 What does this mean for users and the managing team?  
 
