@@ -1,6 +1,6 @@
 ---
 title:  "GBIF Ebbe Nielsen Challenge"
-date:   2023-04-18 14:20:00 +0100
+date:   2023-11-18 14:20:00 +0100
 categories: ["GBIF","Announcement"]
 lang: en
 preTitle: 18 November 2023
