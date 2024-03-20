@@ -12,5 +12,5 @@ composition:
 - type: stories
   data: GBIFevents
 - type: stories
-  data: GBIFnews  
+  data: GBIFnews
 ---
