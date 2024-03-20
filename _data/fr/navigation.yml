@@ -43,4 +43,8 @@
   - text: Formation
     href: /fr/resources/training
 - text: Nouvelles
-  href: /fr/news/
+  menu:
+    - text: Réseau Canadensys
+      href: /fr/news/
+    - text: GBIF
+      href: /fr/stories
