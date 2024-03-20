@@ -5,7 +5,7 @@ title: "Évènements provenant de GBIF.org"
 id: "stories-events"
 
 # Description (Optional)
-description: This shows the three most recent event items from GBIF.org. To see older items go to [gbif.org](https://www.gbif.org/resource/search?contentType=event)
+description: Cette section présente les plus récents évènements publiées sur GBIF.org. Pour visualiser des évènements plus anciens, visitez [gbif.org](https://www.gbif.org/resource/search?contentType=event)
 
 # Filters
 # Use these options to tailor the content displayed in your block.
