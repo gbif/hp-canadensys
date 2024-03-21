@@ -8,9 +8,9 @@ title: Nouvelles canadiennes pertinantes provenant GBIF.org
 description: Cette page présente des nouvelles, des infos sur l'utilisation des données et des évènements de GBIF
 composition:
 - type: stories
-  data: GBIFdataUse
+  data: fr.GBIFdataUse
 - type: stories
-  data: GBIFevents
+  data: fr.GBIFevents
 - type: stories
-  data: GBIFnews
+  data: fr.GBIFnews
 ---
