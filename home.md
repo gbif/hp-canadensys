@@ -15,7 +15,7 @@ cta:
     href: /occurrence/search/?view=MAP&publishingCountry=CA
     isPrimary: true
   - text: Data about Canada
-    href: /occurrence/search/?view=MAP&country=CA
+    href: /occurrence/search/?filter=eyJtdXN0Ijp7ImNvdW50cnkiOlsiQ0EiXX0sIm11c3Rfbm90Ijp7Im9jY3VycmVuY2VJc3N1ZSI6WyJDT1VOVFJZX0NPT1JESU5BVEVfTUlTTUFUQ0giLCJDT1VOVFJZX01JU01BVENIIiwiWkVST19DT09SRElOQVRFIl19fQ%3D%3D&view=MAP
   - text: Publish
     href: /publish/ipt/
   - text: Vascan
