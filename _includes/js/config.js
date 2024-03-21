@@ -22,16 +22,16 @@ var siteConfig = {
       zoom: 3.5
     },
     rootPredicate: {
-      "type": "and",
+      "type": "or",
       "predicates": [
         { 
-          type: 'equals', 
-          key: 'publishingCountry', 
+          type: "equals", 
+          key: "publishingCountry", 
           value: "CA"
         },
         { 
-          type: 'equals', 
-          key: 'country', 
+          type: "equals", 
+          key: "country", 
           value: "CA"
         }
       ]
