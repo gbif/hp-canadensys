@@ -11,9 +11,11 @@ height: 80vh
 parallax: true
 klass: home
 cta:
-  - text: Explore
-    href: /occurrence/search/?view=MAP
+  - text: Data from Canada
+    href: /occurrence/search/?view=MAP&publishingCountry=CA
     isPrimary: true
+  - text: Data about Canada
+    href: /occurrence/search/?view=MAP&country=CA
   - text: Publish
     href: /publish/ipt/
   - text: Vascan

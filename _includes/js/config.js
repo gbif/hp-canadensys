@@ -21,7 +21,20 @@ var siteConfig = {
       lng: -102,
       zoom: 3.5
     },
-    rootPredicate: { type: 'equals', key: 'publishingCountry', value: "CA" },
+    rootPredicate: {
+      "type": "and",
+      "predicates": [
+        { 
+          type: 'equals', 
+          key: 'publishingCountry', 
+          value: "CA"
+        },
+        { 
+          type: 'equals', 
+          key: 'country', 
+          value: "CA"
+        }
+      ]
     occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
   },
   collection: {
