@@ -35,6 +35,7 @@ var siteConfig = {
           value: "CA"
         }
       ]
+    },
     occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'] // what tabs should be shown
   },
   collection: {
