@@ -1,5 +1,7 @@
 en:
   label: English
   icon:  # optional
+  archive_permalink: /news/
 fr:
   label: Français
+  archive_permalink: /fr/news/
