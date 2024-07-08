@@ -31,8 +31,8 @@ Pour chaque nom scientifique, plusieurs informations sont fournies :
 * Noms vernaculaires, en français et en anglais, avec le statut du nom vernaculaire (accepté ou synonyme)
 * Synonymes
 * Distribution au niveau provincial, avec le statut de distribution :
-  * **Native** : Taxon présent uniquement à la suite de processus naturels, sans intervention humaine.
-  * **Introduite** : Taxon établi (naturalisé) dans une région en dehors de son aire de répartition d'origine, de manière délibérée ou accidentelle, à la suite de l'activité humaine. Les taxons sont considérés comme introduits au Canada lorsqu'ils se sont établis après la colonisation européenne.
+  * **Natif** : Taxon présent uniquement à la suite de processus naturels, sans intervention humaine.
+  * **Introduit** : Taxon établi (naturalisé) dans une région en dehors de son aire de répartition d'origine, de manière délibérée ou accidentelle, à la suite de l'activité humaine. Les taxons sont considérés comme introduits au Canada lorsqu'ils se sont établis après la colonisation européenne.
   * **Éphémère** : Taxon non établi de manière permanente dans la région, mais récurrent dans la nature sur une base quasi annuelle, généralement issu de la culture (par exemple blé, tomate, etc.).
   * **Exclu** : Taxon signalé dans la région, mais non établi ou déterminé par erreur.
   * **Disparu** : Taxon originaire de la région, mais actuellement considéré comme éradiqué. Ce statut n'est attribué qu'après une recherche active et est généralement déterminé par une agence de conservation.
