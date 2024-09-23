@@ -45,7 +45,7 @@ explorer:
   - text: Collections
     href: /fr/collection/search
   - text: Jeux de données
-    href: /fr//dataset/search
+    href: /fr/dataset/search
 
 training:
   reverse: true
