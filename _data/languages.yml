@@ -2,6 +2,10 @@ en:
   label: English
   icon:  # optional
   archive_permalink: /news/
+  widgetLocale: en
+  storiesLocale: en-GB
 fr:
   label: Français
   archive_permalink: /fr/news/
+  widgetLocale: fr
+  storiesLocale: fr

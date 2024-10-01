@@ -21,3 +21,17 @@ acceptTerms:
 rejectTerms:
   en: 'Reject'
   fr: 'Rejeter'
+
+contentTypes:
+  DataUse:
+    en: 'Data use'
+    fr: 'Utilisation des données'
+  News:
+    en: 'News'
+    fr: 'Nouvelles'
+  Event:
+    en: 'Event'
+    fr: 'Événement'
+  Literature:
+    en: 'Literature'
+    fr: 'Littérature'
