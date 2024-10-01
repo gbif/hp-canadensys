@@ -1,7 +1,7 @@
 ---
 title:  "SPNCH-TDWG joint conference - 2 to 6 September 2024, Okinawa, Japan"
 date:   2023-12-18 14:20:00 +0100
-categories: ["TDWG", "TDWG", "Conference"]
+categories: ["TDWG", "Conference"]
 lang: en
 preTitle: 15 January 2024
 lang-ref: SPNCH-TDWG
