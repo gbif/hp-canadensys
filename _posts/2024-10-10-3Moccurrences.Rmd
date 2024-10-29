@@ -1,0 +1,82 @@
+---
+title:  "We reached 3 Million occurrences on Canadensys"
+date:   2024-11-05 10:10:00 +0100
+categories: ["Occurrences"]
+lang: en
+preTitle: November 5 2024
+lang-ref: 3M_Occurrences
+background: /assets/images/IMAGE.jpeg
+ratio:  100
+thumbnail: /assets/images/IMAGE.jpeg
+
+---
+
+
+A new milestone has been reached!
+
+There are 127 resources currently available.
+Collections / Observations / ..
+
+
+There are now 3,423,302 specimen occurrences recorded on the IPT.
+This represents 57,436 taxa and 10,005 observations.
+
+
+[Access the IPT](https://data.canadensys.net/ipt/){: .button .is-primary}
+
+
+
+
+
+
+# Plants
+1,829,943 plant specimens, 
+
+# Insects
+1,182,650 insect specimens
+
+# Other observations
+329,392 other observation such as..
+
+# Fungi
+98,070 fungi specimens
+
+
+<img src="https://static.inaturalist.org/photos/445929903/large.jpeg" alt="placeholder image" class="img-fluid" />
+
+
+
+
+![*Calycina citrina* observed by © Lori Johnson on i Naturalist](https://static.inaturalist.org/photos/445929903/large.jpeg#avatarright){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
+
+
+![*Hericium americanum* observed by © bryanadkins on iNaturalist](https://inaturalist-open-data.s3.amazonaws.com/photos/346560305/large.jpg){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+
+
+
+
+![*Calycina citrina* observed by © Lori Johnson on i Naturalist](https://static.inaturalist.org/photos/445929903/large.jpeg#avatarright)
+![*Calycina citrina* observed by © Lori Johnson on i Naturalist](https://static.inaturalist.org/photos/445929903/large.jpeg#avatarleft)
+
+
+<!-- CSS styles for images -->
+
+img[src$="#avatarright"] {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 50%;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+img[src$="#avatarleft"] {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+
+
