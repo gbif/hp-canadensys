@@ -1,21 +1,16 @@
 ---
 title:  "A new member in our team"
-date:   2024-10-05 14:15:00 +0100
+date:   2024-10-22 14:15:00 +0100
 categories: ["Our team"]
 lang: en
-preTitle: 05 October 2024
+preTitle: 29 October 2024
 lang-ref: Marion_Lemenager
-background: /assets/images/IMAGE.jpeg
+background: /assets/images/Canadensys_header.001.jpeg
 ratio:  26.4
-thumbnail: /assets/images/IMAGE.jpeg
+thumbnail: /assets/images/Canadensys_header.001.jpeg
 ---
 
 # A new member in our team
-
-Since September 2024, we welcome a new member as part of the Canadensys team, Marion Leménager, who recently took up the position as data manager of the Canadensys IPT.
-
-Carole Sinou, former data and node manager, has recently taken the role of the Marie-Victorin Herbarium coordinator. She will continue to work for the Canadensys network as node manager, taking care of the relations with the other North American nodes and the GBIF network, as well as the maintenance of the informatic infrastructure (website and tools).
-
 
 <!-- to remove table borders -->
 <style>
@@ -27,17 +22,16 @@ td, th {
 <!-- Table display -->
 
 | | |
-| ---------- | ---:|
-| She recently obtained her Ph.D. at the University of Montréal, focusing on plant evolution and floral morphology. Her thesis was dedicated to better understanding the floral shape variation among specialized and generalized pollination strategies, and their impact on plant diversification. She also gained experience in collection management during two years in the Entomological department of the National Museum of Natural History of the Smithsonian Institution prior to completing her doctorate in Plant Sciences. | ![](images/Marion-Leménager.png){width=180} |
+| ----------------- | ------:|
+| Since September 2024, we welcome a new member as part of the Canadensys team, **Marion Leménager**, who recently took up the position as data manager of the Canadensys IPT. <br><br> She recently obtained her Ph.D. at the University of Montréal, focusing on plant evolution and floral morphology. Her thesis was dedicated to better understanding the floral shape variation among specialized and generalized pollination strategies, and their impact on plant diversification. She also gained experience in collection management during two years in the Entomological department of the National Museum of Natural History of the Smithsonian Institution prior to completing her doctorate in Plant Sciences. <br><br> **Carole Sinou**, former data and node manager, has recently taken the role of the [Marie-Victorin Herbarium](https://irbv.umontreal.ca/research/collections/marie-victorin-herbarium-mt/?lang=en) coordinator. She will continue to work for the Canadensys network as node manager, taking care of the relations with the other North American nodes and the GBIF network, as well as the maintenance of the informatic infrastructure (website and tools). | ![Marion Leménager](assets/images/Marion-Leménager.png){width=190} |
 
-> block quote
 
 
 
 
 # Her role as data manager
 
-Marion is responsible for assisting researchers and their teams wishing to publish biodiversity data and natural history collections on the [Canadensys portal](www.canadensys.net). As part of her new position, she will guide researchers, students and collection managers in the use of the [DarwinCore format](https://dwc.tdwg.org/), the standard used to facilitate the sharing of information about biological diversity.
+**Marion Leménager** is responsible for assisting researchers and their teams wishing to publish biodiversity data and natural history collections on the [Canadensys portal](www.canadensys.net). As part of her new position, she will guide researchers, students and collection managers in the use of the [DarwinCore format](https://dwc.tdwg.org/), the standard used to facilitate the sharing of information about biological diversity.
 
 She is also responsible for ensuring the smooth running of the Canadensys IPT and liaising with the international network of the [Global Biodiversity Information Facility](www.gbif.org). She will also contribute to the training of students and researchers in the FRQNT strategic network of the [Biodiversity Science Centre (CSBQ/QCBS)](https://qcbs.ca/).
 
