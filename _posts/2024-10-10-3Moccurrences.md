@@ -1,9 +1,9 @@
 ---
 title:  "Celebrating a Milestone: 3 Million Occurrences on Canadensys IPT!"
-date:   2024-11-05 6:10:00 +0100
+date:   2024-01-10 6:10:00 +0100
 categories: ["Occurrences"]
 lang: en
-preTitle: November 5 2024
+preTitle: January 10 2024
 lang-ref: 3M_Occurrences
 background: /assets/images/IMAGE.jpeg
 ratio:  100
@@ -23,9 +23,9 @@ As we move forward, we are committed to further expanding our database and enhan
 
 
 
-<p align="center" width="100%">
+
 [Access the IPT](https://data.canadensys.net/ipt/){: .button .is-primary}
-</p>
+
 
 
 
