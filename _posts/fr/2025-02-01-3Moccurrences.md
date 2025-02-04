@@ -1,5 +1,5 @@
 ---
-title:  "Célébration d'une étape importante : 3 millions d'occurrences sur le TPI de Canadensys !"
+title:  "Célébration d'une étape importante : 3 millions d'occurrences sur l'IPT de Canadensys !"
 date:   2025-01-20 6:10:00 +0100
 categories: ["Occurrences"]
 lang: fr
