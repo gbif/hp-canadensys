@@ -1,9 +1,9 @@
 ---
-title:  "Celebrating a Milestone: 3 Million Occurrences on Canadensys IPT!"
+title:  "Célébration d'une étape importante : 3 millions d'occurrences sur le TPI de Canadensys !"
 date:   2025-01-20 6:10:00 +0100
 categories: ["Occurrences"]
-lang: en
-preTitle: February 01 2025
+lang: fr
+preTitle: 01 Février 2025
 lang-ref: 3M_Occurrences
 background: /assets/images/header_3M.jpeg
 ratio:  33
@@ -12,15 +12,14 @@ thumbnail: /assets/images/header_3M.jpeg
 ---
 
 
-# Celebrating a Milestone: 3 Million Occurrences on the Canadensys IPT!
+# Célébration d'une étape importante : 3 millions d'occurrences sur le TPI de Canadensys !
 
 
-We are thrilled to announce that the Canadensys IPT has hit a new milestone: 3 million specimen occurrences in our database! With 127 resources currently available, we’ve reached a total of 3,522,159 occurrences, encompassing 57,560 taxa and 10,005 unique observations. This achievement reflects the dedication of our contributing institutions, curators, and the entire biodiversity community who work tirelessly to make these data accessible.
+Nous sommes ravis d'annoncer que le TPI Canadensys a franchi une nouvelle étape : 3 millions d'occurrences de spécimens dans notre base de données ! Avec 127 ressources actuellement disponibles, nous avons atteint un total de 3 522 159 occurrences, comprenant 57 560 taxons et 10 005 observations uniques. Cette réussite reflète le dévouement de nos institutions contributrices, de nos conservateurs et de l'ensemble de la communauté de la biodiversité, qui travaillent sans relâche pour rendre ces données accessibles.
 
-Each new record brings us closer to understanding Canada's rich biodiversity, and beyond our borders. These occurrences represent invaluable data points that help researchers, conservators, and the public gain insights into species distribution, habitat use, and the effects of environmental changes.
+Chaque nouvel enregistrement nous rapproche de la compréhension de la riche biodiversité du Canada, et au-delà de nos frontières. Ces occurrences représentent des points de données inestimables qui aident les chercheurs, les conservateurs et le public à mieux comprendre la répartition des espèces, l'utilisation de l'habitat et les effets des changements environnementaux.
 
-As we move forward, we are committed to further expanding our database and enhancing data quality. Here’s to the next million, and a huge thank you to everyone who has helped us reach this remarkable milestone!
-
+À mesure que nous avançons, nous nous engageons à élargir notre base de données et à en améliorer la qualité. En attendant le prochain million, un grand merci à tous ceux qui nous ont aidés à franchir cette étape remarquable !
 
 
 
@@ -31,7 +30,7 @@ As we move forward, we are committed to further expanding our database and enhan
 <br>
 <br>
 
-<h3 style="text-align:center;"> 1,854,619 Plants  </h3>
+<h3 style="text-align:center;"> 1,854,619 Plantes  </h3>
 
 <p align="center" width="100%">
   <img
@@ -50,7 +49,7 @@ As we move forward, we are committed to further expanding our database and enhan
 <br>
 
 
-<h3 style="text-align:center;"> 1,196,567 Insects  </h3>
+<h3 style="text-align:center;"> 1,196,567 Insectes  </h3>
 
 <p align="center" width="100%"> 
   <img
@@ -67,7 +66,7 @@ davidfbird on iNaturalist. Observed  in Taquanyah Conservation Area, Cayuga, ON,
 <br>
 <br>
 
-<h3 style="text-align:center;"> 387,928 Other observations  </h3>
+<h3 style="text-align:center;"> 387,928 Autres observations  </h3>
 
 <p style="text-align:center;"> Such as ornithological, herpetological, invertebrate and paleontological occurrences.
  </p>
@@ -117,7 +116,7 @@ davidfbird on iNaturalist. Observed  in Taquanyah Conservation Area, Cayuga, ON,
 
 
 
-<h3 style="text-align:center;"> 99,798 Fungi </h3>
+<h3 style="text-align:center;"> 99,798 Champignons </h3>
 
 
 <p align="center" width="100%"> 
