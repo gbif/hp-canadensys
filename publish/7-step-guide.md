@@ -18,92 +18,293 @@ parallax: true
 
 # Introduction
 
-This guide explains how to publish your biodiversity data to [GBIF](http://www.gbif.org/) and the world using the [Canadensys repository](http://data.canadensys.net/ipt). It is not the only method you can use to publish your data, but we think it is presently the most convenient one for Canadian collections and organizations.
+<!----
+This guide explains how to publish your biodiversity data to [GBIF](http://www.gbif.org/) using the [Canadensys repository](http://data.canadensys.net/ipt). It is not the only method you can use to publish your data, but we think it is presently the most convenient one for Canadian collections and organizations.
 Our repository is powered by the [GBIF Integrated Publishing Toolkit (IPT)](https://www.gbif.org/en/ipt) and maintained by us, which allows you to upload, standardize, publish and register your data in **7 steps**, without the hassle of installing and maintaining a program. The data are published in your organization’s name and it is free.
+---->
 
-![](/assets/images/data-publication-guide-schema.png)
 
+
+This guide explains how to publish your biodiversity data to [GBIF](http://www.gbif.org/) using the [Canadensys repository](http://data.canadensys.net/ipt). The Canadensys repository is powered by the [GBIF Integrated Publishing Toolkit (IPT)](https://www.gbif.org/en/ipt), which allows you to upload, standardize, publish and register your data in **7 steps**. Importantly, the data is published in your organisation's name, for free.
+
+
+[Access the IPT](https://data.canadensys.net/ipt/){: .button .is-primary}
+
+
+
+![](/assets/images/How-to_guide/Steps_en.jpeg)
+<!----
+<p align="center" width="100%">
+  <img
+  src="/assets/images/How-to_guide/Steps_en.jpeg"
+  style="width:800px">
+</p>
+---->
+
+
+## Dataset format
+
+Biodiversity data are published on Canadensys in the [Darwin Core](https://dwc.tdwg.org/) standard (DwC). It includes a [glossary of defined terms](https://dwc.tdwg.org/terms/) (referred to dwc:termName herafter) and allows your data to be understood and used by anyone. 
+
+The Darwin Core Standard provides a robust and stable way to compile and share biodiversity data, regardless of the technology used to share it. It also allows the GBIF aggregator to integrate your data with other data worldwide.
+
+[GBIF portal](http://www.gbif.org/){: .button .is-primary}
+
+<!----
+The Canadensys repository uses [Darwin Core](https://dwc.tdwg.org/) principles to publish biodiversity data.
+---->
+
+
+It is not necessary to use these terms in your source data, but keeping them in mind should help you build the foundations of your database.
+
+
+
+
+## Classes of datasets
+
+There are **four classes of datasets** supported by the IPT. Make sure to identify the one that is most appropriate for your biodiversity data.
 
 For information about the different classes of datasets, see the following GBIF guides:
 
-* [Data quality requirements to publishing occurrence data](https://www.gbif.org/data-quality-requirements-occurrences)
-* [Data quality requirements to publishing checklists](https://www.gbif.org/data-quality-requirements-checklists)
-* [Data quality requirements to publishing metadata](https://www.gbif.org/dataset-classes)
-* [Data quality requirements to publishing sampling-event data](https://www.gbif.org/data-quality-requirements-sampling-events)
+* [Data quality requirements to publishing **occurrence** data](https://www.gbif.org/data-quality-requirements-occurrences)
+* [Data quality requirements to publishing **checklists**](https://www.gbif.org/data-quality-requirements-checklists)
+* [Data quality requirements to publishing **metadata**](https://www.gbif.org/dataset-classes)
+* [Data quality requirements to publishing **sampling-event** data](https://www.gbif.org/data-quality-requirements-sampling-events)
 
-# Conditions
+
+
+## Conditions
 
 We care about data and we just want to make sure you do too. In order to publish your data using the [Canadensys repository](https://data.canadensys.net/ipt/) you should meet the following criteria:
 
 * You are associated with a **Canadian** collection or organization.
-* You are publishing a specimen or observation dataset, a taxonomic checklist, a sampling-event dataset or simply metadata (in other words, one of the **4 types of datasets** supported by the IPT).
+* You are publishing one of the **four types of datasets** supported by the IPT.
 * You hold the **rights** to publish the data.
 * You are willing to **maintain** the dataset and improve its quality where possible.
 * You are willing to provide sufficient **metadata**, so users can learn what the dataset is about.
 * You are publishing the data under an **open license**, so others can really use them. We strongly recommend publishing under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
+
+## Institution and collection registrations
+
+Before we get started, it is essential to register your institution and collection on [GRSciColl](https://scientific-collections.gbif.org/).
+The Global Registry of Scientific Collections (GRSciColl), is a comprehensive, community-curated repository of information about scientific collections.
+You will also need to register your institution or organization as a publisher on GBIF.
+
+![](/assets/images/How-to_guide/GRSciColl_GBIF.jpeg)
+
+
+[Add Instituion on GRSciColl](https://registry.gbif.org/institution/create){: .button .is-primary} [Add Collection on GRSciColl](https://registry.gbif.org/collection/create){: .button .is-primary} [Become a publisher on GBIF](https://www.gbif.org/become-a-publisher){: .button .is-primary}
+
+
+
 # 1. Create your resource on the IPT
 
-The [Canadensys repository](https://data.canadensys.net/ipt/) is powered by the [GBIF Integrated Publishing Toolkit (IPT)](https://www.gbif.org/ipt), an open source web application developed by [GBIF](https://www.gbif.org/) and customized by Canadensys to be fully integrated into our website. We use it to publish and register all our datasets. To be able to create and manage your own dataset (called a “resource”), you will need a **user account**. Just [contact](mailto:canadensys.network@gmail.com) us to create one for you.
+Let's get started ! 
 
-Once you have your account, login at the top of [this page](https://data.canadensys.net/ipt/). Click on the tab *Manage resources* to get access to your dashboard. It will display all the datasets you are managing and will be empty at first. You can **create a new resource** at the bottom of the page. Follow the [IPT manual](https://ipt.gbif.org/manual/) for more detailed instructions.
+The [Canadensys repository](https://data.canadensys.net/ipt/) is powered by the [GBIF Integrated Publishing Toolkit (IPT)](https://www.gbif.org/ipt), an open source web application developed by [GBIF](https://www.gbif.org/) and customized by Canadensys to be fully integrated into our website. We use it to publish and register all our datasets. To be able to create and manage your own dataset (called a “resource”), you will need a **user account**. Simply contact us to create one for you and your team by providing the respective pertinent names and email addressee.
 
-Warning: please use the following lowercase format for the **shortname** of your resource: *yourcollectioncode-datasettype* (e.g. *acad-specimens* or *wildlife-sightings-observations*). This name is used to uniquely identify and access your resource and cannot be modified subsequently! For testing purposes, please use *yourcollectioncode-test* (e.g. *ubc-test*).
+
+[Contact us!](mailto:canadensys.network@gmail.com){: .button .is-primary}
+
+
+Once you have an account, login at the top of [this page](https://data.canadensys.net/ipt/). Click on the tab **_Manage resources_** to get access to your dashboard. It will display all the datasets you are managing and will be empty at first. You can **create a new resource** at the bottom of the page. Follow the [IPT manual](https://ipt.gbif.org/manual/) for more detailed instructions.
+
+
+> **_NOTICE:_**  Please use the following lowercase format for the **shortname** of your resource: *yourcollectioncode-datasettype* (e.g. *acad-specimens* or *wildlife-sightings-observations*). This name is used to uniquely identify and access your resource and cannot be modified subsequently! For testing purposes, please use *yourcollectioncode-test* (e.g. *ubc-test*).
+
 
 Once you have created your resource, you will see an empty [resource overview page](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#resource-overview).
 
-![](/assets/images/data-publication-guide-empty-resource.png)
+![](/assets/images/How-to_guide/emptyResource_en.png)
+
+
+You can add the resource managers that can have access to your resource by adding them at the bottom of the resource page.
+
+
+
+![](/assets/images/How-to_guide/managers_en.png)
+
+
+
 
 # 2. Export
 
-The easiest way to get your data into the IPT is to first export them from your database as a [**delimited text file**](https://en.wikipedia.org/wiki/Delimiter-separated_values) (e.g. .txt, .tab, .csv). Most databases offer the option to do so. Use the **[UTF-8](https://en.wikipedia.org/wiki/UTF-8) character encoding** for your export (and not [ASCII](https://en.wikipedia.org/wiki/ASCII), [Macintosh](https://en.wikipedia.org/wiki/Mac_OS_Roman) or [Windows ANSI](https://en.wikipedia.org/wiki/Windows-1252)) to avoid misinterpretations of accented characters (e.g. é, à, ü, î). If you have the choice, include a **header line** in your export (a first line with the field names), as it will be helpful later.
+
+Export your database as a [**delimited text file**](https://en.wikipedia.org/wiki/Delimiter-separated_values),
+This ensures that your data values are separated in each row with specific delimiter characters (e.g. .txt, .tab, .csv).
+
+**_Example_**: Delimited data formats have fields/columns separated by a character (tabulation character, coma, semicolon) and records/rows terminated by newlines.
+
+{% highlight ruby %}
+specificEpithet,infraspecificEpithet,occurrenceRemarks
+Leucoagaricus,naucinus,"Some text, with a coma"
+{% endhighlight %}
+
+{% highlight ruby %}
+specificEpithet;infraspecificEpithet;occurrenceRemarks
+Leucoagaricus;naucinus;"Some text, with a coma"
+{% endhighlight %}
+
+{% highlight ruby %}
+specificEpithet infraspecificEpithet  occurrenceRemarks
+Leucoagaricus naucinus  "Some text, with a coma"
+{% endhighlight %}
+
+
+Encoding assignation can also sometimes make things tricky because of misinterpretations of accented characters (e.g. é, à, ü, î) or the degree character (°). This is especially the case in authorship information (dwc:**scientificNameAuthorship**), the person/group/organization who assigned the Taxon name (dwc:**identfiedBy**), and the geographic coordinates (dwc:**decimalLatitude** and dwc:**decimalLongitude**). 
+
+
+Select the **[UTF-8](https://en.wikipedia.org/wiki/UTF-8) character encoding** for your export.
+If th eoption is available, include a **header line** in your export (a first line with the field names), as it will be helpful later.
+
+
+> **_WARNING:_**  Please avoid using the character incoding [ASCII](https://en.wikipedia.org/wiki/ASCII), [Macintosh](https://en.wikipedia.org/wiki/Mac_OS_Roman), and [Windows ANSI](https://en.wikipedia.org/wiki/Windows-1252).
+
+
+At this step, you can contact us if you want to get a quick check of your data before uploading it to the IPT.
+
+
 
 # 3. Upload
 
-Uploading your source file to the IPT is easy: go to your resource overview page > *Source Data* and click *Choose File*. You might want to compress/zip your source file first to improve the upload speed of large files. The IPT will unzip them automatically once received. Follow the [IPT manual](https://ipt.gbif.org/manual/) for more detailed instructions (including the option to use multiple source files or to upload via a direct database connection).
+To import your data (your source data, and optionally one or several [extensions](https://rs.gbif.org/extensions.html)), go to your resource overview page > **_Source Data_** and click **_Choose File_**.
+You can import new data, or you can also import your source data as an already archived resource (Darwin Core Archive, zipped IPT resource configuration folder, or metadata file). You can find more information about the source files you can import [here](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#create-a-new-resource).
 
-Once your source file has been uploaded correctly, a source file detail page will be shown (see an [example screenshot](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#source-data) in the IPT manual), displaying how the IPT has interpreted your file (number of columns, rows, header rows, character encoding, delimiters, etc.). Click the *preview* button to verify everything is correct, then click *save*.
+
+![](/assets/images/How-to_guide/Source_data_en.png)
+
+
+> **_NOTICE:_**  You might want to compress/zip your source file first to improve the upload speed of large files. The IPT will unzip them automatically once received. Follow the [IPT manual](https://ipt.gbif.org/manual/) for more detailed instructions, including the option to use multiple source files or to upload via a direct database connection.
+
+
+
+It is possible to map an extension at this step, as long as it is different from the core type mapped.
+
+
+Once your source file has been uploaded correctly, a source file detail page will be shown (see an [example screenshot](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#source-data) in the IPT manual), displaying how the IPT has interpreted your file (number of columns, rows, header rows, character encoding, delimiters, etc.). Click the **_preview_** button to verify everything is correct, then click **_save_**.
+
+
+
+
 
 # 4. Darwin Core Mapping
 
+<!----
 Biodiversity data are published in the [Darwin Core](https://dwc.tdwg.org/) standard. It includes a [list of defined terms](https://dwc.tdwg.org/terms/) and allows your data to be understood and used by anyone. It also allows an aggregator like GBIF to combine your data with other data, like they do on their [portal](http://www.gbif.org/).
+---->
 
-Darwin Core mapping is the process of linking the fields in your source file with the appropriate Darwin Core terms. It is the **most challenging step** in publishing your data for two reasons: 1) the [list of Darwin Core terms](https://dwc.tdwg.org/terms/) can be overwhelming, so it might be difficult to select the ones that are appropriate for your dataset, and 2) the IPT currently only allows one-to-one mapping of fields, so the ease of mapping will depend on your database structure and on the feasibility of exporting as close to Darwin Core as possible.
+Darwin Core mapping is the process of linking the fields in your source file with the appropriate Darwin Core terms.
 
-This is why we are here to help! [Contact us](mailto:canadensys.network@gmail.com) to arrange a phone or online call to guide you through the steps, review your mapping, suggest terms and help you repeat steps 2-4 until the mapping is just right.
 
-You can find more information regarding Darwin Core mapping in the [IPT manual](https://ipt.gbif.org/manual/) (including core types, extensions, automapping, default values, value translation, etc.) and in the introduction to Darwin Core [on our website](/resources/documents/#data-standardization-and-darwin-core).
+If your source data already uses Darwin Core terms in the header of your data, the mapping process is completely automated. A simple verification of the mapping is then necessary to validate this step. Once verified click on the **_save_** button.
+
+If your data do not use Darwin Core terms, this step can be challenging for two reasons:
+1. The [list of Darwin Core terms](https://dwc.tdwg.org/terms/) can be overwhelming, so it might be difficult to select the ones that are appropriate for your dataset.
+2. The IPT currently only allows one-to-one mapping of fields, so the ease of mapping will depend on your database structure and on the feasibility of exporting as close to Darwin Core as possible.
+
+
+This is why we are here to help! Contact us to guide you through the steps, review your mapping, suggest terms and help you repeat steps 2-4 until the mapping is just right.
+
+
+[Contact us](mailto:canadensys.network@gmail.com){: .button .is-primary}
+
+
+You can find more information regarding Darwin Core mapping in the [IPT manual](https://ipt.gbif.org/manual/) (including core types, extensions, auto-mapping, default values, value translation, etc.) and in the introduction to Darwin Core [on our website](/resources/documents/#data-standardization-and-darwin-core).
+
+
 
 # 5. Add metadata
 
 If data are LEGO bricks, then [metadata](/resources/documents/#metadata) are the shiny box and instructions. They enable users to discover your dataset and assess its relevance for their particular needs, so it pays off investing some time providing them.
 
-Go to your resource overview page > *Metadata* and click *Edit* to open the metadata editor. [Contact us](mailto:canadensys.network@gmail.com) to register your institution (if not done so already) to GBIF, in order to be able to link your resource with your institution in the metadata.
+Go to your resource overview page > **_Metadata_** and click **_Edit_** to open the metadata editor.
+link your resource with your institution in the metadata once it is registered to GBIF (see [this section](#Institution-and-collection-registrations) in the introduction of this page).
 
-Any information you provide here will be visible on the resource homepage and bundled together with your data when you publish. Metadata are expressed in the [GBIF EML Profile](https://github.com/gbif/eml-profile) standard and can also be downloaded as a [Rich Text Format (RTF) file](https://en.wikipedia.org/wiki/Rich_Text_Format). The latter can serve as a **draft manuscript** describing the dataset (a “[Data Paper](https://www.gbif.org/data-papers)“), which can be submitted for peer-review to a [Pensoft](https://pensoft.net/) open-access journal such as the [Biodiversity Data Journal](https://bdj.pensoft.net/), [Phytokeys](https://phytokeys.pensoft.net/), [Zookeys](https://zookeys.pensoft.net/), [Biorisk](https://biorisk.pensoft.net/), [Neobiota](https://neobiota.pensoft.net/) or [Nature Conservation](https://natureconservation.pensoft.net/).
+![](/assets/images/How-to_guide/Metadata_en.png)
 
-Follow the [IPT manual](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#basic-metadata) for detailed instructions about the metadata editor and use one of the currently published datasets as an example (e.g. [collection example](https://data.canadensys.net/ipt/resource.do?r=mt-specimens), [checklist example](https://data.canadensys.net/ipt/resource.do?r=vascan)). See our website for more information regarding metadata.
+Any information you provide here will be visible on the resource homepage and bundled together with your data when you publish. Metadata are expressed in the [GBIF EML Profile](https://github.com/gbif/eml-profile) standard
+
+
+> **_NOTICE:_** 
+The GBIF EML Profile can also be downloaded as a [Rich Text Format (RTF) file](https://en.wikipedia.org/wiki/Rich_Text_Format). The latter can serve as a **draft manuscript** describing the dataset (a “[Data Paper](https://www.gbif.org/data-papers)“), which can be submitted for peer-review to a [Pensoft](https://pensoft.net/) open-access journal such as the [Biodiversity Data Journal](https://bdj.pensoft.net/), [Phytokeys](https://phytokeys.pensoft.net/), [Zookeys](https://zookeys.pensoft.net/), [Biorisk](https://biorisk.pensoft.net/), [Neobiota](https://neobiota.pensoft.net/) or [Nature Conservation](https://natureconservation.pensoft.net/).
+
+
+Follow the [IPT manual](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#basic-metadata) for detailed instructions about the metadata editor and use one of the currently published datasets as an example.
+* [collection example](https://data.canadensys.net/ipt/resource.do?r=mt-specimens)
+* [checklist example](https://data.canadensys.net/ipt/resource.do?r=vascan)).
+
+
+
+
+
+
+
 
 # 6. Publish
 
-At this stage, you are all set to publish! Go to your resource overview page > *Published Versions* and click *Publish*. The IPT will now generate your data as Darwin Core, combine it with the metadata and package it as a standardized zip-file called a “[**Darwin Core Archive**](https://dwc.tdwg.org/text/)“.
 
-If you wish to assign a [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier) to your dataset, you need to click on the ‘Reserve’ button, then change the visibility of your dataset to ‘Public’ before hitting the ‘Publish’ button. The DOI is registered directly with [DataCite](https://datacite.org/) and a link will be added in the metadata of your ressource. For more information about the DOI assignation steps, see the [IPT DOI Workflows](https://ipt.gbif.org/manual/en/ipt/latest/doi-workflow). See the [IPT manual](https://ipt.gbif.org/manual/) for more details about the general publication process.
+By default, the visibility of your resource is set on private. Once you are ready to make it available to everyone, go to the **_Visibility_** section, and click on **_Change_** to set it to **_Public_**. See the [IPT manual](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#publication) for more information.
 
-Back on the resource overview page > *Published Versions*, you can see the details of your first published dataset, including the publication date and the version number. Since your dataset is published privately, the only thing left to do is to click *Visibility* > ***Public*** (see the [IPT manual](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#publication)) to make it available to everyone. Warning: please do not do this for your test dataset.
 
-Congratulations, you just published your dataset to the world! It is now listed on the [repository homepage](https://data.canadensys.net/ipt/) and you can share and link to it via: https://data.canadensys.net/ipt/resource?r=dataset-shortname. This would be a good time to notify any regional or thematic network you are involved in, such as [VertNet](http://www.vertnet.org/), the [Consortium of Northeastern Herbaria](https://neherbaria.org/portal/) or the [Entomological Society of Canada](https://esc-sec.ca/).
+![](/assets/images/How-to_guide/Visibility_en.png)
 
-Your published dataset is a **static snapshot** of your data and will not change until you upload an updated source file and click *publish* again. This procedure has the advantage that your dataset is always available, does not require a live internet connection to your database and can be easily shared (e.g. you can email the Darwin Core Archive to a colleague). It also allows you to control the publication process more precisely: version 1, version 2, etc. and users are informed of how recent the data are and the differences between versions (addition of data, correction of errors, etc).
+To publish your dataset, click on **_Publish_**. You can also publish while the **_Visibility_** is on private. This can allow you the save the versionning of your dataset among the managers of the resource before it is ready to share publicly. When you decide that the published version is satisfactory, you can change the **_Visibility_** to **_Public_**.
+
+![](/assets/images/How-to_guide/Publication_en.png)
+
+
+During the publication process, the Canadensys IPT will generate your data as Darwin Core, combine it with the metadata and package it as a standardized zip-file called a [**Darwin Core Archive**](https://dwc.tdwg.org/text/).
+
+
+![](/assets/images/How-to_guide/DwC_archive.png)
+
+
+
+If you wish to assign a [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier) to your dataset, you need to click on the **_Reserve_** button ![](/assets/images/How-to_guide/DOI_button.png =12x), then the **_Publish_** button.
+The DOI is registered directly with [DataCite](https://datacite.org/) and a link will be added in the metadata of your resource. If your dataset has not been published yet, you have to publish it first, reserve a DOI, and publish again. The version will then switch from version 1.x to 2.0 as it is a major change in your dataset metada.
+
+For more information about the DOI assignation steps, see the [IPT DOI Workflows](https://ipt.gbif.org/manual/en/ipt/latest/doi-workflow). See the [IPT manual](https://ipt.gbif.org/manual/) for more details about the general publication process.
+
+
+> **_NOTICE:_**
+Do not publish publicly any **test** dataset if you use one.
+
+
+Congratulations, you just published your dataset to the world! It is now listed on the [repository homepage](https://data.canadensys.net/ipt/) and you can share and link to it via: 
+{% highlight ruby %}https://data.canadensys.net/ipt/resource?r=dataset-shortname.{% endhighlight %}
+
+
+This would be a good time to notify any regional or thematic network you are involved in, such as [VertNet](http://www.vertnet.org/), the [Consortium of Northeastern Herbaria](https://neherbaria.org/portal/) or the [Entomological Society of Canada](https://esc-sec.ca/).
+
+
+Your published dataset is a **static snapshot** of your data and will not change until you upload an updated source file and click **_publish_** again. This procedure has the advantage that your dataset is always available, does not require a live internet connection to your database and can be easily shared (e.g. you can email the Darwin Core Archive to a colleague). It also allows you to control the publication process more precisely (version 1, version 2, etc.) and users are informed of how recent the data are and the differences between versions (e.g. addition of data, correction of errors, modification of metadata, and so on).
+
+
+
 
 # 7. Register with GBIF
 
-Even though your dataset is now available to everyone, it might be difficult for users to **discover** it. This is why we recommend registering your dataset with the [Global Biodiversity Information Facility (GBIF)](http://www.gbif.org/). It allows your data to become available to an international audience via the [GBIF portal](https://www.gbif.org/occurrence/search) and it ensures **full attribution** is given to your institution. By registering, you agree with the [GBIF Data Publisher Agreement](https://www.gbif.org/terms/data-publisher).
+Even though your dataset is now available to everyone on the Canadensys IPT, you can enhance its accessibility by users by registering your dataset with the [Global Biodiversity Information Facility (GBIF)](http://www.gbif.org/). It allows your data to become available to an international audience via the [GBIF portal](https://www.gbif.org/occurrence/search). It also ensures **full attribution** is given to your institution. By registering your data, you agree with the [GBIF Data Publisher Agreement](https://www.gbif.org/terms/data-publisher).
 
-On the resource overview page, click on *Visibility* > ***Register*** (see the [IPT manual](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#registration)) to register your dataset with the GBIF registry. It will allow GBIF to index your resource on their portal, where it can be easily accessed by everyone.
+
+On the resource overview page, in the registration section, click on **_Register_**. You can then confirm that you are in accord with the GBIF data sharing agreement in the dialog box. Your dataset is now available on GBIF!
+See the [IPT manual](https://ipt.gbif.org/manual/en/ipt/latest/manage-resources#registration)) for more details about the registration step. It will allow GBIF to index your resource on their portal, where it can be easily accessed by everyone.
+
+
+![](/assets/images/How-to_guide/Registration_en.png)
+
+
+
+
+> **_NOTICE:_** 
+If your dataset has been already published (either entirely or partially) on GBIF via an another IPT, measures needs to be taken to link the old and new dataset to avoir duplicates. Contact us so we can arrange this additional step in the publication process!
+
+
+
 
 # Citation
 
 As all documents on this website, this guide is published under [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en). The preferred citation is:
 
-Desmet, P. & C. Sinou. 2012. 7-step guide to data publication. Canadensys. <https://canadensys.net/publish/7-step-guide/>
+Desmet, P.; Leménager, M.; Sinou, C. 2025. 7-step guide to data publication. Canadensys. <https://canadensys.net/publish/7-step-guide/>

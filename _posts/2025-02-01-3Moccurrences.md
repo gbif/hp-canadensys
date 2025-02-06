@@ -12,7 +12,6 @@ thumbnail: /assets/images/header_3M.jpeg
 ---
 
 
-# Celebrating a Milestone: 3 Million Occurrences on the Canadensys IPT!
 
 
 We are thrilled to announce that the Canadensys IPT has hit a new milestone: 3 million specimen occurrences in our database! With **127 resources** currently available, we’ve reached a total of **3,522,159 occurrences**, encompassing **57,560 taxa** and **10,005 observations**. This achievement reflects the dedication of our contributing institutions, curators, and the entire biodiversity community who work tirelessly to make these data accessible.

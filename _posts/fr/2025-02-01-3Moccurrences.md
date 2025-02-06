@@ -12,7 +12,6 @@ thumbnail: /assets/images/header_3M.jpeg
 ---
 
 
-# Célébration d'une étape importante : 3 millions d'occurrences sur le TPI de Canadensys !
 
 
 Nous sommes ravis d'annoncer que le TPI Canadensys a franchi une nouvelle étape : 3 millions d'occurrences de spécimens dans notre base de données ! Avec **127 ressources** actuellement disponibles, nous avons atteint un total de **3 522 159 occurrences**, comprenant **57 560 taxons** et **10 005 observations** uniques. Cette réussite reflète le dévouement de nos institutions contributrices, de nos conservateurs et de l'ensemble de la communauté de la biodiversité, qui travaillent sans relâche pour rendre ces données accessibles.
