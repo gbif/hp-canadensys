@@ -80,11 +80,11 @@ You will also need to register your institution or organization as a publisher o
 
 
 
-[Add your **instituion** on GRSciColl](https://registry.gbif.org/institution/create){: .button .is-primary}
+[Add your instituion on GRSciColl](https://registry.gbif.org/institution/create){: .button .is-primary}
 
-[Add your **collection** on GRSciColl](https://registry.gbif.org/collection/create){: .button .is-primary}
+[Add your collection on GRSciColl](https://registry.gbif.org/collection/create){: .button .is-primary}
 
-[Become a **publisher on GBIF**](https://www.gbif.org/become-a-publisher){: .button .is-primary}
+[Become a publisher on GBI*](https://www.gbif.org/become-a-publisher){: .button .is-primary}
 
 
 
@@ -135,7 +135,7 @@ Leucoagaricus,naucinus,"Some text, with a coma"
 
 {% highlight ruby %}
 specificEpithet;infraspecificEpithet;occurrenceRemarks
-Leucoagaricus;naucinus;"Some text, with a coma"
+Leucoagaricus;naucinus;"Some text; with a semicolon"
 {% endhighlight %}
 
 {% highlight ruby %}

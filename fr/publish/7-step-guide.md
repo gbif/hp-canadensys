@@ -39,7 +39,7 @@ Les données sur la biodiversité sont publiées sur Canadensys selon la norme [
 
 Le standard Darwin Core offre un moyen robuste et stable de compiler et de partager des données sur la biodiversité, quelle que soit la technologie utilisée pour le faire. Elle permet également à l'agrégateur GBIF d'intégrer vos données à d'autres données dans le monde entier.
 
-[GBIF portal](http://www.gbif.org/){ : .button .is-primary}
+[GBIF portal](http://www.gbif.org/){: .button .is-primary}
 
 Il n'est pas nécessaire d'utiliser ces termes dans vos données sources, mais le fait d'en prendre connaissance devrait vous aider à construire les fondations de votre base de données.
 
@@ -47,11 +47,10 @@ Il n'est pas nécessaire d'utiliser ces termes dans vos données sources, mais l
 ## Les classes de jeux de données
 
 Il existe **quatre classes de jeux de données** pris en charge par l'IPT. Pour plus d'informations sur les différentes classes de jeux de données, consultez les guides GBIF suivants:
-* [Data quality requirements to publishing **occurrence** data](https://www.gbif.org/data-quality-requirements-occurrences)
-* [Data quality requirements to publishing **checklists**](https://www.gbif.org/data-quality-requirements-checklists)
-* [Data quality requirements to publishing **metadata**](https://www.gbif.org/dataset-classes)
-* [Data quality requirements to publishing **sampling-event** data](https://www.gbif.org/data-quality-requirements-sampling-events)
-
+* [Exigences de qualité des données pour la publication des **données d'occurrence**](https://www.gbif.org/data-quality-requirements-occurrences)
+* [Exigences de qualité des données pour la publication des **listes de contrôle**](https://www.gbif.org/data-quality-requirements-checklists)
+* [Exigences de qualité des données pour la publication des **métadonnées**](https://www.gbif.org/dataset-classes)
+* [Exigences de qualité des données pour la publication des **données d'événement d'échantillonnage**](https://www.gbif.org/data-quality-requirements-sampling-events)
 
 
 ## Conditions
@@ -76,11 +75,11 @@ Avant de commencer, il est essentiel d'enregistrer votre institution et votre co
 ![](/assets/images/How-to_guide/GRSciColl_GBIF.jpeg)
 
 
-[Ajoutez votre **instituion** sur GRSciColl](https://registry.gbif.org/institution/create){: .button .is-primary}
+[Ajoutez votre instituion sur GRSciColl](https://registry.gbif.org/institution/create){: .button .is-primary}
 
-[Ajoutez votre **collection** sur GRSciColl](https://registry.gbif.org/collection/create){: .button .is-primary}
+[Ajoutez votre collection sur GRSciColl](https://registry.gbif.org/collection/create){: .button .is-primary}
 
-[Devenir un **fournisseur de données**](https://www.gbif.org/fr/become-a-publisher){: .button .is-primary}
+[Devenir un fournisseur de données](https://www.gbif.org/fr/become-a-publisher){: .button .is-primary}
 
 
 
@@ -140,17 +139,17 @@ Exportez votre base de données sous forme de [**fichier texte délimité**](htt
 
 {% highlight ruby %}
 specificEpithet,infraspecificEpithet,occurrenceRemarks
-Leucoagaricus,naucinus,"Some text, with a coma"
+Leucoagaricus,naucinus,"Du texte, avec une virgule"
 {% endhighlight %}
 
 {% highlight ruby %}
 specificEpithet;infraspecificEpithet;occurrenceRemarks
-Leucoagaricus;naucinus;"Some text, with a coma"
+Leucoagaricus;naucinus;"Du texte; avec un point-virgule"
 {% endhighlight %}
 
 {% highlight ruby %}
 specificEpithet infraspecificEpithet  occurrenceRemarks
-Leucoagaricus naucinus  "Some text, with a coma"
+Leucoagaricus naucinus  "Du texte, avec une virgule"
 {% endhighlight %}
 
 
