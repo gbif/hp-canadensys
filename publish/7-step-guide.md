@@ -250,7 +250,7 @@ During the publication process, the Canadensys IPT will generate your data as Da
 ![](/assets/images/How-to_guide/DwC_archive.png)
 
 
-If you wish to assign a [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier) to your dataset, you need to click on the **_Reserve_** button ![](/assets/images/How-to_guide/DOI_button.png), then the **_Publish_** button.
+If you wish to assign a [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier) to your dataset, you need to click on the **_Reserve_** button ![](/assets/images/How-to_guide/DOI_button.png), then publish again using the **_Publish_** button.
 The DOI is registered directly with [DataCite](https://datacite.org/) and a link will be added in the metadata of your resource. If your dataset has not been published yet, you have to publish it first, reserve a DOI, and publish again. The version will then switch from version 1.x to 2.0 as it is a major change in your dataset metada.
 
 For more information about the DOI assignation steps, see the [IPT DOI Workflows](https://ipt.gbif.org/manual/en/ipt/latest/doi-workflow). See the [IPT manual](https://ipt.gbif.org/manual/) for more details about the general publication process.
@@ -295,8 +295,8 @@ If your dataset has been already published (either entirely or partially) on GBI
 
 As all documents on this website, this guide is published under [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.en).
 
-The preferred citation is:
-{% highlight ruby %}
+To cite this guide, use the citation:
+
 Desmet, P.; Leménager, M.; Sinou, C. 2025. 7-step guide to data publication. Canadensys. <https://canadensys.net/publish/7-step-guide/>
-{% endhighlight %}
+
 

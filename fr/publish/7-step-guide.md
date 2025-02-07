@@ -91,7 +91,8 @@ C'est parti !
 
 Pour pouvoir créer et gérer votre propre jeu de données (appelé « ressource »), vous aurez besoin d'un **compte utilisateur**. Il vous suffit de nous contacter pour en créer un pour vous et votre équipe en nous fournissant les noms et adresses électroniques pertinents.
 
-[Contactez-nous !](mailto:canadensys.network@gmail.com){ : .button .is-primary}
+[Contactez-nous !](mailto:canadensys.network@gmail.com){: .button .is-primary}
+
 
 Une fois que vous avez un compte, connectez-vous en haut de [cette page](https://data.canadensys.net/ipt/). Cliquez sur l'onglet **_Gestion des ressources_** pour accéder à votre tableau de bord. Il affichera tous les ensembles de données que vous gérez et sera vide au début. Vous pouvez **créer une nouvelle ressource** en bas de la page. Suivez le [manuel IPT](https://ipt.gbif.org/manual/) pour des instructions plus détaillées.
 
@@ -242,7 +243,7 @@ Au cours du processus de publication, l'IPT Canadensys générera vos données e
 ![](/assets/images/How-to_guide/DwC_archive.png)
 
 
-Si vous souhaitez attribuer un [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier) à votre jeu de données, vous devez cliquer sur le bouton **_Reserve_** ![](/assets/images/How-to_guide/DOI_button.png), puis sur le bouton **_Publish_**.
+Si vous souhaitez attribuer un [DOI](https://en.wikipedia.org/wiki/Digital_object_identifier) à votre jeu de données, vous devez cliquer sur le bouton **_Reserver_** ![](/assets/images/How-to_guide/DOI_button.png), puis publier à nouveau en utilisant le bouton **_Publier_**.
 Le DOI est enregistré directement auprès de [DataCite](https://datacite.org/) et un lien sera ajouté dans les métadonnées de votre ressource. Si votre jeu de données n'a pas encore été publié, vous devez d'abord le publier, réserver un DOI et publier à nouveau. La version de votre jeu de données passera alors de la version 1.x à la version 2.0, car il s'agit d'un changement majeur dans les métadonnées de votre jeu de données.
 Pour plus d'informations sur les étapes d'attribution des DOI, vous pouvez consulter le [processus de DOI](https://ipt.gbif.org/manual/en/ipt/latest/doi-workflow). Pour plus de détails sur le processus général de publication, voir le [Manuel de l'IPT](https://ipt.gbif.org/manual/).
 
@@ -301,7 +302,7 @@ Si votre jeu de données a déjà été publié (entièrement ou partiellement) 
 # Citation
 
 Comme tout le contenu de ce site, ce guide est publié sous [CC-BY](https://creativecommons.org/licenses/by/4.0/deed.fr).
+Pour citer ce guide, utilisez la citation :
 
-{% highlight ruby %}
+
 Desmet, P.; Leménager, M.; Sinou, C. 2025. 7-step guide to data publication. Canadensys. <https://canadensys.net/publish/7-step-guide/>
-{% endhighlight %}
