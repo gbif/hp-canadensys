@@ -68,7 +68,7 @@ davidfbird on iNaturalist. Observed  in Taquanyah Conservation Area, Cayuga, ON,
 
 <h3 style="text-align:center;"> 387,928 Other observations  </h3>
 
-<p style="text-align:center;"> Such as ornithological, herpetological, invertebrate and paleontological occurrences.
+<p style="text-align:center;"> Such as ornithological, mammalogical, herpetological, invertebrate and paleontological occurrences.
  </p>
  
  

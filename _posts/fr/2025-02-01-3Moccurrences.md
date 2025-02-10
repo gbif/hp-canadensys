@@ -14,11 +14,11 @@ thumbnail: /assets/images/header_3M.jpeg
 
 
 
-Nous sommes ravis d'annoncer que le TPI Canadensys a franchi une nouvelle étape : 3 millions d'occurrences de spécimens dans notre base de données ! Avec **127 ressources** actuellement disponibles, nous avons atteint un total de **3 522 159 occurrences**, comprenant **57 560 taxons** et **10 005 observations** uniques. Cette réussite reflète le dévouement de nos institutions contributrices, de nos conservateurs et de l'ensemble de la communauté de la biodiversité, qui travaillent sans relâche pour rendre ces données accessibles.
+Nous sommes ravis d'annoncer que l'IPT de Canadensys a franchi une nouvelle étape : 3 millions d'occurrences de spécimens dans notre base de données ! Avec **127 ressources** actuellement disponibles, nous avons atteint un total de **3 522 159 occurrences**, comprenant **57 560 taxons** et **10 005 observations** uniques. Cette réussite reflète le dévouement de nos institutions contributrices, de nos conservateurs et de l'ensemble de la communauté de la biodiversité, qui travaillent sans relâche pour rendre ces données accessibles.
 
 Chaque nouvel enregistrement nous rapproche de la compréhension de la riche biodiversité du Canada, et au-delà de nos frontières. Ces occurrences représentent des points de données inestimables qui aident les chercheurs, les conservateurs et le public à mieux comprendre la répartition des espèces, l'utilisation de l'habitat et les effets des changements environnementaux.
 
-À mesure que nous avançons, nous nous engageons à élargir notre base de données et à en améliorer la qualité. En attendant le prochain million, un grand merci à tous ceux qui nous ont aidés à franchir cette étape remarquable !
+À mesure que nous avançons, nous nous engageons à élargir notre base de données et à en améliorer la qualité. En attendant le prochain million, un grand merci à toutes celles et ceux qui nous ont aidés à franchir cette étape remarquable !
 
 
 
@@ -67,7 +67,7 @@ davidfbird on iNaturalist. Observed  in Taquanyah Conservation Area, Cayuga, ON,
 
 <h3 style="text-align:center;"> 387,928 Autres observations  </h3>
 
-<p style="text-align:center;"> Telles que les occurrences ornithologiques, herpétologiques, invertébrées et paléontologiques.
+<p style="text-align:center;"> Telles que les occurrences ornithologiques, mammalogiques, herpétologiques, invertébrées et paléontologiques.
  </p>
  
  
