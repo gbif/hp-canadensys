@@ -84,7 +84,7 @@ You will also need to register your institution or organization as a publisher o
 
 [Add your collection on GRSciColl](https://registry.gbif.org/collection/create){: .button .is-primary}
 
-[Become a publisher on GBI*](https://www.gbif.org/become-a-publisher){: .button .is-primary}
+[Become a publisher on GBIF](https://www.gbif.org/become-a-publisher){: .button .is-primary}
 
 
 
