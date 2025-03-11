@@ -93,7 +93,7 @@ You will also need to register your institution or organization as a publisher o
 
 Let's get started ! 
 
-To be able to create and manage your own dataset (called a “resource”), you will need a **user account**. Simply contact us to create one for you and your team by providing the respective pertinent names and email addressee.
+To be able to create and manage your own dataset (called a “resource”), you will need a **user account**. Simply contact us to create one for you and your team by providing the respective pertinent names and email addresses.
 
 
 [Contact us!](mailto:canadensys.network@gmail.com){: .button .is-primary}
