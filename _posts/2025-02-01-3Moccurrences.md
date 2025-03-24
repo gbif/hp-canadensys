@@ -127,3 +127,14 @@ davidfbird on iNaturalist. Observed  in Taquanyah Conservation Area, Cayuga, ON,
 </p>
 
 
+
+
+
+<br>
+
+<small>
+Cover illustration by **Marion Leménager**, Data manager, Canadensys.
+</small>
+
+
+
