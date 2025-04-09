@@ -45,7 +45,7 @@ canadensys:
     This IPT publishes data from any institution or collection in Canada, regardless of scope or institution
   background: /assets/logo/Canadensys-logo_red-resize.png
   href: https://data.canadensys.net/ipt/
-  ratio: 100
+  ratio: 75
   cta:
     - text: Access the IPT
       href: https://data.canadensys.net/ipt/
