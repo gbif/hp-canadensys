@@ -2,7 +2,7 @@
 layout: compose
 lang-ref: ipt
 lang: fr
-title: Répertoire de données
+title: Répertoire de données d'occurrence
 background: https://inaturalist-open-data.s3.amazonaws.com/photos/182276315/original.jpg
 imageLicense: |
   <em>Bombus melanopygus</em> Nylander, 1848. Photo by Jandrewnydam via [iNaturalist](https://www.gbif.org/occurrence/3712546723)

@@ -14,8 +14,10 @@
       href: /dataset/search
 - text: Publish
   menu: # Dropdown menu (one level deep only)
-    - text: Data repository
+    - text: Occurrence Data repository
       href: /publish/ipt
+    - text: Metabarcoding Data Toolkit
+      href: /publish/mdt
     - text: How to Publish
       href: /publish/introduction
     - text: 7-step-guide
