@@ -5,7 +5,8 @@ canadensys:
     This MDT publishes metabarcoding data from any institution or collection in Canada, regardless of scope or institution
   background: https://mdt.canadensys.net/images/tool-collage-opt.png
   href: https://mdt.canadensys.net/
-  background-size: 50%
+  background-size: contain
+  background-repeat: no-repeat
   cta:
     - text: Access the MDT
       href: https://mdt.canadensys.net/
