@@ -39,6 +39,7 @@ listIPT:
       background: /assets/logo/SpecimenMicropublications_000000.png # img required
 
 canadensys:
+  klass: ipt
   reverse: true
   title: IPT de Canadensys
   description: |

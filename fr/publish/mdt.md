@@ -2,7 +2,7 @@
 layout: compose
 lang-ref: mdt
 lang: fr
-title: Outil de publication de données de métabarcodage
+title: Publication de données de métabarcodage
 background: https://inaturalist-open-data.s3.amazonaws.com/photos/482839821/original.jpeg
 imageLicense: |
   <em>Badhamia nitens</em> Berk, 1852. Photo by tyson_ehlers via [iNaturalist](https://inaturalist.ca/observations/268610378)
