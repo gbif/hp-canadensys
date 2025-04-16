@@ -1,4 +1,5 @@
 canadensys:
+  klass: mdt
   reverse: true
   title: Canadensys MDT
   description: |

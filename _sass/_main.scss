@@ -44,6 +44,13 @@
   }
 }
 
+.mdt {
+  .feature-img img, .feature-img video, .feature-img picture {
+    object-fit: contain;
+    padding: 12px;
+  }
+}
+
 .footer-description img {
     margin-bottom: 48px;
 }
