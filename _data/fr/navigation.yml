@@ -14,6 +14,8 @@
   menu: # Dropdown menu (one level deep only)
     - text: Répertoire de données
       href: /fr/publish/ipt
+    - text: Données de Métabarcodage
+      href: /fr/publish/mdt
     - text: Comment publier 
       href: /fr/publish/introduction
     - text: Guide en 7 étapes

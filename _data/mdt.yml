@@ -3,7 +3,7 @@ canadensys:
   reverse: true
   title: Canadensys MDT
   description: |
-    This MDT publishes metabarcoding data from any institution or collection in Canada, regardless of scope or institution
+    Ce MDT publie des données de métabarcodage provenant de n'importe quelle institution ou collection au Canada
   background: https://mdt.canadensys.net/images/tool-collage-opt.png
   href: https://mdt.canadensys.net/
   background-size: contain

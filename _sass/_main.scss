@@ -44,6 +44,13 @@
   }
 }
 
+.ipt {
+  .feature-img img, .feature-img video, .feature-img picture {
+    object-fit: contain;
+    padding: 12px;
+  }
+}
+
 .mdt {
   .feature-img img, .feature-img video, .feature-img picture {
     object-fit: contain;
