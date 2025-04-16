@@ -46,7 +46,7 @@ canadensys:
     Cet IPT permet la publication de données de n'importe quelle institution ou collection au Canada, peu importe sa spécialité ou le type d'institution
   background: /assets/logo/Canadensys-logo_red-resize.png
   href: https://data.canadensys.net/ipt/
-  ratio: 100
+  background-size: 75%
   cta:
     - text: Accéder à l'IPT
       href: https://data.canadensys.net/ipt/?request_locale=fr
