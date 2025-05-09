@@ -11,7 +11,7 @@ height: 70vh
 composition:
   - type: heroImage
   - type: split
-    data: mdt.canadensys
+    data: fr.mdt.canadensys
   - type: pageMarkdown
 parallax: true 
 ---
