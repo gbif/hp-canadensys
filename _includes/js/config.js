@@ -36,7 +36,7 @@ var siteConfig = {
         }
       ]
     },
-    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', "CLUSTERS"] // what tabs should be shown
+    occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS', "CLUSTERS", "DASHBOARD"] // what tabs should be shown
   },
   collection: {
     // filters on the grscicoll institution v1 API https://www.gbif.org/developer/summary
