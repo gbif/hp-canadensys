@@ -25,7 +25,7 @@ Since September 2011, Canadian institutions and researchers have been publishing
 If you are interested in publishing your own dataset, start [here](/publish/7-step-guide/).
 
 <div>
-	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=13&amp;format=image" width="1200" height="400"></iframe>
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTug5R0clRcqhQsKhMKOFDlPbiuU1T1IhzBlHz1WFtLHX3cYyZ2cmjl-sp6SVwk7MBSRyP5KNHvNaLS/pubchart?oid=367338642&format=interactive" width="1200" height="400"></iframe>
 </div>
 
 <div>
