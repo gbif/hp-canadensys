@@ -69,6 +69,7 @@ algae:
     # color: "tomato"             # What color should the navbar be?
     # hasWhiteText: true          # Should the text color be white?
     # floating: true
+updateTranslationMenuOnWidgetEvents: true #notice that this feature requires urls for widgets to be the same across languages (except for a language prefix)
 
 # Exclude from processing.
 # The following items will not be processed, by default.
