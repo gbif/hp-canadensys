@@ -43,7 +43,8 @@ canadensys:
   reverse: true
   title: IPT de Canadensys
   description: |
-    Cet IPT permet la publication de données de n'importe quelle institution ou collection au Canada, peu importe sa spécialité ou le type d'institution
+    Cet IPT permet la publication de données de n'importe quelle institution ou collection au Canada, peu importe sa spécialité ou le type d'institution.  
+    Intéressés à publier vos données de biodiversité ? [Contactez-nous !](mailto:canadensys.network@gmail.com)
   background: /assets/logo/Canadensys-logo_red-resize.png
   href: https://data.canadensys.net/ipt/
   background-size: 75%

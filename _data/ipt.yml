@@ -43,7 +43,8 @@ canadensys:
   reverse: true
   title: Canadensys IPT
   description: |
-    This IPT publishes data from any institution or collection in Canada, regardless of scope or institution
+    This IPT publishes data from any institution or collection in Canada, regardless of scope or institution.  
+    Interested in publishing your biodiversity data? [Contact us](mailto:canadensys.network@gmail.com)!
   background: /assets/logo/Canadensys-logo_red-resize.png
   href: https://data.canadensys.net/ipt/
   background-size: 75%
