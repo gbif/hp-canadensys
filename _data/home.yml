@@ -25,6 +25,7 @@ about:
   title: A Network of Data Publishers
   description: |      # required
       Canadensys makes biodiversity information freely and openly available to everyone. We are a network of researchers, collectors, curators, information technologists, students, and educators that shares data on the occurrence and identity of plant, animal, fungi, and other species in Canada.  
+        
       Interested in publishing your biodiversity data? [Contact us](mailto:canadensys.network@gmail.com)!
   # img required
   background: /assets/images/tree-canopy.jpeg

@@ -26,6 +26,7 @@ about:
   title: Un réseau de données sur la biodiversité
   description: |      # required
       Canadensys rend l'information sur la biodiversité librement et ouvertement accessible à tous. Nous sommes un réseau de chercheurs, collectionneurs, conservateurs, technologues de l'information, étudiants et éducateurs qui partagent des données sur la présence et l'identité des plantes, des animaux, des champignons et d'autres espèces au Canada.  
+        
       Intéressés à publier vos données de biodiversité ? [Contactez-nous !](mailto:canadensys.network@gmail.com)
   # img required
   background: /assets/images/tree-canopy.jpeg
