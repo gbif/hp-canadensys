@@ -178,3 +178,8 @@ https://cran.r-project.org/web/packages/taxize/index.html
 **Susan Meades**, [Northern Ontario Plant Database](http://www.northernontarioflora.ca/) - Compilation des données taxonomiques  
 **Marc Favreau**, Bureau de la Traduction (retraité) - Compilation des noms vernaculaires français  
 **Marilyn Anions**, Botaniste - Compilation des noms vernaculaires anglais
+
+## Citation
+
+La citation privilégiée lors de l'utilisation de la recherche de noms sur Vascan ou du générateur de listes est :
+Brouillet, L. et collaborateurs (*date de la version*). The Database of Vascular Plants of Canada (VASCAN), version [*numéro de version*], accédé le [*date*], https://data.canadensys.net/vascan/
